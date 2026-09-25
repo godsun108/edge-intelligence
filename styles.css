@@ -13,3 +13,5 @@
 .universal{display:flex;border:1px solid var(--line);margin:14px 0;background:#070907}.universal input{flex:1;background:transparent;border:0;outline:0;color:var(--fg);padding:12px;font-size:12px}.universal button{border:0;border-left:1px solid var(--line);color:var(--accent)}
 
 .sense-tools{display:flex;gap:6px;margin:8px 0 12px}.import-btn{border:1px solid var(--line);padding:10px 13px;font-size:8px;letter-spacing:.13em;color:var(--muted);cursor:pointer}.import-btn:hover{color:var(--fg);border-color:#64695f}.import-btn input{display:none}
+
+.sense-stats{display:flex;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding:10px 0;color:var(--muted);font-size:6px;letter-spacing:.13em}.sense-stats span:first-child{color:var(--accent)}.sense-item{grid-template-columns:80px 1fr auto auto}.promote{padding:5px 7px;font-size:6px}@media(max-width:760px){.sense-item{grid-template-columns:70px 1fr}.sense-item small,.sense-item .promote{grid-column:2}}
