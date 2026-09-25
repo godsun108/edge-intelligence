@@ -39,3 +39,5 @@ The current deployment is intentionally local-first. Cross-device sync, native i
 SAVANT v0.1 adds a local-first evidence map: claims/questions plus explicitly labeled SUPPORTS, CONTRADICTS and CONTEXT records. It intentionally has no truth score or automatic verdict.
 
 SAVANT v0.2 adds PRIMARY/SECONDARY/UNKNOWN source classification and explicit unresolved research questions while preserving the no-auto-verdict boundary.
+
+SAVANT v0.3 adds reconstructable provenance records: title, publisher/author, publication date, retrieval timestamp, excerpt, URL/citation note and research context.
