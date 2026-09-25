@@ -23,3 +23,5 @@
 #memory-age{background:#070907;border:1px solid var(--line);color:var(--muted);padding:8px;font-size:7px;letter-spacing:.1em}
 
 .sense-actions-inline{display:flex;gap:4px}.related-btn{padding:5px 7px;font-size:6px}.related-head{border-bottom:1px solid var(--line);padding:10px 0;color:var(--accent);font-size:7px;letter-spacing:.12em}.sense-item.related small{color:var(--muted)}
+
+.memory-thread:empty{display:none}.memory-thread{border:1px solid var(--line);padding:12px;margin:8px 0 14px}.thread-head{font-size:7px;letter-spacing:.15em;color:var(--accent);margin-bottom:10px}.thread-head span{color:var(--muted);margin-left:7px}.thread-item{display:grid;grid-template-columns:90px 1fr;gap:10px;border-top:1px solid var(--line);padding:9px 0}.thread-item time{font-size:7px;color:var(--muted)}.thread-item b{font-size:7px;color:var(--accent);letter-spacing:.1em}.thread-item p{font-size:9px;margin:3px 0 0}.thread-btn{padding:5px 7px;font-size:6px}
