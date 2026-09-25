@@ -59,3 +59,7 @@ SAVANT v1.0 hash-chains new research-history events with browser SHA-256 and ver
 SAVANT v1.1 adds portable integrity checkpoints for verified research histories. A checkpoint preserves claim identity, event count and chain-tip hash and can be exported independently; it is not a signature, notarization or external timestamp.
 
 SAVANT v1.2 adds independent checkpoint-file verification and, when the matching claim exists locally, comparison of the exported chain tip with local research history. Self-hash verification still does not prove authorship or trusted time.
+
+
+## EDGE v2.5 — CAPITAL + Quantum Intelligence
+CAPITAL v0.1 adds a local-first lawful liquidity ledger that strictly separates pipeline capital from user-confirmed available cash. EDGE also establishes a quantum-intelligence contract: quantum simulation, quantum-inspired, hybrid and real-hardware methods must be labeled accurately and benchmarked against classical baselines; no mystical certainty or guaranteed financial advantage claims.
