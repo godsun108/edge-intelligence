@@ -1,0 +1,58 @@
+{
+  "schema": "edge.radar.rules.v1",
+  "rules": [
+    {
+      "id": "significant-earth",
+      "terms": [
+        "earthquake",
+        "volcano",
+        "wildfire",
+        "severe storms"
+      ],
+      "term_weight": 12,
+      "new_weight": 5,
+      "change_weight": 7
+    },
+    {
+      "id": "opportunity",
+      "terms": [
+        "grant",
+        "funding opportunity",
+        "auction",
+        "surplus",
+        "request for proposals",
+        "rfp"
+      ],
+      "term_weight": 18,
+      "new_weight": 6,
+      "change_weight": 8
+    },
+    {
+      "id": "land-resources",
+      "terms": [
+        "land",
+        "property",
+        "parcel",
+        "agriculture",
+        "soil",
+        "water",
+        "hemp"
+      ],
+      "term_weight": 15,
+      "new_weight": 6,
+      "change_weight": 8
+    },
+    {
+      "id": "technology-data",
+      "terms": [
+        "api",
+        "dataset",
+        "open data",
+        "release"
+      ],
+      "term_weight": 10,
+      "new_weight": 5,
+      "change_weight": 7
+    }
+  ]
+}
