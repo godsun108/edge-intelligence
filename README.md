@@ -41,3 +41,5 @@ SAVANT v0.1 adds a local-first evidence map: claims/questions plus explicitly la
 SAVANT v0.2 adds PRIMARY/SECONDARY/UNKNOWN source classification and explicit unresolved research questions while preserving the no-auto-verdict boundary.
 
 SAVANT v0.3 adds reconstructable provenance records: title, publisher/author, publication date, retrieval timestamp, excerpt, URL/citation note and research context.
+
+SAVANT v0.4 adds descriptive evidence-state analysis so missing primary evidence, recorded contradictions, unknown source classes and unresolved questions are visible without generating a truth/confidence score.
