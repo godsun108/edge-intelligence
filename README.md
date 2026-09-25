@@ -20,3 +20,16 @@ V0.1 is intentionally static and local-first. No sensitive information belongs i
 EDGE v1.0 establishes the operational loop: official/public sources → normalized observations → persistent source memory → change detection → explicit relevance rules → inspectable reasons → opportunity intelligence → local-first human triage → Morning Brief.
 
 The browser caches the last successful briefing so a temporary feed failure does not erase the user's working context. Source truth and human decisions remain separate.
+
+
+## v1.2 — Integrated local intelligence loop
+
+EDGE v1.2 consolidates RADAR, SENSE and TIME MACHINE into coherent operational surfaces.
+
+- RADAR: feed ingestion, cached fallback, relevance briefing and human triage.
+- SENSE: explicit/heuristic capture, local persistence, import/export and deliberate promotion.
+- TIME MACHINE: search, age-based resurfacing, related retrieval, threads, factual compare, retrieval map, activity pulse and 7-day review queue.
+- Safety/trust: user text is HTML-escaped before rendering; machine-derived relationships are labeled; capture is not commitment; age is not importance; similarity is not truth.
+- ASK EDGE currently behaves as deliberate local capture, not a fake conversational intelligence layer.
+
+The current deployment is intentionally local-first. Cross-device sync, native iOS sensors, authenticated private storage, semantic embeddings and additional data adapters remain future work and must not be implied by the web prototype.
