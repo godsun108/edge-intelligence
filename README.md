@@ -51,3 +51,5 @@ SAVANT v0.6 adds the first machine-assisted research bridge: RADAR emits provena
 SAVANT v0.7 adds the human review gate: RADAR candidates appear in a research inbox and can be deliberately imported as CONTEXT with their provenance and machine-attention reasons preserved. Automatic SUPPORTS/CONTRADICTS promotion remains prohibited.
 
 SAVANT v0.8 adds explicit research portability: human-readable JSON export/import preserves claims, evidence provenance, unresolved questions and RADAR-origin metadata, with schema validation and claim-ID deduplication.
+
+SAVANT v0.9 adds per-claim research history for claim creation, evidence attachment, questions and RADAR imports. The event view is an audit aid, explicitly not a cryptographic/tamper-proof log.
