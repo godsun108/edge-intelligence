@@ -49,3 +49,5 @@ SAVANT v0.5 adds an extractive evidence brief that reorganizes recorded SUPPORTS
 SAVANT v0.6 adds the first machine-assisted research bridge: RADAR emits provenance-preserving research candidates from relevant changed public-source observations. Candidates remain CONTEXT/CANDIDATE_ONLY until deliberately reviewed; automation does not silently convert observations into conclusions.
 
 SAVANT v0.7 adds the human review gate: RADAR candidates appear in a research inbox and can be deliberately imported as CONTEXT with their provenance and machine-attention reasons preserved. Automatic SUPPORTS/CONTRADICTS promotion remains prohibited.
+
+SAVANT v0.8 adds explicit research portability: human-readable JSON export/import preserves claims, evidence provenance, unresolved questions and RADAR-origin metadata, with schema validation and claim-ID deduplication.
