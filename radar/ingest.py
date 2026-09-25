@@ -1,5 +1,4 @@
-import json, urllib.request, datetime, pathlib, hashlib\nfrom email.utils import parsedate_to_datetime
-UA={"User-Agent":"edge-radar/0.2"}
+import json, urllib.request, datetime, pathlib, hashlib\nUA={"User-Agent":"edge-radar/0.2"}
 def get(url):
  req=urllib.request.Request(url,headers=UA)
  with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
@@ -33,6 +32,27 @@ def score(o,rules):
 def load_config():
  try: return json.loads(pathlib.Path("radar/config.json").read_text())
  except Exception: return {}
+
+def savant_candidates(observations, now):
+ out=[]
+ for o in observations:
+  if o.get("change")=="same" or o.get("relevance",0)<=0: continue
+  out.append({
+   "id":o.get("source","source")+":"+str(o.get("id")),
+   "claim_seed":o.get("title") or "Untitled observation",
+   "source":o.get("url") or "",
+   "source_title":o.get("title") or "",
+   "publisher":o.get("source") or "",
+   "observed_at":o.get("observed_at"),
+   "retrieved_at":o.get("retrieved_at") or now,
+   "source_class":"PRIMARY" if o.get("source") in ("USGS","Grants.gov","NASA EONET") else "UNKNOWN",
+   "stance":"CONTEXT",
+   "relevance":o.get("relevance",0),
+   "reasons":o.get("reasons",[]),
+   "radar_change":o.get("change"),
+   "import_semantics":"CANDIDATE_ONLY"
+  })
+ return sorted(out,key=lambda x:x.get("relevance",0),reverse=True)[:40]
 
 def main():
  cfg=load_config()
@@ -70,5 +90,7 @@ def main():
  changed.sort(key=lambda o:o.get("relevance",0),reverse=True)
  payload={"schema":"edge.radar.snapshot.v1","generated_at":now,"sources":["USGS","Grants.gov","NASA EONET"],"observations":obs,"changes":changed}
  p.write_text(json.dumps(payload,separators=(",",":")))
- (root/"briefing.json").write_text(json.dumps({"generated_at":now,"items":[o for o in changed if o.get("relevance",0)>0][:40]},separators=(",",":")))
+ brief=[o for o in changed if o.get("relevance",0)>0][:40]
+ (root/"briefing.json").write_text(json.dumps({"generated_at":now,"items":brief},separators=(",",":")))
+ (root/"savant_candidates.json").write_text(json.dumps({"schema":"edge.savant.candidates.v1","generated_at":now,"items":savant_candidates(changed,now)},separators=(",",":")))
 if __name__=="__main__":main()
