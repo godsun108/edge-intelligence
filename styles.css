@@ -21,3 +21,5 @@
 #memory-random{font-size:7px;letter-spacing:.12em;padding:8px 10px}.memory-tools{grid-template-columns:1fr auto auto}@media(max-width:600px){.memory-tools{grid-template-columns:1fr auto}.memory-tools select{grid-column:1/-1}}
 
 #memory-age{background:#070907;border:1px solid var(--line);color:var(--muted);padding:8px;font-size:7px;letter-spacing:.1em}
+
+.sense-actions-inline{display:flex;gap:4px}.related-btn{padding:5px 7px;font-size:6px}.related-head{border-bottom:1px solid var(--line);padding:10px 0;color:var(--accent);font-size:7px;letter-spacing:.12em}.sense-item.related small{color:var(--muted)}
