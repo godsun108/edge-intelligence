@@ -43,3 +43,5 @@ SAVANT v0.2 adds PRIMARY/SECONDARY/UNKNOWN source classification and explicit un
 SAVANT v0.3 adds reconstructable provenance records: title, publisher/author, publication date, retrieval timestamp, excerpt, URL/citation note and research context.
 
 SAVANT v0.4 adds descriptive evidence-state analysis so missing primary evidence, recorded contradictions, unknown source classes and unresolved questions are visible without generating a truth/confidence score.
+
+SAVANT v0.5 adds an extractive evidence brief that reorganizes recorded SUPPORTS, CONTRADICTS, CONTEXT and unresolved questions without generating a verdict or claiming completeness.
