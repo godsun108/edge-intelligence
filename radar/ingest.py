@@ -1,9 +1,24 @@
-import json, urllib.request, datetime, pathlib, hashlib
+import json, urllib.request, datetime, pathlib, hashlib\nfrom email.utils import parsedate_to_datetime
 UA={"User-Agent":"edge-radar/0.2"}
 def get(url):
  req=urllib.request.Request(url,headers=UA)
  with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
 def fp(o): return hashlib.sha256(json.dumps([o["source"],o["id"],o["title"],o.get("url",""),o.get("data",{})],sort_keys=True).encode()).hexdigest()
+def days_until(value):
+ if not value:return None
+ for fmt in ("%m/%d/%Y","%Y-%m-%d"):
+  try:return (datetime.datetime.strptime(value,fmt).date()-datetime.datetime.now(datetime.timezone.utc).date()).days
+  except ValueError:pass
+ return None
+
+def enrich_opportunity(o):
+ if o.get("source")!="Grants.gov":return o
+ d=o.get("data",{}); days=days_until(d.get("closeDate")); urgency="UNKNOWN"
+ if days is not None:
+  urgency="CLOSED" if days<0 else ("URGENT" if days<=7 else ("SOON" if days<=30 else "OPEN"))
+ o["opportunity"]={"agency":d.get("agency"),"number":d.get("number"),"close_date":d.get("closeDate"),"days_until_close":days,"urgency":urgency}
+ return o
+
 def score(o,rules):
  text=(o.get("title","")+" "+" ".join(o.get("tags",[]))).lower(); best=0; reasons=[]
  for r in rules:
