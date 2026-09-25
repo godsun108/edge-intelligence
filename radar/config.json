@@ -1,0 +1,5 @@
+{
+  "schema": "edge.radar.config.v1",
+  "grants_keyword": "",
+  "notes": "Public-safe defaults only. Private deployments may override criteria outside this public repository."
+}
