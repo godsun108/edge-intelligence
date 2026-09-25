@@ -15,7 +15,12 @@ def score(o,rules):
   if pts>best: best=pts;reasons=why
  return best,reasons
 
+def load_config():
+ try: return json.loads(pathlib.Path("radar/config.json").read_text())
+ except Exception: return {}
+
 def main():
+ cfg=load_config()
  now=datetime.datetime.now(datetime.timezone.utc).isoformat(); obs=[]
  # Real public source #1: USGS significant earthquakes
  q=get("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson")
@@ -23,12 +28,12 @@ def main():
   p=f.get("properties",{}); o={"id":f.get("id"),"source":"USGS","title":p.get("title") or p.get("place") or "Earthquake","url":p.get("url") or "","observed_at":p.get("time"),"retrieved_at":now,"tags":["earth","earthquake"],"data":{"magnitude":p.get("mag"),"place":p.get("place")}};o["fingerprint"]=fp(o);obs.append(o)
  # Real public source #2: Grants.gov public opportunity search
  try:
-  payload=json.dumps({"keyword":"","oppStatuses":"forecasted|posted","rows":100,"startRecordNum":0}).encode()
+  payload=json.dumps({"keyword":cfg.get("grants_keyword",""),"oppStatuses":"forecasted|posted","rows":100,"startRecordNum":0}).encode()
   req=urllib.request.Request("https://api.grants.gov/v1/api/search2",data=payload,headers={**UA,"Content-Type":"application/json"},method="POST")
   with urllib.request.urlopen(req,timeout=30) as r: grants=json.load(r)
   for g in grants.get("data",{}).get("oppHits",[]):
    oid=str(g.get("id") or g.get("number") or g.get("title")); title=g.get("title") or "Grant opportunity"
-   o={"id":oid,"source":"Grants.gov","title":title,"url":"https://www.grants.gov/search-results-detail/"+oid,"observed_at":g.get("openDate") or g.get("postDate"),"retrieved_at":now,"tags":["grant","funding opportunity"]+[str(g.get("agency",""))],"data":{"agency":g.get("agency"),"closeDate":g.get("closeDate"),"number":g.get("number")}};o["fingerprint"]=fp(o);obs.append(o)
+   o={"id":oid,"source":"Grants.gov","title":title,"url":"https://www.grants.gov/search-results-detail/"+oid,"observed_at":g.get("openDate") or g.get("postDate"),"retrieved_at":now,"tags":["grant","funding opportunity"]+[str(g.get("agencyName",""))],"data":{"agency":g.get("agencyName"),"closeDate":g.get("closeDate"),"number":g.get("number")}};o["fingerprint"]=fp(o);obs.append(o)
  except Exception as ex: print("Grants.gov:",ex)
  # Real public source #3: NASA EONET open natural-event catalog
  e=get("https://eonet.gsfc.nasa.gov/api/v3/events?status=open&limit=100")
