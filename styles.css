@@ -19,3 +19,5 @@
 .memory-tools{display:grid;grid-template-columns:1fr auto;gap:6px;margin:0 0 10px}.memory-tools input,.memory-tools select{background:#070907;border:1px solid var(--line);color:var(--fg);padding:10px;font-size:9px}.memory-tools select{letter-spacing:.1em;color:var(--muted)}
 
 #memory-random{font-size:7px;letter-spacing:.12em;padding:8px 10px}.memory-tools{grid-template-columns:1fr auto auto}@media(max-width:600px){.memory-tools{grid-template-columns:1fr auto}.memory-tools select{grid-column:1/-1}}
+
+#memory-age{background:#070907;border:1px solid var(--line);color:var(--muted);padding:8px;font-size:7px;letter-spacing:.1em}
