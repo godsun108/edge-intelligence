@@ -55,3 +55,5 @@ SAVANT v0.8 adds explicit research portability: human-readable JSON export/impor
 SAVANT v0.9 adds per-claim research history for claim creation, evidence attachment, questions and RADAR imports. The event view is an audit aid, explicitly not a cryptographic/tamper-proof log.
 
 SAVANT v1.0 hash-chains new research-history events with browser SHA-256 and verifies chain continuity locally. This is tamper-evident, not tamper-proof or externally timestamped; legacy unsigned events are surfaced rather than silently trusted.
+
+SAVANT v1.1 adds portable integrity checkpoints for verified research histories. A checkpoint preserves claim identity, event count and chain-tip hash and can be exported independently; it is not a signature, notarization or external timestamp.
