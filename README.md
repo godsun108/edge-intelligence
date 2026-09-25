@@ -33,3 +33,7 @@ EDGE v1.2 consolidates RADAR, SENSE and TIME MACHINE into coherent operational s
 - ASK EDGE currently behaves as deliberate local capture, not a fake conversational intelligence layer.
 
 The current deployment is intentionally local-first. Cross-device sync, native iOS sensors, authenticated private storage, semantic embeddings and additional data adapters remain future work and must not be implied by the web prototype.
+
+
+## v1.3 — SAVANT begins
+SAVANT v0.1 adds a local-first evidence map: claims/questions plus explicitly labeled SUPPORTS, CONTRADICTS and CONTEXT records. It intentionally has no truth score or automatic verdict.
