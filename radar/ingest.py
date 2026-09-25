@@ -48,7 +48,7 @@ def main():
   with urllib.request.urlopen(req,timeout=30) as r: grants=json.load(r)
   for g in grants.get("data",{}).get("oppHits",[]):
    oid=str(g.get("id") or g.get("number") or g.get("title")); title=g.get("title") or "Grant opportunity"
-   o={"id":oid,"source":"Grants.gov","title":title,"url":"https://www.grants.gov/search-results-detail/"+oid,"observed_at":g.get("openDate") or g.get("postDate"),"retrieved_at":now,"tags":["grant","funding opportunity"]+[str(g.get("agencyName",""))],"data":{"agency":g.get("agencyName"),"closeDate":g.get("closeDate"),"number":g.get("number")}};o["fingerprint"]=fp(o);obs.append(o)
+   o={"id":oid,"source":"Grants.gov","title":title,"url":"https://www.grants.gov/search-results-detail/"+oid,"observed_at":g.get("openDate"),"retrieved_at":now,"tags":["grant","funding opportunity",str(g.get("agencyName","")),str(g.get("oppStatus",""))],"data":{"agency":g.get("agencyName"),"agencyCode":g.get("agencyCode"),"closeDate":g.get("closeDate"),"openDate":g.get("openDate"),"number":g.get("number"),"status":g.get("oppStatus"),"aln":g.get("alnist",[])}};o["fingerprint"]=fp(o);obs.append(o)
  except Exception as ex: print("Grants.gov:",ex)
  # Real public source #3: NASA EONET open natural-event catalog
  e=get("https://eonet.gsfc.nasa.gov/api/v3/events?status=open&limit=100")
