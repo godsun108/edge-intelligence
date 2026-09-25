@@ -45,3 +45,5 @@ SAVANT v0.3 adds reconstructable provenance records: title, publisher/author, pu
 SAVANT v0.4 adds descriptive evidence-state analysis so missing primary evidence, recorded contradictions, unknown source classes and unresolved questions are visible without generating a truth/confidence score.
 
 SAVANT v0.5 adds an extractive evidence brief that reorganizes recorded SUPPORTS, CONTRADICTS, CONTEXT and unresolved questions without generating a verdict or claiming completeness.
+
+SAVANT v0.6 adds the first machine-assisted research bridge: RADAR emits provenance-preserving research candidates from relevant changed public-source observations. Candidates remain CONTEXT/CANDIDATE_ONLY until deliberately reviewed; automation does not silently convert observations into conclusions.
