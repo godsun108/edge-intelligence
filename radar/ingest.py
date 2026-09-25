@@ -4,6 +4,17 @@ def get(url):
  req=urllib.request.Request(url,headers=UA)
  with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
 def fp(o): return hashlib.sha256(json.dumps([o["source"],o["id"],o["title"],o.get("url",""),o.get("data",{})],sort_keys=True).encode()).hexdigest()
+def score(o,rules):
+ text=(o.get("title","")+" "+" ".join(o.get("tags",[]))).lower(); best=0; reasons=[]
+ for r in rules:
+  pts=0; why=[]
+  for term in r.get("terms",[]):
+   if term.lower() in text: pts+=r.get("term_weight",10);why.append("matched "+term)
+  if o.get("change")=="new": pts+=r.get("new_weight",5)
+  if o.get("change")=="changed": pts+=r.get("change_weight",7)
+  if pts>best: best=pts;reasons=why
+ return best,reasons
+
 def main():
  now=datetime.datetime.now(datetime.timezone.utc).isoformat(); obs=[]
  # Real public source #1: USGS significant earthquakes
@@ -22,7 +33,13 @@ def main():
  for o in obs:
   k=o["source"]+":"+str(o["id"]);o["change"]="new" if k not in prev else ("changed" if prev[k]!=o["fingerprint"] else "same")
  changed=[o for o in obs if o["change"]!="same"]
+ rules=[]
+ try: rules=json.loads(pathlib.Path("radar/rules.json").read_text()).get("rules",[])
+ except Exception: pass
+ for o in changed:
+  o["relevance"],o["reasons"]=score(o,rules)
+ changed.sort(key=lambda o:o.get("relevance",0),reverse=True)
  payload={"schema":"edge.radar.snapshot.v1","generated_at":now,"sources":["USGS","NASA EONET"],"observations":obs,"changes":changed}
  p.write_text(json.dumps(payload,separators=(",",":")))
- (root/"briefing.json").write_text(json.dumps({"generated_at":now,"items":changed[:40]},separators=(",",":")))
+ (root/"briefing.json").write_text(json.dumps({"generated_at":now,"items":[o for o in changed if o.get("relevance",0)>0][:40]},separators=(",",":")))
 if __name__=="__main__":main()
