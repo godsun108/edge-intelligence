@@ -1,0 +1,16 @@
+{
+  "schema": "edge.radar.rules.v1",
+  "rules": [
+    {
+      "id": "example-opportunity",
+      "terms": [
+        "grant",
+        "auction",
+        "opportunity"
+      ],
+      "term_weight": 10,
+      "new_weight": 5,
+      "change_weight": 7
+    }
+  ]
+}
