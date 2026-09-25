@@ -21,7 +21,16 @@ def main():
  q=get("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson")
  for f in q.get("features",[]):
   p=f.get("properties",{}); o={"id":f.get("id"),"source":"USGS","title":p.get("title") or p.get("place") or "Earthquake","url":p.get("url") or "","observed_at":p.get("time"),"retrieved_at":now,"tags":["earth","earthquake"],"data":{"magnitude":p.get("mag"),"place":p.get("place")}};o["fingerprint"]=fp(o);obs.append(o)
- # Real public source #2: NASA EONET open natural-event catalog
+ # Real public source #2: Grants.gov public opportunity search
+ try:
+  payload=json.dumps({"keyword":"","oppStatuses":"forecasted|posted","rows":100,"startRecordNum":0}).encode()
+  req=urllib.request.Request("https://api.grants.gov/v1/api/search2",data=payload,headers={**UA,"Content-Type":"application/json"},method="POST")
+  with urllib.request.urlopen(req,timeout=30) as r: grants=json.load(r)
+  for g in grants.get("data",{}).get("oppHits",[]):
+   oid=str(g.get("id") or g.get("number") or g.get("title")); title=g.get("title") or "Grant opportunity"
+   o={"id":oid,"source":"Grants.gov","title":title,"url":"https://www.grants.gov/search-results-detail/"+oid,"observed_at":g.get("openDate") or g.get("postDate"),"retrieved_at":now,"tags":["grant","funding opportunity"]+[str(g.get("agency",""))],"data":{"agency":g.get("agency"),"closeDate":g.get("closeDate"),"number":g.get("number")}};o["fingerprint"]=fp(o);obs.append(o)
+ except Exception as ex: print("Grants.gov:",ex)
+ # Real public source #3: NASA EONET open natural-event catalog
  e=get("https://eonet.gsfc.nasa.gov/api/v3/events?status=open&limit=100")
  for x in e.get("events",[]):
   cats=[c.get("title","") for c in x.get("categories",[])];o={"id":x.get("id"),"source":"NASA EONET","title":x.get("title") or "Natural event","url":x.get("link") or "","observed_at":(x.get("geometry") or [{}])[-1].get("date"),"retrieved_at":now,"tags":["earth"]+cats,"data":{"categories":cats}};o["fingerprint"]=fp(o);obs.append(o)
@@ -39,7 +48,7 @@ def main():
  for o in changed:
   o["relevance"],o["reasons"]=score(o,rules)
  changed.sort(key=lambda o:o.get("relevance",0),reverse=True)
- payload={"schema":"edge.radar.snapshot.v1","generated_at":now,"sources":["USGS","NASA EONET"],"observations":obs,"changes":changed}
+ payload={"schema":"edge.radar.snapshot.v1","generated_at":now,"sources":["USGS","Grants.gov","NASA EONET"],"observations":obs,"changes":changed}
  p.write_text(json.dumps(payload,separators=(",",":")))
  (root/"briefing.json").write_text(json.dumps({"generated_at":now,"items":[o for o in changed if o.get("relevance",0)>0][:40]},separators=(",",":")))
 if __name__=="__main__":main()
