@@ -5,6 +5,10 @@ def get(url):
  req=urllib.request.Request(url,headers=UA)
  with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
 def fp(o): return hashlib.sha256(json.dumps([o["source"],o["id"],o["title"],o.get("url",""),o.get("data",{})],sort_keys=True).encode()).hexdigest()
+def classify_change(source,key,fingerprint,prev,prev_sources):
+ if source not in prev_sources:return "baseline"
+ if key not in prev:return "new"
+ return "changed" if prev[key]!=fingerprint else "same"
 def days_until(value):
  if not value:return None
  for fmt in ("%m/%d/%Y","%Y-%m-%d"):
@@ -89,7 +93,7 @@ def main():
    old=json.loads(p.read_text()); prev={o["source"]+":"+str(o["id"]):o.get("fingerprint") for o in old.get("observations",[])}; prev_sources={o.get("source") for o in old.get("observations",[])}
   except Exception: pass
  for o in obs:
-  k=o["source"]+":"+str(o["id"]);o["change"]="baseline" if o["source"] not in prev_sources else ("new" if k not in prev else ("changed" if prev[k]!=o["fingerprint"] else "same"))
+  k=o["source"]+":"+str(o["id"]);o["change"]=classify_change(o["source"],k,o["fingerprint"],prev,prev_sources)
  changed=[o for o in obs if o["change"]!="same"]
  rules=[]
  try: rules=json.loads(pathlib.Path("radar/rules.json").read_text()).get("rules",[])
