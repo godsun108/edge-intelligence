@@ -1,0 +1,10 @@
+{
+  "evaluated": 202,
+  "input_generated_at": "2026-09-27T02:31:45.083668+00:00",
+  "input_schema": "edge.radar.snapshot.v1",
+  "items": [],
+  "schema": "edge.value.queue.v0.1",
+  "semantics": "machine-derived attention queue; human verification required",
+  "state": "NO_SIGNAL",
+  "threshold": 45.0
+}
