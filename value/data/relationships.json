@@ -1,0 +1,5284 @@
+{
+  "edges": [
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2008-4128",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2008-4128"
+        }
+      ],
+      "right": "product:IOS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2008-4128",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2008-4128"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-3246",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3246"
+        }
+      ],
+      "right": "product:Libuser",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-3246",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3246"
+        }
+      ],
+      "right": "vendor:Red Hat",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-5287",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5287"
+        }
+      ],
+      "right": "product:Automatic Bug Reporting Tool",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-5287",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5287"
+        }
+      ],
+      "right": "vendor:Red Hat",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2019-1068",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2019-1068"
+        }
+      ],
+      "right": "product:SQL Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2019-1068",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2019-1068"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2021-23758",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-23758"
+        }
+      ],
+      "right": "product:Ajax.NET Professional",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2021-23758",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-23758"
+        }
+      ],
+      "right": "vendor:Ajax.NET Professional",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2021-27137",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-27137"
+        }
+      ],
+      "right": "product:DD-WRT",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2021-27137",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-27137"
+        }
+      ],
+      "right": "vendor:DD-WRT",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2022-0995",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2022-0995"
+        }
+      ],
+      "right": "product:Kernel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2022-0995",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2022-0995"
+        }
+      ],
+      "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2023-4346",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-4346"
+        }
+      ],
+      "right": "product:KNX Protocol Connection Authorization Option 1",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2023-4346",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-4346"
+        }
+      ],
+      "right": "vendor:KNX Association",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2023-49105",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-49105"
+        }
+      ],
+      "right": "product:ownCloud",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2023-49105",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-49105"
+        }
+      ],
+      "right": "vendor:ownCloud",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-25249",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-25249"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-25249",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-25249"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-39682",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-39682"
+        }
+      ],
+      "right": "product:Kernel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-39682",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-39682"
+        }
+      ],
+      "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-39964",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-39964"
+        }
+      ],
+      "right": "product:Kernel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-39964",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-39964"
+        }
+      ],
+      "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-62593",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-62593"
+        }
+      ],
+      "right": "product:Ray",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-62593",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-62593"
+        }
+      ],
+      "right": "vendor:Ray-Project",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-67038",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-67038"
+        }
+      ],
+      "right": "product:EDS5000",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-67038",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-67038"
+        }
+      ],
+      "right": "vendor:Lantronix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-68686",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-68686"
+        }
+      ],
+      "right": "product:FortiOS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-68686",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-68686"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-0770",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-0770"
+        }
+      ],
+      "right": "product:Langflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-0770",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-0770"
+        }
+      ],
+      "right": "vendor:Langflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-12569",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-12569"
+        }
+      ],
+      "right": "product:Windchill and FlexPLM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-12569",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-12569"
+        }
+      ],
+      "right": "vendor:PTC",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-15409",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-15409"
+        }
+      ],
+      "right": "product:SMA1000 Appliances",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-15409",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-15409"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-15410",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-15410"
+        }
+      ],
+      "right": "product:SMA1000 Appliances",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-15410",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-15410"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-16232",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-16232"
+        }
+      ],
+      "right": "product:SmartConsole",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-16232",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-16232"
+        }
+      ],
+      "right": "vendor:Check Point",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-16812",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-16812"
+        }
+      ],
+      "right": "product:VeloCloud Orchestrator",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-16812",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-16812"
+        }
+      ],
+      "right": "vendor:Arista",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-18556",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-18556"
+        }
+      ],
+      "right": "product:N-central",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-18556",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-18556"
+        }
+      ],
+      "right": "vendor:N-able",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-18577",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-18577"
+        }
+      ],
+      "right": "product:N-central",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-18577",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-18577"
+        }
+      ],
+      "right": "vendor:N-able",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-19490",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19490"
+        }
+      ],
+      "right": "product:NetScaler",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-19490",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19490"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20079",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20079"
+        }
+      ],
+      "right": "product:Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20079",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20079"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20230",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20230"
+        }
+      ],
+      "right": "product:Unified Communications Manager",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20230",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20230"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20316",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20316"
+        }
+      ],
+      "right": "product:Secure Firewall Management Center (FMC)",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20316",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20316"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20349",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20349"
+        }
+      ],
+      "right": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20349",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20349"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-21962",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21962"
+        }
+      ],
+      "right": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-21962",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21962"
+        }
+      ],
+      "right": "vendor:Oracle",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-25089",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-25089"
+        }
+      ],
+      "right": "product:FortiSandbox",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-25089",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-25089"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-33824",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-33824"
+        }
+      ],
+      "right": "product:Internet Key Exchange (IKE) Service Extensions",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-33824",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-33824"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-34486",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-34486"
+        }
+      ],
+      "right": "product:Tomcat",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-34486",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-34486"
+        }
+      ],
+      "right": "vendor:Apache",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-39808",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-39808"
+        }
+      ],
+      "right": "product:FortiSandbox",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-39808",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-39808"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-42016",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-42016"
+        }
+      ],
+      "right": "product:Artifactory",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-42016",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-42016"
+        }
+      ],
+      "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-42018",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-42018"
+        }
+      ],
+      "right": "product:Artifactory",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-42018",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-42018"
+        }
+      ],
+      "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-45659",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-45659"
+        }
+      ],
+      "right": "product:SharePoint Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-45659",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-45659"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-46817",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46817"
+        }
+      ],
+      "right": "product:E-Business Suite",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-46817",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46817"
+        }
+      ],
+      "right": "vendor:Oracle",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48282",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48282"
+        }
+      ],
+      "right": "product:ColdFusion",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48282",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48282"
+        }
+      ],
+      "right": "vendor:Adobe",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48558",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48558"
+        }
+      ],
+      "right": "product:SimpleHelp",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48558",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48558"
+        }
+      ],
+      "right": "vendor:SimpleHelp",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48710",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48710"
+        }
+      ],
+      "right": "product:Starlette",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48710",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48710"
+        }
+      ],
+      "right": "vendor:Kludex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48908",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48908"
+        }
+      ],
+      "right": "product:SP Page Builder",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48908",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48908"
+        }
+      ],
+      "right": "vendor:JoomShaper",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48939",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48939"
+        }
+      ],
+      "right": "product:iCagenda",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48939",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48939"
+        }
+      ],
+      "right": "vendor:iCagenda",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-49869",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-49869"
+        }
+      ],
+      "right": "product:Kestra OSS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-49869",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-49869"
+        }
+      ],
+      "right": "vendor:Kestra",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-50522",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-50522"
+        }
+      ],
+      "right": "product:SharePoint",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-50522",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-50522"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-53266",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-53266"
+        }
+      ],
+      "right": "product:Kernel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-53266",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-53266"
+        }
+      ],
+      "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-53362",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-53362"
+        }
+      ],
+      "right": "product:Kernel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-53362",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-53362"
+        }
+      ],
+      "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-5430",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-5430"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-5430",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-5430"
+        }
+      ],
+      "right": "vendor:WSO2",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-55040",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-55040"
+        }
+      ],
+      "right": "product:SharePoint",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-55040",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-55040"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-55255",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-55255"
+        }
+      ],
+      "right": "product:Langflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-55255",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-55255"
+        }
+      ],
+      "right": "vendor:Langflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56155",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56155"
+        }
+      ],
+      "right": "product:Active Directory Federation Services",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56155",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56155"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56164",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56164"
+        }
+      ],
+      "right": "product:SharePoint Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56164",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56164"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56290",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56290"
+        }
+      ],
+      "right": "product:Page Builder",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56290",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56290"
+        }
+      ],
+      "right": "vendor:Joomlack",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56291",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56291"
+        }
+      ],
+      "right": "product:Forms",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-56291",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56291"
+        }
+      ],
+      "right": "vendor:Balbooa",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-58644",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-58644"
+        }
+      ],
+      "right": "product:SharePoint",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-58644",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-58644"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-58704",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-58704"
+        }
+      ],
+      "right": "product:Pixel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-58704",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-58704"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-59310",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-59310"
+        }
+      ],
+      "right": "product:VMware vCenter",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-59310",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-59310"
+        }
+      ],
+      "right": "vendor:Broadcom",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-59822",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-59822"
+        }
+      ],
+      "right": "product:LiteLLM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-59822",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-59822"
+        }
+      ],
+      "right": "vendor:BerriAI",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-60004",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-60004"
+        }
+      ],
+      "right": "product:Gitea",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-60004",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-60004"
+        }
+      ],
+      "right": "vendor:Gitea",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-60137",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-60137"
+        }
+      ],
+      "right": "product:Core",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-60137",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-60137"
+        }
+      ],
+      "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-63030",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-63030"
+        }
+      ],
+      "right": "product:Core",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-63030",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-63030"
+        }
+      ],
+      "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-63077",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-63077"
+        }
+      ],
+      "right": "product:TeamCity",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-63077",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-63077"
+        }
+      ],
+      "right": "vendor:JetBrains",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-64849",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-64849"
+        }
+      ],
+      "right": "product:MLflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-64849",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-64849"
+        }
+      ],
+      "right": "vendor:MLflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-65400",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-65400"
+        }
+      ],
+      "right": "product:macOS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-65400",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-65400"
+        }
+      ],
+      "right": "vendor:Apple",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-65660",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-65660"
+        }
+      ],
+      "right": "product:SharePoint",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-65660",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-65660"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-66384",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-66384"
+        }
+      ],
+      "right": "product:Artifactory",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-66384",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-66384"
+        }
+      ],
+      "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-67277",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-67277"
+        }
+      ],
+      "right": "product:RouterOS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-67277",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-67277"
+        }
+      ],
+      "right": "vendor:MikroTik",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-67279",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-67279"
+        }
+      ],
+      "right": "product:RouterOS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-67279",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-67279"
+        }
+      ],
+      "right": "vendor:MikroTik",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-68820",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-68820"
+        }
+      ],
+      "right": "product:Windows Ancillary Function Driver for WinSock",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-68820",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-68820"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-71362",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-71362"
+        }
+      ],
+      "right": "product:Commerce and Magento",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-71362",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-71362"
+        }
+      ],
+      "right": "vendor:Adobe",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-72529",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72529"
+        }
+      ],
+      "right": "product:Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-72529",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72529"
+        }
+      ],
+      "right": "vendor:TrueConf",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-72530",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72530"
+        }
+      ],
+      "right": "product:Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-72530",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72530"
+        }
+      ],
+      "right": "vendor:TrueConf",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-7273",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-7273"
+        }
+      ],
+      "right": "product:GS1900 Series Switches",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-7273",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-7273"
+        }
+      ],
+      "right": "vendor:Zyxel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-72898",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72898"
+        }
+      ],
+      "right": "product:Metabase",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-72898",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72898"
+        }
+      ],
+      "right": "vendor:Metabase",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-73570",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-73570"
+        }
+      ],
+      "right": "product:Zimbra Collaboration Suite (ZCS)",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-73570",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-73570"
+        }
+      ],
+      "right": "vendor:Synacor",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-75650",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-75650"
+        }
+      ],
+      "right": "product:Commerce and Magento",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-75650",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-75650"
+        }
+      ],
+      "right": "vendor:Adobe",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76460",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76460"
+        }
+      ],
+      "right": "product:Identity Services Engine",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76460",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76460"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76461",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76461"
+        }
+      ],
+      "right": "product:Secure Email Gateway",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76461",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76461"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-8037",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-8037"
+        }
+      ],
+      "right": "product:LoadMaster",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-8037",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-8037"
+        }
+      ],
+      "right": "vendor:Progress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-81578",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-81578"
+        }
+      ],
+      "right": "product:NG/MF",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-81578",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-81578"
+        }
+      ],
+      "right": "vendor:PaperCut",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-81963",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-81963"
+        }
+      ],
+      "right": "product:Windows",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-81963",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-81963"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-82078",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-82078"
+        }
+      ],
+      "right": "product:NG/MF",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-82078",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-82078"
+        }
+      ],
+      "right": "vendor:PaperCut",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-82329",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-82329"
+        }
+      ],
+      "right": "product:Artifactory",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-82329",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-82329"
+        }
+      ],
+      "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-83548",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-83548"
+        }
+      ],
+      "right": "product:SMA1000 Appliances",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-83548",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-83548"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-83549",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-83549"
+        }
+      ],
+      "right": "product:SMA1000 Appliances",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-83549",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-83549"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-8452",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-8452"
+        }
+      ],
+      "right": "product:NetScaler ADC and NetScaler Gateway",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-8452",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-8452"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-84869",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-84869"
+        }
+      ],
+      "right": "product:ScreenConnect",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-84869",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-84869"
+        }
+      ],
+      "right": "vendor:ConnectWise",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85046",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85046"
+        }
+      ],
+      "right": "product:Chromium V8",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85046",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85046"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85102",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85102"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85102",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85102"
+        }
+      ],
+      "right": "vendor:Check Point",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85706",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85706"
+        }
+      ],
+      "right": "product:Community Edition and Enterprise Edition",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85706",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85706"
+        }
+      ],
+      "right": "vendor:GitLab",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85880",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85880"
+        }
+      ],
+      "right": "product:Windows",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-85880",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85880"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-86060",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86060"
+        }
+      ],
+      "right": "product:RouterOS",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-86060",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86060"
+        }
+      ],
+      "right": "vendor:MikroTik",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-86218",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86218"
+        }
+      ],
+      "right": "product:N-central",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-86218",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86218"
+        }
+      ],
+      "right": "vendor:N-able",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-87491",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87491"
+        }
+      ],
+      "right": "product:Chromium V8",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-87491",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87491"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-87886",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87886"
+        }
+      ],
+      "right": "product:Backup",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-87886",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87886"
+        }
+      ],
+      "right": "vendor:Acronis",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-87902",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87902"
+        }
+      ],
+      "right": "product:Core",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-87902",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87902"
+        }
+      ],
+      "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-9198",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-9198"
+        }
+      ],
+      "right": "product:Langflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-9198",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-9198"
+        }
+      ],
+      "right": "vendor:IBM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-93616",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-93616"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-93616",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-93616"
+        }
+      ],
+      "right": "vendor:Check Point",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-93952",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-93952"
+        }
+      ],
+      "right": "product:VeloCloud Orchestrator",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-93952",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-93952"
+        }
+      ],
+      "right": "vendor:Arista",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-94127",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-94127"
+        }
+      ],
+      "right": "product:BIG-IP APM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-94127",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-94127"
+        }
+      ],
+      "right": "vendor:F5",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-9586",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-9586"
+        }
+      ],
+      "right": "product:Switchvox",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-9586",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-9586"
+        }
+      ],
+      "right": "vendor:Sangoma",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Active Directory Federation Services",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56155"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Ajax.NET Professional",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-23758"
+        }
+      ],
+      "right": "vendor:Ajax.NET Professional",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Artifactory",
+      "observation_count": 4,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-42016"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-42018"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-82329"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-66384"
+        }
+      ],
+      "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Automatic Bug Reporting Tool",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5287"
+        }
+      ],
+      "right": "vendor:Red Hat",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:BIG-IP APM",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-94127"
+        }
+      ],
+      "right": "vendor:F5",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Backup",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87886"
+        }
+      ],
+      "right": "vendor:Acronis",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Chromium V8",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87491"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85046"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:ColdFusion",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48282"
+        }
+      ],
+      "right": "vendor:Adobe",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Commerce and Magento",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-71362"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-75650"
+        }
+      ],
+      "right": "vendor:Adobe",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Community Edition and Enterprise Edition",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85706"
+        }
+      ],
+      "right": "vendor:GitLab",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Core",
+      "observation_count": 3,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-87902"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-60137"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-63030"
+        }
+      ],
+      "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:DD-WRT",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-27137"
+        }
+      ],
+      "right": "vendor:DD-WRT",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:E-Business Suite",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46817"
+        }
+      ],
+      "right": "vendor:Oracle",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:EDS5000",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-67038"
+        }
+      ],
+      "right": "vendor:Lantronix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Forms",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56291"
+        }
+      ],
+      "right": "vendor:Balbooa",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:FortiOS",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-68686"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:FortiSandbox",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-25089"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-39808"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:GS1900 Series Switches",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-7273"
+        }
+      ],
+      "right": "vendor:Zyxel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Gitea",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-60004"
+        }
+      ],
+      "right": "vendor:Gitea",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21962"
+        }
+      ],
+      "right": "vendor:Oracle",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:IOS",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2008-4128"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Identity Services Engine",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76460"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Internet Key Exchange (IKE) Service Extensions",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-33824"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:KNX Protocol Connection Authorization Option 1",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-4346"
+        }
+      ],
+      "right": "vendor:KNX Association",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Kernel",
+      "observation_count": 5,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-39964"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-53266"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-39682"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-53362"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2022-0995"
+        }
+      ],
+      "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Kestra OSS",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-49869"
+        }
+      ],
+      "right": "vendor:Kestra",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Langflow",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-9198"
+        }
+      ],
+      "right": "vendor:IBM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Langflow",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-0770"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-55255"
+        }
+      ],
+      "right": "vendor:Langflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Libuser",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3246"
+        }
+      ],
+      "right": "vendor:Red Hat",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:LiteLLM",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-59822"
+        }
+      ],
+      "right": "vendor:BerriAI",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:LoadMaster",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-8037"
+        }
+      ],
+      "right": "vendor:Progress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:MLflow",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-64849"
+        }
+      ],
+      "right": "vendor:MLflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Metabase",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72898"
+        }
+      ],
+      "right": "vendor:Metabase",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Multiple Products",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-93616"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85102"
+        }
+      ],
+      "right": "vendor:Check Point",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Multiple Products",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-25249"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Multiple Products",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-5430"
+        }
+      ],
+      "right": "vendor:WSO2",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:N-central",
+      "observation_count": 3,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86218"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-18556"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-18577"
+        }
+      ],
+      "right": "vendor:N-able",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:NG/MF",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-82078"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-81578"
+        }
+      ],
+      "right": "vendor:PaperCut",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:NetScaler",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19490"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:NetScaler ADC and NetScaler Gateway",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-8452"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Page Builder",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56290"
+        }
+      ],
+      "right": "vendor:Joomlack",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Pixel",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-58704"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Ray",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-62593"
+        }
+      ],
+      "right": "vendor:Ray-Project",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:RouterOS",
+      "observation_count": 3,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-67279"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86060"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-67277"
+        }
+      ],
+      "right": "vendor:MikroTik",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SMA1000 Appliances",
+      "observation_count": 4,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-83548"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-83549"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-15409"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-15410"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SP Page Builder",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48908"
+        }
+      ],
+      "right": "vendor:JoomShaper",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SQL Server",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2019-1068"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:ScreenConnect",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-84869"
+        }
+      ],
+      "right": "vendor:ConnectWise",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Secure Email Gateway",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76461"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20349"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Secure Firewall Management Center (FMC)",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20316"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20079"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Server",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72530"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-72529"
+        }
+      ],
+      "right": "vendor:TrueConf",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SharePoint",
+      "observation_count": 4,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-65660"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-55040"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-50522"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-58644"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SharePoint Server",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-56164"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-45659"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SimpleHelp",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48558"
+        }
+      ],
+      "right": "vendor:SimpleHelp",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:SmartConsole",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-16232"
+        }
+      ],
+      "right": "vendor:Check Point",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Starlette",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48710"
+        }
+      ],
+      "right": "vendor:Kludex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Switchvox",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-9586"
+        }
+      ],
+      "right": "vendor:Sangoma",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:TeamCity",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-63077"
+        }
+      ],
+      "right": "vendor:JetBrains",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Tomcat",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-34486"
+        }
+      ],
+      "right": "vendor:Apache",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Unified Communications Manager",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20230"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:VMware vCenter",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-59310"
+        }
+      ],
+      "right": "vendor:Broadcom",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:VeloCloud Orchestrator",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-93952"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-16812"
+        }
+      ],
+      "right": "vendor:Arista",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Windchill and FlexPLM",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-12569"
+        }
+      ],
+      "right": "vendor:PTC",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Windows",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-81963"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-85880"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Windows Ancillary Function Driver for WinSock",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-68820"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Zimbra Collaboration Suite (ZCS)",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-73570"
+        }
+      ],
+      "right": "vendor:Synacor",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:iCagenda",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48939"
+        }
+      ],
+      "right": "vendor:iCagenda",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:macOS",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-65400"
+        }
+      ],
+      "right": "vendor:Apple",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:ownCloud",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-49105"
+        }
+      ],
+      "right": "vendor:ownCloud",
+      "sources": [
+        "CISA KEV"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cve:CVE-2008-4128",
+      "kind": "cve",
+      "value": "CVE-2008-4128"
+    },
+    {
+      "id": "cve:CVE-2015-3246",
+      "kind": "cve",
+      "value": "CVE-2015-3246"
+    },
+    {
+      "id": "cve:CVE-2015-5287",
+      "kind": "cve",
+      "value": "CVE-2015-5287"
+    },
+    {
+      "id": "cve:CVE-2019-1068",
+      "kind": "cve",
+      "value": "CVE-2019-1068"
+    },
+    {
+      "id": "cve:CVE-2021-23758",
+      "kind": "cve",
+      "value": "CVE-2021-23758"
+    },
+    {
+      "id": "cve:CVE-2021-27137",
+      "kind": "cve",
+      "value": "CVE-2021-27137"
+    },
+    {
+      "id": "cve:CVE-2022-0995",
+      "kind": "cve",
+      "value": "CVE-2022-0995"
+    },
+    {
+      "id": "cve:CVE-2023-4346",
+      "kind": "cve",
+      "value": "CVE-2023-4346"
+    },
+    {
+      "id": "cve:CVE-2023-49105",
+      "kind": "cve",
+      "value": "CVE-2023-49105"
+    },
+    {
+      "id": "cve:CVE-2025-25249",
+      "kind": "cve",
+      "value": "CVE-2025-25249"
+    },
+    {
+      "id": "cve:CVE-2025-39682",
+      "kind": "cve",
+      "value": "CVE-2025-39682"
+    },
+    {
+      "id": "cve:CVE-2025-39964",
+      "kind": "cve",
+      "value": "CVE-2025-39964"
+    },
+    {
+      "id": "cve:CVE-2025-62593",
+      "kind": "cve",
+      "value": "CVE-2025-62593"
+    },
+    {
+      "id": "cve:CVE-2025-67038",
+      "kind": "cve",
+      "value": "CVE-2025-67038"
+    },
+    {
+      "id": "cve:CVE-2025-68686",
+      "kind": "cve",
+      "value": "CVE-2025-68686"
+    },
+    {
+      "id": "cve:CVE-2026-0770",
+      "kind": "cve",
+      "value": "CVE-2026-0770"
+    },
+    {
+      "id": "cve:CVE-2026-12569",
+      "kind": "cve",
+      "value": "CVE-2026-12569"
+    },
+    {
+      "id": "cve:CVE-2026-15409",
+      "kind": "cve",
+      "value": "CVE-2026-15409"
+    },
+    {
+      "id": "cve:CVE-2026-15410",
+      "kind": "cve",
+      "value": "CVE-2026-15410"
+    },
+    {
+      "id": "cve:CVE-2026-16232",
+      "kind": "cve",
+      "value": "CVE-2026-16232"
+    },
+    {
+      "id": "cve:CVE-2026-16812",
+      "kind": "cve",
+      "value": "CVE-2026-16812"
+    },
+    {
+      "id": "cve:CVE-2026-18556",
+      "kind": "cve",
+      "value": "CVE-2026-18556"
+    },
+    {
+      "id": "cve:CVE-2026-18577",
+      "kind": "cve",
+      "value": "CVE-2026-18577"
+    },
+    {
+      "id": "cve:CVE-2026-19490",
+      "kind": "cve",
+      "value": "CVE-2026-19490"
+    },
+    {
+      "id": "cve:CVE-2026-20079",
+      "kind": "cve",
+      "value": "CVE-2026-20079"
+    },
+    {
+      "id": "cve:CVE-2026-20230",
+      "kind": "cve",
+      "value": "CVE-2026-20230"
+    },
+    {
+      "id": "cve:CVE-2026-20316",
+      "kind": "cve",
+      "value": "CVE-2026-20316"
+    },
+    {
+      "id": "cve:CVE-2026-20349",
+      "kind": "cve",
+      "value": "CVE-2026-20349"
+    },
+    {
+      "id": "cve:CVE-2026-21962",
+      "kind": "cve",
+      "value": "CVE-2026-21962"
+    },
+    {
+      "id": "cve:CVE-2026-25089",
+      "kind": "cve",
+      "value": "CVE-2026-25089"
+    },
+    {
+      "id": "cve:CVE-2026-33824",
+      "kind": "cve",
+      "value": "CVE-2026-33824"
+    },
+    {
+      "id": "cve:CVE-2026-34486",
+      "kind": "cve",
+      "value": "CVE-2026-34486"
+    },
+    {
+      "id": "cve:CVE-2026-39808",
+      "kind": "cve",
+      "value": "CVE-2026-39808"
+    },
+    {
+      "id": "cve:CVE-2026-42016",
+      "kind": "cve",
+      "value": "CVE-2026-42016"
+    },
+    {
+      "id": "cve:CVE-2026-42018",
+      "kind": "cve",
+      "value": "CVE-2026-42018"
+    },
+    {
+      "id": "cve:CVE-2026-45659",
+      "kind": "cve",
+      "value": "CVE-2026-45659"
+    },
+    {
+      "id": "cve:CVE-2026-46817",
+      "kind": "cve",
+      "value": "CVE-2026-46817"
+    },
+    {
+      "id": "cve:CVE-2026-48282",
+      "kind": "cve",
+      "value": "CVE-2026-48282"
+    },
+    {
+      "id": "cve:CVE-2026-48558",
+      "kind": "cve",
+      "value": "CVE-2026-48558"
+    },
+    {
+      "id": "cve:CVE-2026-48710",
+      "kind": "cve",
+      "value": "CVE-2026-48710"
+    },
+    {
+      "id": "cve:CVE-2026-48908",
+      "kind": "cve",
+      "value": "CVE-2026-48908"
+    },
+    {
+      "id": "cve:CVE-2026-48939",
+      "kind": "cve",
+      "value": "CVE-2026-48939"
+    },
+    {
+      "id": "cve:CVE-2026-49869",
+      "kind": "cve",
+      "value": "CVE-2026-49869"
+    },
+    {
+      "id": "cve:CVE-2026-50522",
+      "kind": "cve",
+      "value": "CVE-2026-50522"
+    },
+    {
+      "id": "cve:CVE-2026-53266",
+      "kind": "cve",
+      "value": "CVE-2026-53266"
+    },
+    {
+      "id": "cve:CVE-2026-53362",
+      "kind": "cve",
+      "value": "CVE-2026-53362"
+    },
+    {
+      "id": "cve:CVE-2026-5430",
+      "kind": "cve",
+      "value": "CVE-2026-5430"
+    },
+    {
+      "id": "cve:CVE-2026-55040",
+      "kind": "cve",
+      "value": "CVE-2026-55040"
+    },
+    {
+      "id": "cve:CVE-2026-55255",
+      "kind": "cve",
+      "value": "CVE-2026-55255"
+    },
+    {
+      "id": "cve:CVE-2026-56155",
+      "kind": "cve",
+      "value": "CVE-2026-56155"
+    },
+    {
+      "id": "cve:CVE-2026-56164",
+      "kind": "cve",
+      "value": "CVE-2026-56164"
+    },
+    {
+      "id": "cve:CVE-2026-56290",
+      "kind": "cve",
+      "value": "CVE-2026-56290"
+    },
+    {
+      "id": "cve:CVE-2026-56291",
+      "kind": "cve",
+      "value": "CVE-2026-56291"
+    },
+    {
+      "id": "cve:CVE-2026-58644",
+      "kind": "cve",
+      "value": "CVE-2026-58644"
+    },
+    {
+      "id": "cve:CVE-2026-58704",
+      "kind": "cve",
+      "value": "CVE-2026-58704"
+    },
+    {
+      "id": "cve:CVE-2026-59310",
+      "kind": "cve",
+      "value": "CVE-2026-59310"
+    },
+    {
+      "id": "cve:CVE-2026-59822",
+      "kind": "cve",
+      "value": "CVE-2026-59822"
+    },
+    {
+      "id": "cve:CVE-2026-60004",
+      "kind": "cve",
+      "value": "CVE-2026-60004"
+    },
+    {
+      "id": "cve:CVE-2026-60137",
+      "kind": "cve",
+      "value": "CVE-2026-60137"
+    },
+    {
+      "id": "cve:CVE-2026-63030",
+      "kind": "cve",
+      "value": "CVE-2026-63030"
+    },
+    {
+      "id": "cve:CVE-2026-63077",
+      "kind": "cve",
+      "value": "CVE-2026-63077"
+    },
+    {
+      "id": "cve:CVE-2026-64849",
+      "kind": "cve",
+      "value": "CVE-2026-64849"
+    },
+    {
+      "id": "cve:CVE-2026-65400",
+      "kind": "cve",
+      "value": "CVE-2026-65400"
+    },
+    {
+      "id": "cve:CVE-2026-65660",
+      "kind": "cve",
+      "value": "CVE-2026-65660"
+    },
+    {
+      "id": "cve:CVE-2026-66384",
+      "kind": "cve",
+      "value": "CVE-2026-66384"
+    },
+    {
+      "id": "cve:CVE-2026-67277",
+      "kind": "cve",
+      "value": "CVE-2026-67277"
+    },
+    {
+      "id": "cve:CVE-2026-67279",
+      "kind": "cve",
+      "value": "CVE-2026-67279"
+    },
+    {
+      "id": "cve:CVE-2026-68820",
+      "kind": "cve",
+      "value": "CVE-2026-68820"
+    },
+    {
+      "id": "cve:CVE-2026-71362",
+      "kind": "cve",
+      "value": "CVE-2026-71362"
+    },
+    {
+      "id": "cve:CVE-2026-72529",
+      "kind": "cve",
+      "value": "CVE-2026-72529"
+    },
+    {
+      "id": "cve:CVE-2026-72530",
+      "kind": "cve",
+      "value": "CVE-2026-72530"
+    },
+    {
+      "id": "cve:CVE-2026-7273",
+      "kind": "cve",
+      "value": "CVE-2026-7273"
+    },
+    {
+      "id": "cve:CVE-2026-72898",
+      "kind": "cve",
+      "value": "CVE-2026-72898"
+    },
+    {
+      "id": "cve:CVE-2026-73570",
+      "kind": "cve",
+      "value": "CVE-2026-73570"
+    },
+    {
+      "id": "cve:CVE-2026-75650",
+      "kind": "cve",
+      "value": "CVE-2026-75650"
+    },
+    {
+      "id": "cve:CVE-2026-76460",
+      "kind": "cve",
+      "value": "CVE-2026-76460"
+    },
+    {
+      "id": "cve:CVE-2026-76461",
+      "kind": "cve",
+      "value": "CVE-2026-76461"
+    },
+    {
+      "id": "cve:CVE-2026-8037",
+      "kind": "cve",
+      "value": "CVE-2026-8037"
+    },
+    {
+      "id": "cve:CVE-2026-81578",
+      "kind": "cve",
+      "value": "CVE-2026-81578"
+    },
+    {
+      "id": "cve:CVE-2026-81963",
+      "kind": "cve",
+      "value": "CVE-2026-81963"
+    },
+    {
+      "id": "cve:CVE-2026-82078",
+      "kind": "cve",
+      "value": "CVE-2026-82078"
+    },
+    {
+      "id": "cve:CVE-2026-82329",
+      "kind": "cve",
+      "value": "CVE-2026-82329"
+    },
+    {
+      "id": "cve:CVE-2026-83548",
+      "kind": "cve",
+      "value": "CVE-2026-83548"
+    },
+    {
+      "id": "cve:CVE-2026-83549",
+      "kind": "cve",
+      "value": "CVE-2026-83549"
+    },
+    {
+      "id": "cve:CVE-2026-8452",
+      "kind": "cve",
+      "value": "CVE-2026-8452"
+    },
+    {
+      "id": "cve:CVE-2026-84869",
+      "kind": "cve",
+      "value": "CVE-2026-84869"
+    },
+    {
+      "id": "cve:CVE-2026-85046",
+      "kind": "cve",
+      "value": "CVE-2026-85046"
+    },
+    {
+      "id": "cve:CVE-2026-85102",
+      "kind": "cve",
+      "value": "CVE-2026-85102"
+    },
+    {
+      "id": "cve:CVE-2026-85706",
+      "kind": "cve",
+      "value": "CVE-2026-85706"
+    },
+    {
+      "id": "cve:CVE-2026-85880",
+      "kind": "cve",
+      "value": "CVE-2026-85880"
+    },
+    {
+      "id": "cve:CVE-2026-86060",
+      "kind": "cve",
+      "value": "CVE-2026-86060"
+    },
+    {
+      "id": "cve:CVE-2026-86218",
+      "kind": "cve",
+      "value": "CVE-2026-86218"
+    },
+    {
+      "id": "cve:CVE-2026-87491",
+      "kind": "cve",
+      "value": "CVE-2026-87491"
+    },
+    {
+      "id": "cve:CVE-2026-87886",
+      "kind": "cve",
+      "value": "CVE-2026-87886"
+    },
+    {
+      "id": "cve:CVE-2026-87902",
+      "kind": "cve",
+      "value": "CVE-2026-87902"
+    },
+    {
+      "id": "cve:CVE-2026-9198",
+      "kind": "cve",
+      "value": "CVE-2026-9198"
+    },
+    {
+      "id": "cve:CVE-2026-93616",
+      "kind": "cve",
+      "value": "CVE-2026-93616"
+    },
+    {
+      "id": "cve:CVE-2026-93952",
+      "kind": "cve",
+      "value": "CVE-2026-93952"
+    },
+    {
+      "id": "cve:CVE-2026-94127",
+      "kind": "cve",
+      "value": "CVE-2026-94127"
+    },
+    {
+      "id": "cve:CVE-2026-9586",
+      "kind": "cve",
+      "value": "CVE-2026-9586"
+    },
+    {
+      "id": "product:Active Directory Federation Services",
+      "kind": "product",
+      "value": "Active Directory Federation Services"
+    },
+    {
+      "id": "product:Ajax.NET Professional",
+      "kind": "product",
+      "value": "Ajax.NET Professional"
+    },
+    {
+      "id": "product:Artifactory",
+      "kind": "product",
+      "value": "Artifactory"
+    },
+    {
+      "id": "product:Automatic Bug Reporting Tool",
+      "kind": "product",
+      "value": "Automatic Bug Reporting Tool"
+    },
+    {
+      "id": "product:BIG-IP APM",
+      "kind": "product",
+      "value": "BIG-IP APM"
+    },
+    {
+      "id": "product:Backup",
+      "kind": "product",
+      "value": "Backup"
+    },
+    {
+      "id": "product:Chromium V8",
+      "kind": "product",
+      "value": "Chromium V8"
+    },
+    {
+      "id": "product:ColdFusion",
+      "kind": "product",
+      "value": "ColdFusion"
+    },
+    {
+      "id": "product:Commerce and Magento",
+      "kind": "product",
+      "value": "Commerce and Magento"
+    },
+    {
+      "id": "product:Community Edition and Enterprise Edition",
+      "kind": "product",
+      "value": "Community Edition and Enterprise Edition"
+    },
+    {
+      "id": "product:Core",
+      "kind": "product",
+      "value": "Core"
+    },
+    {
+      "id": "product:DD-WRT",
+      "kind": "product",
+      "value": "DD-WRT"
+    },
+    {
+      "id": "product:E-Business Suite",
+      "kind": "product",
+      "value": "E-Business Suite"
+    },
+    {
+      "id": "product:EDS5000",
+      "kind": "product",
+      "value": "EDS5000"
+    },
+    {
+      "id": "product:Forms",
+      "kind": "product",
+      "value": "Forms"
+    },
+    {
+      "id": "product:FortiOS",
+      "kind": "product",
+      "value": "FortiOS"
+    },
+    {
+      "id": "product:FortiSandbox",
+      "kind": "product",
+      "value": "FortiSandbox"
+    },
+    {
+      "id": "product:GS1900 Series Switches",
+      "kind": "product",
+      "value": "GS1900 Series Switches"
+    },
+    {
+      "id": "product:Gitea",
+      "kind": "product",
+      "value": "Gitea"
+    },
+    {
+      "id": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "kind": "product",
+      "value": "HTTP Server and Oracle Weblogic Server Proxy Plug-in"
+    },
+    {
+      "id": "product:IOS",
+      "kind": "product",
+      "value": "IOS"
+    },
+    {
+      "id": "product:Identity Services Engine",
+      "kind": "product",
+      "value": "Identity Services Engine"
+    },
+    {
+      "id": "product:Internet Key Exchange (IKE) Service Extensions",
+      "kind": "product",
+      "value": "Internet Key Exchange (IKE) Service Extensions"
+    },
+    {
+      "id": "product:KNX Protocol Connection Authorization Option 1",
+      "kind": "product",
+      "value": "KNX Protocol Connection Authorization Option 1"
+    },
+    {
+      "id": "product:Kernel",
+      "kind": "product",
+      "value": "Kernel"
+    },
+    {
+      "id": "product:Kestra OSS",
+      "kind": "product",
+      "value": "Kestra OSS"
+    },
+    {
+      "id": "product:Langflow",
+      "kind": "product",
+      "value": "Langflow"
+    },
+    {
+      "id": "product:Libuser",
+      "kind": "product",
+      "value": "Libuser"
+    },
+    {
+      "id": "product:LiteLLM",
+      "kind": "product",
+      "value": "LiteLLM"
+    },
+    {
+      "id": "product:LoadMaster",
+      "kind": "product",
+      "value": "LoadMaster"
+    },
+    {
+      "id": "product:MLflow",
+      "kind": "product",
+      "value": "MLflow"
+    },
+    {
+      "id": "product:Metabase",
+      "kind": "product",
+      "value": "Metabase"
+    },
+    {
+      "id": "product:Multiple Products",
+      "kind": "product",
+      "value": "Multiple Products"
+    },
+    {
+      "id": "product:N-central",
+      "kind": "product",
+      "value": "N-central"
+    },
+    {
+      "id": "product:NG/MF",
+      "kind": "product",
+      "value": "NG/MF"
+    },
+    {
+      "id": "product:NetScaler",
+      "kind": "product",
+      "value": "NetScaler"
+    },
+    {
+      "id": "product:NetScaler ADC and NetScaler Gateway",
+      "kind": "product",
+      "value": "NetScaler ADC and NetScaler Gateway"
+    },
+    {
+      "id": "product:Page Builder",
+      "kind": "product",
+      "value": "Page Builder"
+    },
+    {
+      "id": "product:Pixel",
+      "kind": "product",
+      "value": "Pixel"
+    },
+    {
+      "id": "product:Ray",
+      "kind": "product",
+      "value": "Ray"
+    },
+    {
+      "id": "product:RouterOS",
+      "kind": "product",
+      "value": "RouterOS"
+    },
+    {
+      "id": "product:SMA1000 Appliances",
+      "kind": "product",
+      "value": "SMA1000 Appliances"
+    },
+    {
+      "id": "product:SP Page Builder",
+      "kind": "product",
+      "value": "SP Page Builder"
+    },
+    {
+      "id": "product:SQL Server",
+      "kind": "product",
+      "value": "SQL Server"
+    },
+    {
+      "id": "product:ScreenConnect",
+      "kind": "product",
+      "value": "ScreenConnect"
+    },
+    {
+      "id": "product:Secure Email Gateway",
+      "kind": "product",
+      "value": "Secure Email Gateway"
+    },
+    {
+      "id": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
+      "kind": "product",
+      "value": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)"
+    },
+    {
+      "id": "product:Secure Firewall Management Center (FMC)",
+      "kind": "product",
+      "value": "Secure Firewall Management Center (FMC)"
+    },
+    {
+      "id": "product:Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+      "kind": "product",
+      "value": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management"
+    },
+    {
+      "id": "product:Server",
+      "kind": "product",
+      "value": "Server"
+    },
+    {
+      "id": "product:SharePoint",
+      "kind": "product",
+      "value": "SharePoint"
+    },
+    {
+      "id": "product:SharePoint Server",
+      "kind": "product",
+      "value": "SharePoint Server"
+    },
+    {
+      "id": "product:SimpleHelp",
+      "kind": "product",
+      "value": "SimpleHelp"
+    },
+    {
+      "id": "product:SmartConsole",
+      "kind": "product",
+      "value": "SmartConsole"
+    },
+    {
+      "id": "product:Starlette",
+      "kind": "product",
+      "value": "Starlette"
+    },
+    {
+      "id": "product:Switchvox",
+      "kind": "product",
+      "value": "Switchvox"
+    },
+    {
+      "id": "product:TeamCity",
+      "kind": "product",
+      "value": "TeamCity"
+    },
+    {
+      "id": "product:Tomcat",
+      "kind": "product",
+      "value": "Tomcat"
+    },
+    {
+      "id": "product:Unified Communications Manager",
+      "kind": "product",
+      "value": "Unified Communications Manager"
+    },
+    {
+      "id": "product:VMware vCenter",
+      "kind": "product",
+      "value": "VMware vCenter"
+    },
+    {
+      "id": "product:VeloCloud Orchestrator",
+      "kind": "product",
+      "value": "VeloCloud Orchestrator"
+    },
+    {
+      "id": "product:Windchill and FlexPLM",
+      "kind": "product",
+      "value": "Windchill and FlexPLM"
+    },
+    {
+      "id": "product:Windows",
+      "kind": "product",
+      "value": "Windows"
+    },
+    {
+      "id": "product:Windows Ancillary Function Driver for WinSock",
+      "kind": "product",
+      "value": "Windows Ancillary Function Driver for WinSock"
+    },
+    {
+      "id": "product:Zimbra Collaboration Suite (ZCS)",
+      "kind": "product",
+      "value": "Zimbra Collaboration Suite (ZCS)"
+    },
+    {
+      "id": "product:iCagenda",
+      "kind": "product",
+      "value": "iCagenda"
+    },
+    {
+      "id": "product:macOS",
+      "kind": "product",
+      "value": "macOS"
+    },
+    {
+      "id": "product:ownCloud",
+      "kind": "product",
+      "value": "ownCloud"
+    },
+    {
+      "id": "vendor:Acronis",
+      "kind": "vendor",
+      "value": "Acronis"
+    },
+    {
+      "id": "vendor:Adobe",
+      "kind": "vendor",
+      "value": "Adobe"
+    },
+    {
+      "id": "vendor:Ajax.NET Professional",
+      "kind": "vendor",
+      "value": "Ajax.NET Professional"
+    },
+    {
+      "id": "vendor:Apache",
+      "kind": "vendor",
+      "value": "Apache"
+    },
+    {
+      "id": "vendor:Apple",
+      "kind": "vendor",
+      "value": "Apple"
+    },
+    {
+      "id": "vendor:Arista",
+      "kind": "vendor",
+      "value": "Arista"
+    },
+    {
+      "id": "vendor:Balbooa",
+      "kind": "vendor",
+      "value": "Balbooa"
+    },
+    {
+      "id": "vendor:BerriAI",
+      "kind": "vendor",
+      "value": "BerriAI"
+    },
+    {
+      "id": "vendor:Broadcom",
+      "kind": "vendor",
+      "value": "Broadcom"
+    },
+    {
+      "id": "vendor:Check Point",
+      "kind": "vendor",
+      "value": "Check Point"
+    },
+    {
+      "id": "vendor:Cisco",
+      "kind": "vendor",
+      "value": "Cisco"
+    },
+    {
+      "id": "vendor:Citrix",
+      "kind": "vendor",
+      "value": "Citrix"
+    },
+    {
+      "id": "vendor:ConnectWise",
+      "kind": "vendor",
+      "value": "ConnectWise"
+    },
+    {
+      "id": "vendor:DD-WRT",
+      "kind": "vendor",
+      "value": "DD-WRT"
+    },
+    {
+      "id": "vendor:F5",
+      "kind": "vendor",
+      "value": "F5"
+    },
+    {
+      "id": "vendor:Fortinet",
+      "kind": "vendor",
+      "value": "Fortinet"
+    },
+    {
+      "id": "vendor:GitLab",
+      "kind": "vendor",
+      "value": "GitLab"
+    },
+    {
+      "id": "vendor:Gitea",
+      "kind": "vendor",
+      "value": "Gitea"
+    },
+    {
+      "id": "vendor:Google",
+      "kind": "vendor",
+      "value": "Google"
+    },
+    {
+      "id": "vendor:IBM",
+      "kind": "vendor",
+      "value": "IBM"
+    },
+    {
+      "id": "vendor:JFrog",
+      "kind": "vendor",
+      "value": "JFrog"
+    },
+    {
+      "id": "vendor:JetBrains",
+      "kind": "vendor",
+      "value": "JetBrains"
+    },
+    {
+      "id": "vendor:JoomShaper",
+      "kind": "vendor",
+      "value": "JoomShaper"
+    },
+    {
+      "id": "vendor:Joomlack",
+      "kind": "vendor",
+      "value": "Joomlack"
+    },
+    {
+      "id": "vendor:KNX Association",
+      "kind": "vendor",
+      "value": "KNX Association"
+    },
+    {
+      "id": "vendor:Kestra",
+      "kind": "vendor",
+      "value": "Kestra"
+    },
+    {
+      "id": "vendor:Kludex",
+      "kind": "vendor",
+      "value": "Kludex"
+    },
+    {
+      "id": "vendor:Langflow",
+      "kind": "vendor",
+      "value": "Langflow"
+    },
+    {
+      "id": "vendor:Lantronix",
+      "kind": "vendor",
+      "value": "Lantronix"
+    },
+    {
+      "id": "vendor:Linux",
+      "kind": "vendor",
+      "value": "Linux"
+    },
+    {
+      "id": "vendor:MLflow",
+      "kind": "vendor",
+      "value": "MLflow"
+    },
+    {
+      "id": "vendor:Metabase",
+      "kind": "vendor",
+      "value": "Metabase"
+    },
+    {
+      "id": "vendor:Microsoft",
+      "kind": "vendor",
+      "value": "Microsoft"
+    },
+    {
+      "id": "vendor:MikroTik",
+      "kind": "vendor",
+      "value": "MikroTik"
+    },
+    {
+      "id": "vendor:N-able",
+      "kind": "vendor",
+      "value": "N-able"
+    },
+    {
+      "id": "vendor:Oracle",
+      "kind": "vendor",
+      "value": "Oracle"
+    },
+    {
+      "id": "vendor:PTC",
+      "kind": "vendor",
+      "value": "PTC"
+    },
+    {
+      "id": "vendor:PaperCut",
+      "kind": "vendor",
+      "value": "PaperCut"
+    },
+    {
+      "id": "vendor:Progress",
+      "kind": "vendor",
+      "value": "Progress"
+    },
+    {
+      "id": "vendor:Ray-Project",
+      "kind": "vendor",
+      "value": "Ray-Project"
+    },
+    {
+      "id": "vendor:Red Hat",
+      "kind": "vendor",
+      "value": "Red Hat"
+    },
+    {
+      "id": "vendor:Sangoma",
+      "kind": "vendor",
+      "value": "Sangoma"
+    },
+    {
+      "id": "vendor:SimpleHelp",
+      "kind": "vendor",
+      "value": "SimpleHelp"
+    },
+    {
+      "id": "vendor:SonicWall",
+      "kind": "vendor",
+      "value": "SonicWall"
+    },
+    {
+      "id": "vendor:Synacor",
+      "kind": "vendor",
+      "value": "Synacor"
+    },
+    {
+      "id": "vendor:TrueConf",
+      "kind": "vendor",
+      "value": "TrueConf"
+    },
+    {
+      "id": "vendor:WSO2",
+      "kind": "vendor",
+      "value": "WSO2"
+    },
+    {
+      "id": "vendor:WordPress",
+      "kind": "vendor",
+      "value": "WordPress"
+    },
+    {
+      "id": "vendor:Zyxel",
+      "kind": "vendor",
+      "value": "Zyxel"
+    },
+    {
+      "id": "vendor:iCagenda",
+      "kind": "vendor",
+      "value": "iCagenda"
+    },
+    {
+      "id": "vendor:ownCloud",
+      "kind": "vendor",
+      "value": "ownCloud"
+    }
+  ],
+  "schema": "edge.value.relationships.v0.1",
+  "semantics": "explicit co-occurrence only; association is not causation"
+}
