@@ -6,7 +6,7 @@ This artifact is for measurement, not human attention.
 import json
 from pathlib import Path
 from value.bridge import derive
-from value.engine import evaluate
+from value.engine import evaluate, DEFAULT_THRESHOLD
 
 
 def baselines(observations, budget=10):
@@ -26,6 +26,7 @@ def freeze(snapshot, generated_at=None, budget=10):
     observations=snapshot.get("observations",[])
     candidates=[derive(o)[0] for o in observations]
     scored=evaluate(candidates)
+    value_selected=[x["id"] for x in scored if x["value_score"] >= DEFAULT_THRESHOLD][:budget]
     return {
         "schema":"edge.value.lab.freeze.v0.1",
         "generated_at":generated_at or snapshot.get("generated_at"),
@@ -34,6 +35,8 @@ def freeze(snapshot, generated_at=None, budget=10):
         "attention_budget":budget,
         "candidate_count":len(scored),
         "candidates":scored,
+        "value_selected":value_selected,
+        "value_threshold":DEFAULT_THRESHOLD,
         "baselines":baselines(observations,budget),
         "semantics":"prospective measurement artifact; not an attention queue or instruction",
         "rules":{
