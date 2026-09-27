@@ -22,3 +22,5 @@ jobs:
           python-version: "3.12"
       - name: Test VALUE invariants
         run: python -m unittest discover -s tests -v
+      - name: Build VALUE queue from frozen RADAR snapshot
+        run: python -m value.bridge --input radar/data/latest.json --output /tmp/value-latest.json
