@@ -14,11 +14,16 @@ class ValueLabTests(unittest.TestCase):
         self.assertEqual(lab["candidate_count"],2)
         self.assertEqual(len(lab["candidates"]),2)
         self.assertTrue(lab["rules"]["prospective_only"])
+        self.assertIn("value_selected",lab)
 
     def test_baselines_are_deterministic_and_bounded(self):
         lab=freeze(self.snapshot(),budget=1)
         self.assertEqual(len(lab["baselines"]["newest_first"]),1)
         self.assertEqual(lab["baselines"]["newest_first"][0],"B:2")
+
+    def test_silence_is_preserved_as_value_policy(self):
+        lab=freeze({"schema":"edge.radar.snapshot.v1","observations":[{"id":"1","source":"A","title":"quiet","change":"same","relevance":0,"data":{}}]})
+        self.assertEqual(lab["value_selected"],[])
 
     def test_lab_is_not_attention_queue(self):
         self.assertIn("not an attention queue",freeze(self.snapshot())["semantics"])
