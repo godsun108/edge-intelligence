@@ -81,16 +81,20 @@ def score(candidate: Candidate) -> Dict:
     }
 
 
+def evaluate(candidates: Iterable[Candidate]) -> List[Dict]:
+    return sorted(
+        (score(candidate) for candidate in candidates),
+        key=lambda item: (-item["value_score"], item["id"]),
+    )
+
+
 def rank(candidates: Iterable[Candidate], threshold: float = DEFAULT_THRESHOLD, max_items: int = DEFAULT_ATTENTION_BUDGET) -> Dict:
     threshold = float(threshold)
     if not 0.0 <= threshold <= 100.0:
         raise ValueError("threshold must be between 0 and 100")
     if max_items < 1:
         raise ValueError("max_items must be at least 1")
-    ranked: List[Dict] = sorted(
-        (score(candidate) for candidate in candidates),
-        key=lambda item: (-item["value_score"], item["id"]),
-    )
+    ranked: List[Dict] = evaluate(candidates)
     eligible = [item for item in ranked if item["value_score"] >= threshold]
     surfaced = eligible[:max_items]
     return {
