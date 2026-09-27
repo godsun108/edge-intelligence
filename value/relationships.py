@@ -50,6 +50,21 @@ def build(snapshot):
     }
 
 
+def edge_keys(graph):
+    return {(e["left"],e["right"]) for e in graph.get("edges",[])}
+
+
+def diff(previous,current):
+    old=edge_keys(previous)
+    fresh=[e for e in current.get("edges",[]) if (e["left"],e["right"]) not in old]
+    return {
+        "schema":"edge.value.relationship-diff.v0.1",
+        "semantics":"new explicit co-occurrence since prior graph; not evidence of causality or importance",
+        "new_edges":fresh,
+        "new_edge_count":len(fresh),
+    }
+
+
 def main():
     snapshot=json.loads(Path("radar/data/latest.json").read_text())
     out=Path("value/data/relationships.json")
