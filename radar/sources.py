@@ -79,3 +79,32 @@ def normalize_nvd(payload, retrieved_at, limit=100):
             },
         })
     return out
+
+FEDERAL_REGISTER_URL = "https://www.federalregister.gov/api/v1/documents.json?per_page=100&order=newest"
+
+
+def normalize_federal_register(payload, retrieved_at, limit=100):
+    out=[]
+    for d in (payload.get("results") or [])[:limit]:
+        number=d.get("document_number")
+        title=d.get("title")
+        if not number or not title:
+            continue
+        agencies=[a.get("name") for a in (d.get("agencies") or []) if a.get("name")]
+        out.append({
+            "id":number,
+            "source":"Federal Register",
+            "title":title,
+            "url":d.get("html_url") or d.get("pdf_url") or "",
+            "observed_at":d.get("publication_date"),
+            "retrieved_at":retrieved_at,
+            "tags":["regulation","public policy",*(agencies[:4])],
+            "data":{
+                "document_number":number,
+                "type":d.get("type"),
+                "publication_date":d.get("publication_date"),
+                "agencies":agencies,
+                "abstract":d.get("abstract"),
+            },
+        })
+    return out
