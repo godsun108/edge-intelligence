@@ -86,3 +86,16 @@ The attention queue surfaces at most 10 items by default. Additional above-thres
 Corroboration v0.1 links only literal stable identifiers (currently CVE IDs) and counts independent sources. It does not infer semantic equivalence and does not yet boost VALUE scores.
 
 Outcome records preserve the original score and VALUE version. Calibration is descriptive and does not prove that a surfaced item caused a better decision.
+
+
+## v0.3 — relationship intelligence and independent eyes
+
+v0.3 adds an explicit relationship graph and two independent authoritative source families: NIST NVD vulnerability records and Federal Register public records.
+
+Relationship intelligence remains evidence-first. Nodes and edges are created only from identifiers or fields literally present in normalized observations. An edge means explicit co-occurrence, **not causality**. Novel-edge detection means only that a relationship was absent from the prior preserved graph; it does not automatically increase VALUE score.
+
+Independent-source corroboration remains separate from relationship discovery. Multiple records from one source lineage do not become independent evidence through repetition.
+
+NVD is treated as vulnerability analysis/context, not proof of exploitation or local applicability. Federal Register records currently receive generic conservative VALUE semantics; the system does not infer personal, electoral, or political action from publication alone.
+
+The live source surface now includes USGS, Grants.gov, NASA EONET, CISA KEV, NIST NVD, and Federal Register. New source families enter as baseline so historical catalogs cannot masquerade as breaking information.
