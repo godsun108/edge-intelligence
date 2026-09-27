@@ -99,3 +99,14 @@ Independent-source corroboration remains separate from relationship discovery. M
 NVD is treated as vulnerability analysis/context, not proof of exploitation or local applicability. Federal Register records currently receive generic conservative VALUE semantics; the system does not infer personal, electoral, or political action from publication alone.
 
 The live source surface now includes USGS, Grants.gov, NASA EONET, CISA KEV, NIST NVD, and Federal Register. New source families enter as baseline so historical catalogs cannot masquerade as breaking information.
+
+
+## v0.4 — The Laboratory
+
+VALUE is now evaluated prospectively rather than merely admired retrospectively. Each hourly RADAR cycle freezes the complete candidate score table in `value/data/lab-latest.json`; Git history preserves prior freezes. This measurement artifact is separate from the bounded human attention queue.
+
+The laboratory records VALUE's **actual thresholded selections**, including zero selections, so silence competes honestly against alerting strategies. Deliberately simple baselines currently include newest-first, source-order, and a deterministic control, each under the same attention budget.
+
+Rules are frozen in the artifact: prospective only; no retroactive score rewrite; no final-test tuning; silence is measured. Outcome report cards remain descriptive and declare no method superior. With zero assessed outcomes the correct laboratory state is **INSUFFICIENT_OUTCOMES**.
+
+The complete candidate table exists so future outcome labeling can measure false negatives as well as false positives without exposing every low-value candidate to the human interface.
