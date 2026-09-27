@@ -127,3 +127,20 @@ async function syncRadar(){try{const r=await fetch('radar/data/briefing.json?'+D
 function tick(){const c=$('#clock');if(c)c.textContent=new Date().toISOString().replace('T',' · ').slice(0,21)+' UTC'}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-focus]');if(b){const x=senseLog.find(y=>y.id===b.dataset.focus);if(x)showMemoryAction('related',x)}});
 tick();setInterval(tick,1000);renderSense();renderMemory();showView('radar');syncRadar();syncCandidates();setInterval(syncRadar,300000);setInterval(syncCandidates,300000);
+
+async function syncValue(){
+ const el=$('#value-status');if(!el)return;
+ try{
+  const r=await fetch('value/data/latest.json?'+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('value feed');
+  const v=await r.json();
+  if(v.schema!=='edge.value.queue.v0.1')throw Error('value schema');
+  const n=Array.isArray(v.items)?v.items.length:0;
+  el.classList.toggle('signal',v.state==='SIGNAL');
+  el.innerHTML='<span>EDGE // VALUE</span><strong>'+esc(v.state==='SIGNAL'?'SIGNAL · '+n:'NO SIGNAL')+'</strong><small>'+esc(v.evaluated||0)+' OBSERVATIONS · ATTENTION BUDGET '+esc(v.attention_budget||10)+'</small>';
+ }catch{
+  el.classList.remove('signal');
+  el.innerHTML='<span>EDGE // VALUE</span><strong>STATUS UNAVAILABLE</strong><small>NO SIGNAL IS BEING FABRICATED.</small>';
+ }
+}
+syncValue();setInterval(syncValue,300000);
