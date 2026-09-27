@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python radar/ingest.py
+      - run: python -m radar.ingest
       - name: Derive EDGE VALUE attention queue
         run: python -m value.bridge --input radar/data/latest.json --output value/data/latest.json
       - name: Build explicit corroboration graph
