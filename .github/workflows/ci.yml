@@ -24,3 +24,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Build VALUE queue from frozen RADAR snapshot
         run: python -m value.bridge --input radar/data/latest.json --output /tmp/value-latest.json
+      - name: Build explicit corroboration graph
+        run: python -m value.corroboration
