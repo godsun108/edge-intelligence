@@ -10,7 +10,7 @@ from pathlib import Path
 
 from value.engine import Candidate, rank
 
-PRIMARY_SOURCES = {"USGS", "Grants.gov", "NASA EONET"}
+PRIMARY_SOURCES = {"USGS", "Grants.gov", "NASA EONET", "CISA KEV"}
 
 
 def clamp(x):
@@ -44,6 +44,9 @@ def derive(observation, now=None):
             reasons["consequence"] = [f"earthquake magnitude={mag}; bounded heuristic, not impact estimate"]
         else:
             reasons["consequence"] = ["earthquake magnitude unavailable"]
+    elif source == "CISA KEV":
+        consequence = 0.75
+        reasons["consequence"] = ["CISA catalog states exploitation in the wild; local applicability not inferred"]
     else:
         reasons["consequence"] = ["no domain consequence adapter; conservative default"]
 
@@ -67,6 +70,18 @@ def derive(observation, now=None):
         else:
             reasons["actionability"] = ["eligibility/action unknown"]
             reasons["time_advantage"] = ["usable close-date window unavailable"]
+    elif source == "CISA KEV":
+        due = data.get("dueDate")
+        days = None
+        if due:
+            try:
+                days = (dt.datetime.strptime(due, "%Y-%m-%d").date() - now.date()).days
+            except ValueError:
+                pass
+        actionability = 0.30
+        time_advantage = 0.85 if days is not None and 0 <= days <= 7 else (0.60 if days is not None and days <= 30 else 0.35)
+        reasons["actionability"] = ["CISA publishes required remediation action; asset applicability not inferred"]
+        reasons["time_advantage"] = [f"{days} days until CISA due date"] if days is not None else ["CISA due-date window unavailable"]
     else:
         reasons["actionability"] = ["no lawful user action inferred from observation alone"]
         reasons["time_advantage"] = ["no domain-specific decision window established"]
