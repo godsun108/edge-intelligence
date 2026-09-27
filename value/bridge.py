@@ -10,7 +10,7 @@ from pathlib import Path
 
 from value.engine import Candidate, rank
 
-PRIMARY_SOURCES = {"USGS", "Grants.gov", "NASA EONET", "CISA KEV"}
+PRIMARY_SOURCES = {"USGS", "Grants.gov", "NASA EONET", "CISA KEV", "NIST NVD"}
 
 
 def clamp(x):
@@ -44,6 +44,9 @@ def derive(observation, now=None):
             reasons["consequence"] = [f"earthquake magnitude={mag}; bounded heuristic, not impact estimate"]
         else:
             reasons["consequence"] = ["earthquake magnitude unavailable"]
+    elif source == "NIST NVD":
+        consequence = 0.35
+        reasons["consequence"] = ["NVD provides vulnerability analysis/context; exploitation and local applicability not inferred"]
     elif source == "CISA KEV":
         consequence = 0.75
         reasons["consequence"] = ["CISA catalog states exploitation in the wild; local applicability not inferred"]
@@ -70,6 +73,11 @@ def derive(observation, now=None):
         else:
             reasons["actionability"] = ["eligibility/action unknown"]
             reasons["time_advantage"] = ["usable close-date window unavailable"]
+    elif source == "NIST NVD":
+        actionability = 0.15
+        time_advantage = 0.20
+        reasons["actionability"] = ["NVD record may support investigation; affected local assets not inferred"]
+        reasons["time_advantage"] = ["no exploitation or remediation deadline inferred from NVD record alone"]
     elif source == "CISA KEV":
         due = data.get("dueDate")
         days = None
