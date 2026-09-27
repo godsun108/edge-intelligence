@@ -6,6 +6,7 @@ EDGE is a private intelligence-console architecture for turning changing informa
 
 ## Modules
 - RADAR — discovery, monitoring, rules, change detection
+- VALUE — inspectable expected decision-value prioritization before information decays
 - SAVANT — evidence-oriented research
 - LEDGER / ASSETS — resources and obligations
 - TIME MACHINE / MEMORY — deliberate searchable history
@@ -63,3 +64,7 @@ SAVANT v1.2 adds independent checkpoint-file verification and, when the matching
 
 ## EDGE v2.5 — CAPITAL + Quantum Intelligence
 CAPITAL v0.1 adds a local-first lawful liquidity ledger that strictly separates pipeline capital from user-confirmed available cash. EDGE also establishes a quantum-intelligence contract: quantum simulation, quantum-inspired, hybrid and real-hardware methods must be labeled accurately and benchmarked against classical baselines; no mystical certainty or guaranteed financial advantage claims.
+
+
+## EDGE // VALUE v0.1
+VALUE adds a deterministic attention-allocation layer after observation/evidence and before human judgment. It scores explicit relevance, consequence, actionability, novelty, reliability and time advantage while penalizing uncertainty, noise, duplication and manipulation risk. A score is only an attention priority; it is not truth, probability, expected profit or an instruction to act. NO_SIGNAL is a valid and desirable output when nothing clears the threshold. See `value/README.md`.
