@@ -26,3 +26,5 @@ jobs:
         run: python -m value.bridge --input radar/data/latest.json --output /tmp/value-latest.json
       - name: Build explicit corroboration graph
         run: python -m value.corroboration
+      - name: Build explicit relationship graph
+        run: python -m value.relationships
