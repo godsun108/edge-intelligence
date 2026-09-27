@@ -4,7 +4,7 @@ from value.lab_report import report
 
 class LabReportTests(unittest.TestCase):
     def freeze(self):
-        return {"candidate_count":2,"attention_budget":1,"candidates":[{"id":"A:1"},{"id":"B:2"}],"baselines":{"newest_first":["B:2"]}}
+        return {"candidate_count":2,"attention_budget":1,"value_selected":["A:1"],"candidates":[{"id":"A:1"},{"id":"B:2"}],"baselines":{"newest_first":["B:2"]}}
 
     def test_no_outcomes_means_insufficient_not_winner(self):
         r=report(self.freeze(),[])
