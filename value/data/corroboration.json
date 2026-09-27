@@ -2,6 +2,1718 @@
   "groups": [
     {
       "corroborated": false,
+      "identifier": "CVE-1999-0066",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0066",
+          "title": "CVE-1999-0066 \u2014 AnyForm CGI remote execution.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0066"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0077",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0077",
+          "title": "CVE-1999-0077 \u2014 Predictable TCP sequence numbers allow spoofing.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0077"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0082",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0082",
+          "title": "CVE-1999-0082 \u2014 CWD ~root command in ftpd allows root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0082"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0084",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0084",
+          "title": "CVE-1999-0084 \u2014 Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0084"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0095",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0095",
+          "title": "CVE-1999-0095 \u2014 The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0095"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0113",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0113",
+          "title": "CVE-1999-0113 \u2014 Some implementations of rlogin allow root access if given a -froot parameter.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0113"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0117",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0117",
+          "title": "CVE-1999-0117 \u2014 AIX passwd allows local users to gain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0117"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0120",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0120",
+          "title": "CVE-1999-0120 \u2014 Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than root.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0120"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0124",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0124",
+          "title": "CVE-1999-0124 \u2014 Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0124"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0145",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0145",
+          "title": "CVE-1999-0145 \u2014 Sendmail WIZ command enabled, allowing root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0145"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0151",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0151",
+          "title": "CVE-1999-0151 \u2014 The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0151"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0155",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0155",
+          "title": "CVE-1999-0155 \u2014 The ghostscript command with the -dSAFER option allows remote attackers to execute commands.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0155"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0161",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0161",
+          "title": "CVE-1999-0161 \u2014 In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0161"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0164",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0164",
+          "title": "CVE-1999-0164 \u2014 A race condition in the Solaris ps command allows an attacker to overwrite critical files.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0164"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0167",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0167",
+          "title": "CVE-1999-0167 \u2014 In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0167"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0168",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0168",
+          "title": "CVE-1999-0168 \u2014 The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that woul",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0168"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0172",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0172",
+          "title": "CVE-1999-0172 \u2014 FormMail CGI program allows remote execution of commands.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0172"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0181",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0181",
+          "title": "CVE-1999-0181 \u2014 The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0181"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0203",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0203",
+          "title": "CVE-1999-0203 \u2014 In Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" address and an invalid \"rcpt to\" address that would cause the mail to bounce to a pro",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0203"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0207",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0207",
+          "title": "CVE-1999-0207 \u2014 Remote attacker can execute commands through Majordomo using the Reply-To field and a \"lists\" command.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0207"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0209",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0209",
+          "title": "CVE-1999-0209 \u2014 The SunView (SunTools) selection_svc facility allows remote users to read files.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0209"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0211",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0211",
+          "title": "CVE-1999-0211 \u2014 Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0211"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0214",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0214",
+          "title": "CVE-1999-0214 \u2014 Denial of service by sending forged ICMP unreachable packets.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0214"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0232",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0232",
+          "title": "CVE-1999-0232 \u2014 Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0232"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0235",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0235",
+          "title": "CVE-1999-0235 \u2014 Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0235"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0242",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0242",
+          "title": "CVE-1999-0242 \u2014 Remote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0242"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0245",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0245",
+          "title": "CVE-1999-0245 \u2014 Some configurations of NIS+ in Linux allowed attackers to log in as the user \"+\".",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0245"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0312",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0312",
+          "title": "CVE-1999-0312 \u2014 HP ypbind allows attackers with root privileges to modify NIS data.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0312"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0334",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0334",
+          "title": "CVE-1999-0334 \u2014 In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0334"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0337",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0337",
+          "title": "CVE-1999-0337 \u2014 AIX batch queue (bsh) allows local and remote users to gain additional privileges when network printing is enabled.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0337"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0338",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0338",
+          "title": "CVE-1999-0338 \u2014 AIX Licensed Program Product performance tools allow local users to gain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0338"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0423",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0423",
+          "title": "CVE-1999-0423 \u2014 Vulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0423"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0498",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0498",
+          "title": "CVE-1999-0498 \u2014 TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0498"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-0627",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-0627",
+          "title": "CVE-1999-0627 \u2014 The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0627"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1021",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1021",
+          "title": "CVE-1999-1021 \u2014 NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS ",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1021"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1022",
+      "independent_source_count": 1,
+      "record_count": 2,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1022",
+          "title": "CVE-1999-1022 \u2014 serial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variable to find and execute the ls program, which allows local users to gain root priv",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1022"
+        },
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1310",
+          "title": "CVE-1999-1310 \u2014 Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candidate is a duplicate of CVE-1999-1022.  Notes: All CVE users should reference CVE-1",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1310"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1032",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1032",
+          "title": "CVE-1999-1032 \u2014 Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1032"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1034",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1034",
+          "title": "CVE-1999-1034 \u2014 Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1034"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1056",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1056",
+          "title": "CVE-1999-1056 \u2014 Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1056"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1057",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1057",
+          "title": "CVE-1999-1057 \u2014 VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1057"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1059",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1059",
+          "title": "CVE-1999-1059 \u2014 Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1059"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1080",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1080",
+          "title": "CVE-1999-1080 \u2014 rmmount in SunOS 5.7 may mount file systems without the nosuid flag set, contrary to the documentation and its use in previous versions of SunOS, which could allow local users with",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1080"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1090",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1090",
+          "title": "CVE-1999-1090 \u2014 The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows remote attackers to read and modi",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1090"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1098",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1098",
+          "title": "CVE-1999-1098 \u2014 Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1098"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1115",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1115",
+          "title": "CVE-1999-1115 \u2014 Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh).",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1115"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1119",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1119",
+          "title": "CVE-1999-1119 \u2014 FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1119"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1121",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1121",
+          "title": "CVE-1999-1121 \u2014 The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1121"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1122",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1122",
+          "title": "CVE-1999-1122 \u2014 Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1122"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1123",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1123",
+          "title": "CVE-1999-1123 \u2014 The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1123"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1134",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1134",
+          "title": "CVE-1999-1134 \u2014 Vulnerability in Vue 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4038, PHSS_4055, and PHSS_4066.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1134"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1135",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1135",
+          "title": "CVE-1999-1135 \u2014 Vulnerability in VUE 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4994 and PHSS_5438.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1135"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1137",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1137",
+          "title": "CVE-1999-1137 \u2014 The permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any local user to read from the device, which could be used by an attacker to monitor c",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1137"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1138",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1138",
+          "title": "CVE-1999-1138 \u2014 SCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp for the dos user, and (2) /usr/tmp for the asg user, which allows other users to g",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1138"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1142",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1142",
+          "title": "CVE-1999-1142 \u2014 SunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, ",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1142"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1146",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1146",
+          "title": "CVE-1999-1146 \u2014 Vulnerability in Glance and gpm programs in GlancePlus for HP-UX 9.x and earlier allows local users to access arbitrary files and gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1146"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1162",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1162",
+          "title": "CVE-1999-1162 \u2014 Vulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by preventing users from being able to log into the system.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1162"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1193",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1193",
+          "title": "CVE-1999-1193 \u2014 The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1193"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1194",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1194",
+          "title": "CVE-1999-1194 \u2014 chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1194"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1197",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1197",
+          "title": "CVE-1999-1197 \u2014 TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1197"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1198",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1198",
+          "title": "CVE-1999-1198 \u2014 BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1198"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1211",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1211",
+          "title": "CVE-1999-1211 \u2014 Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1211"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1212",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1212",
+          "title": "CVE-1999-1212 \u2014 Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1212"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1215",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1215",
+          "title": "CVE-1999-1215 \u2014 LOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password information to disk, which could allow local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1215"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1216",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1216",
+          "title": "CVE-1999-1216 \u2014 Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the \"no ip source-ro",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1216"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1218",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1218",
+          "title": "CVE-1999-1218 \u2014 Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1218"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1219",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1219",
+          "title": "CVE-1999-1219 \u2014 Vulnerability in sgihelp in the SGI help system and print manager in IRIX 5.2 and earlier allows local users to gain root privileges, possibly through the clogin command.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1219"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1238",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1238",
+          "title": "CVE-1999-1238 \u2014 Vulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1238"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1239",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1239",
+          "title": "CVE-1999-1239 \u2014 HP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow local users to access the X display even when they have not explicitly been aut",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1239"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1242",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1242",
+          "title": "CVE-1999-1242 \u2014 Vulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1242"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1243",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1243",
+          "title": "CVE-1999-1243 \u2014 SGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for arbitrary files and gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1243"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1248",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1248",
+          "title": "CVE-1999-1248 \u2014 Vulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1248"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1258",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1258",
+          "title": "CVE-1999-1258 \u2014 rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1258"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1302",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1302",
+          "title": "CVE-1999-1302 \u2014 Unspecified vulnerability in pt_chmod in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1302"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1303",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1303",
+          "title": "CVE-1999-1303 \u2014 Vulnerability in prwarn in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1303"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1304",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1304",
+          "title": "CVE-1999-1304 \u2014 Vulnerability in login in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1304"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1305",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1305",
+          "title": "CVE-1999-1305 \u2014 Vulnerability in \"at\" program in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1305"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1306",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1306",
+          "title": "CVE-1999-1306 \u2014 Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the \"established\" keyword is set, which could allow attackers to ",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1306"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1310",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1310",
+          "title": "CVE-1999-1310 \u2014 Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candidate is a duplicate of CVE-1999-1022.  Notes: All CVE users should reference CVE-1",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1310"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1312",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1312",
+          "title": "CVE-1999-1312 \u2014 Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1312"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1318",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1318",
+          "title": "CVE-1999-1318 \u2014 /usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directory (.), which allows local users to gain privileges via Trojan horse programs.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1318"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1388",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1388",
+          "title": "CVE-1999-1388 \u2014 passwd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -F command line argument.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1388"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1391",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1391",
+          "title": "CVE-1999-1391 \u2014 Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1391"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1392",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1392",
+          "title": "CVE-1999-1392 \u2014 Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1392"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1395",
+      "independent_source_count": 1,
+      "record_count": 2,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1395",
+          "title": "CVE-1999-1395 \u2014 Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1395"
+        },
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1056",
+          "title": "CVE-1999-1056 \u2014 Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1056"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1396",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1396",
+          "title": "CVE-1999-1396 \u2014 Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1396"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1415",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1415",
+          "title": "CVE-1999-1415 \u2014 Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1415"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1438",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1438",
+          "title": "CVE-1999-1438 \u2014 Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1438"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1466",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1466",
+          "title": "CVE-1999-1466 \u2014 Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP ",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1466"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1467",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1467",
+          "title": "CVE-1999-1467 \u2014 Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1467"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1468",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1468",
+          "title": "CVE-1999-1468 \u2014 rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1468"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1471",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1471",
+          "title": "CVE-1999-1471 \u2014 Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1471"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1493",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1493",
+          "title": "CVE-1999-1493 \u2014 Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1493"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1494",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1494",
+          "title": "CVE-1999-1494 \u2014 colorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files via the -text argument.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1494"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1506",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1506",
+          "title": "CVE-1999-1506 \u2014 Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1506"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1507",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1507",
+          "title": "CVE-1999-1507 \u2014 Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1507"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1552",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1552",
+          "title": "CVE-1999-1552 \u2014 dpsexec (DPS Server) when running under XDM in IBM AIX 3.2.5 and earlier does not properly check privileges, which allows local users to overwrite arbitrary files and gain privileg",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1552"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1554",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1554",
+          "title": "CVE-1999-1554 \u2014 /usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1554"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-1999-1580",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-1999-1580",
+          "title": "CVE-1999-1580 \u2014 SunOS sendmail 5.59 through 5.65 uses popen to process a forwarding host argument, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) ",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1580"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2000-0388",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-2000-0388",
+          "title": "CVE-2000-0388 \u2014 Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0388"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2000-0508",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "NIST NVD",
+          "source_id": "CVE-2000-0508",
+          "title": "CVE-2000-0508 \u2014 rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0508"
+        }
+      ],
+      "sources": [
+        "NIST NVD"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2008-4128",
       "independent_source_count": 1,
       "record_count": 1,
