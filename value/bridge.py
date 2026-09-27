@@ -30,7 +30,7 @@ def derive(observation, now=None):
     relevance = clamp(radar_relevance / 50.0)
     reasons["relevance"] = ["mapped from explicit RADAR rule score"] if radar_relevance else ["no explicit RADAR relevance rule matched"]
 
-    novelty = {"new": 1.0, "changed": 0.75, "same": 0.05}.get(change, 0.25)
+    novelty = {"new": 1.0, "changed": 0.75, "baseline": 0.05, "same": 0.05}.get(change, 0.25)
     reasons["novelty"] = [f"RADAR change={change}"]
 
     reliability = 0.85 if source in PRIMARY_SOURCES else 0.35
@@ -88,7 +88,7 @@ def derive(observation, now=None):
 
     uncertainty = 0.10 if source in PRIMARY_SOURCES else 0.50
     noise = 0.10
-    duplication = 0.75 if change == "same" else 0.0
+    duplication = 0.75 if change in ("same", "baseline") else 0.0
     manipulation_risk = 0.05 if source in PRIMARY_SOURCES else 0.40
 
     candidate = Candidate(
