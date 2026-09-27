@@ -13,7 +13,7 @@ def report(freeze, outcomes):
       "warning":"No method is declared superior; causal decision value is not established.",
       "methods":{},
     }
-    value_ids=[x["id"] for x in freeze.get("candidates",[])[:freeze.get("attention_budget",10)]]
+    value_ids=freeze.get("value_selected",[])
     methods={"value_top_budget":value_ids,**freeze.get("baselines",{})}
     for name,ids in methods.items():
         labeled=[assessed[i] for i in ids if i in assessed]
