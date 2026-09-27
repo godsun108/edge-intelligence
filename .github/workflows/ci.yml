@@ -28,3 +28,5 @@ jobs:
         run: python -m value.corroboration
       - name: Build explicit relationship graph
         run: python -m value.relationships
+      - name: Freeze prospective VALUE laboratory state
+        run: python -m value.lab
