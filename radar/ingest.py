@@ -1,4 +1,5 @@
-import json, urllib.request, datetime, pathlib, hashlib\nUA={"User-Agent":"edge-radar/0.2"}
+import json, urllib.request, datetime, pathlib, hashlib
+UA={"User-Agent":"edge-radar/0.2"}
 def get(url):
  req=urllib.request.Request(url,headers=UA)
  with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
