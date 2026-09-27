@@ -1,5 +1,5 @@
 import json, urllib.request, datetime, pathlib, hashlib
-from radar.sources import CISA_KEV_URL, NVD_CVE_URL, normalize_cisa_kev, normalize_nvd
+from radar.sources import CISA_KEV_URL, NVD_CVE_URL, FEDERAL_REGISTER_URL, normalize_cisa_kev, normalize_nvd, normalize_federal_register
 UA={"User-Agent":"edge-radar/0.2"}
 def get(url):
  req=urllib.request.Request(url,headers=UA)
@@ -76,6 +76,12 @@ def main():
    oid=str(g.get("id") or g.get("number") or g.get("title")); title=g.get("title") or "Grant opportunity"
    o={"id":oid,"source":"Grants.gov","title":title,"url":"https://www.grants.gov/search-results-detail/"+oid,"observed_at":g.get("openDate"),"retrieved_at":now,"tags":["grant","funding opportunity",str(g.get("agencyName","")),str(g.get("oppStatus",""))],"data":{"agency":g.get("agencyName"),"agencyCode":g.get("agencyCode"),"closeDate":g.get("closeDate"),"openDate":g.get("openDate"),"number":g.get("number"),"status":g.get("oppStatus"),"aln":g.get("alnist",[])}};o["fingerprint"]=fp(o);obs.append(o)
  except Exception as ex: print("Grants.gov:",ex)
+ # Real public source #3: Federal Register
+ try:
+  fr=get(FEDERAL_REGISTER_URL)
+  for o in normalize_federal_register(fr,now):
+   o["fingerprint"]=fp(o);obs.append(o)
+ except Exception as ex: print("Federal Register:",ex)
  # Real public source #3: NIST National Vulnerability Database
  try:
   nvd=get(NVD_CVE_URL)
@@ -107,7 +113,7 @@ def main():
  for o in changed:
   o["relevance"],o["reasons"]=score(o,rules)
  changed.sort(key=lambda o:o.get("relevance",0),reverse=True)
- payload={"schema":"edge.radar.snapshot.v1","generated_at":now,"sources":["USGS","Grants.gov","NIST NVD","CISA KEV","NASA EONET"],"observations":obs,"changes":changed}
+ payload={"schema":"edge.radar.snapshot.v1","generated_at":now,"sources":["USGS","Grants.gov","Federal Register","NIST NVD","CISA KEV","NASA EONET"],"observations":obs,"changes":changed}
  p.write_text(json.dumps(payload,separators=(",",":")))
  brief=[o for o in changed if o.get("relevance",0)>0][:40]
  (root/"briefing.json").write_text(json.dumps({"generated_at":now,"items":brief},separators=(",",":")))
