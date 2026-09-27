@@ -21,10 +21,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: python radar/ingest.py
+      - name: Derive EDGE VALUE attention queue
+        run: python -m value.bridge --input radar/data/latest.json --output value/data/latest.json
       - name: Commit observation memory
         run: |
           git config user.name edge-radar
           git config user.email edge-radar@users.noreply.github.com
-          git add radar/data
+          git add radar/data value/data
           git diff --cached --quiet || git commit -m "RADAR hourly observation memory"
           git push
