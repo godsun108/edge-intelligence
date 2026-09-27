@@ -1,5 +1,5 @@
 import unittest
-from radar.sources import normalize_cisa_kev, normalize_nvd
+from radar.sources import normalize_cisa_kev, normalize_nvd, normalize_federal_register
 
 
 class SourceAdapterTests(unittest.TestCase):
@@ -31,6 +31,14 @@ class SourceAdapterTests(unittest.TestCase):
         self.assertEqual(item["source"],"NIST NVD")
         self.assertEqual(item["id"],"CVE-2099-0001")
         self.assertEqual(item["data"]["cvss"]["baseScore"],9.8)
+
+    def test_federal_register_preserves_document_provenance(self):
+        payload={"results":[{"document_number":"2099-12345","title":"Example Rule","publication_date":"2099-01-01","type":"Rule","html_url":"https://example.invalid/rule","agencies":[{"name":"Example Agency"}],"abstract":"Example"}]}
+        item=normalize_federal_register(payload,"2099-01-02T00:00:00+00:00")[0]
+        self.assertEqual(item["source"],"Federal Register")
+        self.assertEqual(item["id"],"2099-12345")
+        self.assertEqual(item["data"]["type"],"Rule")
+        self.assertIn("Example Agency",item["data"]["agencies"])
 
 
 if __name__ == "__main__":
