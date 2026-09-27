@@ -73,3 +73,16 @@ v0.1 establishes deterministic scoring and invariants. Future versions may prese
 - score/version/factor snapshot
 
 Those records can test whether VALUE actually improves attention allocation. Until then, VALUE is a hypothesis expressed as inspectable software.
+
+
+## v0.2 — eyes, corroboration, calibration
+
+v0.2 adds the first authoritative source expansion through CISA's Known Exploited Vulnerabilities catalog, explicit-identifier corroboration, append-only outcome/calibration primitives, source-baseline semantics and a hard attention budget.
+
+A newly introduced source is a **baseline**, not a burst of new events. Only subsequent records or changed fingerprints may claim RADAR novelty. VALUE treats baseline records as non-novel and duplicate-like for attention purposes.
+
+The attention queue surfaces at most 10 items by default. Additional above-threshold candidates are counted as suppressed rather than turning VALUE into a firehose.
+
+Corroboration v0.1 links only literal stable identifiers (currently CVE IDs) and counts independent sources. It does not infer semantic equivalence and does not yet boost VALUE scores.
+
+Outcome records preserve the original score and VALUE version. Calibration is descriptive and does not prove that a surfaced item caused a better decision.
