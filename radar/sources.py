@@ -33,3 +33,49 @@ def normalize_cisa_kev(payload, retrieved_at, limit=100):
             },
         })
     return out
+
+NVD_CVE_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=100"
+
+
+def _english_description(cve):
+    for d in cve.get("descriptions", []):
+        if d.get("lang") == "en":
+            return d.get("value") or ""
+    return ""
+
+
+def _cvss(cve):
+    metrics = cve.get("metrics") or {}
+    for key in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
+        rows = metrics.get(key) or []
+        if rows:
+            data = rows[0].get("cvssData") or {}
+            return {"version": data.get("version"), "baseScore": data.get("baseScore"), "baseSeverity": data.get("baseSeverity") or rows[0].get("baseSeverity")}
+    return {}
+
+
+def normalize_nvd(payload, retrieved_at, limit=100):
+    out=[]
+    for wrapper in (payload.get("vulnerabilities") or [])[:limit]:
+        cve=wrapper.get("cve") or {}
+        cid=cve.get("id")
+        if not cid:
+            continue
+        desc=_english_description(cve)
+        out.append({
+            "id":cid,
+            "source":"NIST NVD",
+            "title":f"{cid} — {desc[:180]}" if desc else cid,
+            "url":f"https://nvd.nist.gov/vuln/detail/{cid}",
+            "observed_at":cve.get("published"),
+            "retrieved_at":retrieved_at,
+            "tags":["cybersecurity","cve","nvd"],
+            "data":{
+                "cve":cid,
+                "published":cve.get("published"),
+                "lastModified":cve.get("lastModified"),
+                "vulnStatus":cve.get("vulnStatus"),
+                "cvss":_cvss(cve),
+            },
+        })
+    return out
