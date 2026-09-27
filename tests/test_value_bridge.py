@@ -65,6 +65,19 @@ class RadarValueBridgeTests(unittest.TestCase):
         self.assertIn("derivation_reasons", item)
         self.assertEqual(queue["input_schema"], "edge.radar.snapshot.v1")
 
+    def test_cisa_kev_gets_deadline_semantics_without_asset_claim(self):
+        kev = obs(
+            source="CISA KEV",
+            tags=["cybersecurity", "known exploited vulnerability"],
+            data={"dueDate": "2026-10-02", "cve": "CVE-2099-1"},
+            change="new",
+            relevance=25,
+        )
+        candidate, reasons = derive(kev, now=NOW)
+        self.assertEqual(candidate.consequence, 0.75)
+        self.assertEqual(candidate.time_advantage, 0.85)
+        self.assertTrue(any("applicability not inferred" in x for x in reasons["actionability"]))
+
 
 if __name__ == "__main__":
     unittest.main()
