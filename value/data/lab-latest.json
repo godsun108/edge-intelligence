@@ -38,7 +38,7 @@
       "CISA KEV:CVE-2025-25249"
     ]
   },
-  "candidate_count": 502,
+  "candidate_count": 501,
   "candidates": [
     {
       "factors": {
@@ -2476,29 +2476,6 @@
       "positive_signal": 0.293,
       "reliability_gate": 0.8875,
       "value_score": 19.44,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.6000000000000001,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:us7000tiqc",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.288,
-      "reliability_gate": 0.8875,
-      "value_score": 19.11,
       "version": "edge.value.v0.1"
     },
     {
@@ -11587,7 +11564,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-09-27T08:16:28.022856+00:00",
+  "generated_at": "2026-09-27T14:02:05.736832+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
