@@ -21,6 +21,7 @@ PENALTY_WEIGHTS = {
     "manipulation_risk": 0.20,
 }
 DEFAULT_THRESHOLD = 45.0
+DEFAULT_ATTENTION_BUDGET = 10
 
 
 def _unit(name: str, value: float) -> float:
@@ -80,19 +81,25 @@ def score(candidate: Candidate) -> Dict:
     }
 
 
-def rank(candidates: Iterable[Candidate], threshold: float = DEFAULT_THRESHOLD) -> Dict:
+def rank(candidates: Iterable[Candidate], threshold: float = DEFAULT_THRESHOLD, max_items: int = DEFAULT_ATTENTION_BUDGET) -> Dict:
     threshold = float(threshold)
     if not 0.0 <= threshold <= 100.0:
         raise ValueError("threshold must be between 0 and 100")
+    if max_items < 1:
+        raise ValueError("max_items must be at least 1")
     ranked: List[Dict] = sorted(
         (score(candidate) for candidate in candidates),
         key=lambda item: (-item["value_score"], item["id"]),
     )
-    surfaced = [item for item in ranked if item["value_score"] >= threshold]
+    eligible = [item for item in ranked if item["value_score"] >= threshold]
+    surfaced = eligible[:max_items]
     return {
         "schema": "edge.value.queue.v0.1",
         "threshold": threshold,
         "state": "SIGNAL" if surfaced else "NO_SIGNAL",
         "items": surfaced,
         "evaluated": len(ranked),
+        "eligible": len(eligible),
+        "suppressed_above_threshold": max(0, len(eligible) - len(surfaced)),
+        "attention_budget": max_items,
     }
