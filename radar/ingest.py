@@ -82,13 +82,14 @@ def main():
  e=get("https://eonet.gsfc.nasa.gov/api/v3/events?status=open&limit=100")
  for x in e.get("events",[]):
   cats=[c.get("title","") for c in x.get("categories",[])];o={"id":x.get("id"),"source":"NASA EONET","title":x.get("title") or "Natural event","url":x.get("link") or "","observed_at":(x.get("geometry") or [{}])[-1].get("date"),"retrieved_at":now,"tags":["earth"]+cats,"data":{"categories":cats}};o["fingerprint"]=fp(o);obs.append(o)
- root=pathlib.Path("radar/data");root.mkdir(parents=True,exist_ok=True); prev={}
+ root=pathlib.Path("radar/data");root.mkdir(parents=True,exist_ok=True); prev={}; prev_sources=set()
  p=root/"latest.json"
  if p.exists():
-  try: prev={o["source"]+":"+str(o["id"]):o.get("fingerprint") for o in json.loads(p.read_text()).get("observations",[])}
+  try:
+   old=json.loads(p.read_text()); prev={o["source"]+":"+str(o["id"]):o.get("fingerprint") for o in old.get("observations",[])}; prev_sources={o.get("source") for o in old.get("observations",[])}
   except Exception: pass
  for o in obs:
-  k=o["source"]+":"+str(o["id"]);o["change"]="new" if k not in prev else ("changed" if prev[k]!=o["fingerprint"] else "same")
+  k=o["source"]+":"+str(o["id"]);o["change"]="baseline" if o["source"] not in prev_sources else ("new" if k not in prev else ("changed" if prev[k]!=o["fingerprint"] else "same"))
  changed=[o for o in obs if o["change"]!="same"]
  rules=[]
  try: rules=json.loads(pathlib.Path("radar/rules.json").read_text()).get("rules",[])
