@@ -58,6 +58,12 @@ class ValueEngineTests(unittest.TestCase):
         result = rank([candidate("b"), candidate("a")], threshold=0)
         self.assertEqual([x["id"] for x in result["items"]], ["a", "b"])
 
+    def test_attention_budget_prevents_firehose(self):
+        result = rank([candidate(str(i)) for i in range(25)], threshold=0)
+        self.assertEqual(len(result["items"]), 10)
+        self.assertEqual(result["eligible"], 25)
+        self.assertEqual(result["suppressed_above_threshold"], 15)
+
     def test_rejects_out_of_range_inputs(self):
         with self.assertRaises(ValueError):
             score(candidate(relevance=1.1))
