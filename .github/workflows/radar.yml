@@ -1,6 +1,10 @@
 name: EDGE RADAR
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "radar/**"
+      - ".github/workflows/radar.yml"
   schedule:
     - cron: "23 * * * *"
 permissions:
