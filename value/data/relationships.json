@@ -422,36 +422,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2025-67038",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-67038"
-        }
-      ],
-      "right": "product:EDS5000",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2025-67038",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-67038"
-        }
-      ],
-      "right": "vendor:Lantronix",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2025-68686",
       "observation_count": 1,
       "observations": [
@@ -773,36 +743,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-20079"
-        }
-      ],
-      "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-20230",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20230"
-        }
-      ],
-      "right": "product:Unified Communications Manager",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-20230",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20230"
         }
       ],
       "right": "vendor:Cisco",
@@ -2882,6 +2822,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-88771",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88771"
+        }
+      ],
+      "right": "product:NetScaler",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-88771",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88771"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-88772",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88772"
+        }
+      ],
+      "right": "product:NetScaler",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-88772",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88772"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-9198",
       "observation_count": 1,
       "observations": [
@@ -3249,21 +3249,6 @@
         }
       ],
       "right": "vendor:Oracle",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:EDS5000",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-67038"
-        }
-      ],
-      "right": "vendor:Lantronix",
       "sources": [
         "CISA KEV"
       ]
@@ -3671,8 +3656,16 @@
     {
       "independent_source_count": 1,
       "left": "product:NetScaler",
-      "observation_count": 1,
+      "observation_count": 3,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88772"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88771"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-19490"
@@ -4049,21 +4042,6 @@
         }
       ],
       "right": "vendor:Apache",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Unified Communications Manager",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20230"
-        }
-      ],
-      "right": "vendor:Cisco",
       "sources": [
         "CISA KEV"
       ]
@@ -4779,11 +4757,6 @@
       "value": "CVE-2025-62593"
     },
     {
-      "id": "cve:CVE-2025-67038",
-      "kind": "cve",
-      "value": "CVE-2025-67038"
-    },
-    {
       "id": "cve:CVE-2025-68686",
       "kind": "cve",
       "value": "CVE-2025-68686"
@@ -4837,11 +4810,6 @@
       "id": "cve:CVE-2026-20079",
       "kind": "cve",
       "value": "CVE-2026-20079"
-    },
-    {
-      "id": "cve:CVE-2026-20230",
-      "kind": "cve",
-      "value": "CVE-2026-20230"
     },
     {
       "id": "cve:CVE-2026-20316",
@@ -5189,6 +5157,16 @@
       "value": "CVE-2026-87902"
     },
     {
+      "id": "cve:CVE-2026-88771",
+      "kind": "cve",
+      "value": "CVE-2026-88771"
+    },
+    {
+      "id": "cve:CVE-2026-88772",
+      "kind": "cve",
+      "value": "CVE-2026-88772"
+    },
+    {
       "id": "cve:CVE-2026-9198",
       "kind": "cve",
       "value": "CVE-2026-9198"
@@ -5277,11 +5255,6 @@
       "id": "product:E-Business Suite",
       "kind": "product",
       "value": "E-Business Suite"
-    },
-    {
-      "id": "product:EDS5000",
-      "kind": "product",
-      "value": "EDS5000"
     },
     {
       "id": "product:Forms",
@@ -5504,11 +5477,6 @@
       "value": "Tomcat"
     },
     {
-      "id": "product:Unified Communications Manager",
-      "kind": "product",
-      "value": "Unified Communications Manager"
-    },
-    {
       "id": "product:VMware vCenter",
       "kind": "product",
       "value": "VMware vCenter"
@@ -5692,11 +5660,6 @@
       "id": "vendor:Langflow",
       "kind": "vendor",
       "value": "Langflow"
-    },
-    {
-      "id": "vendor:Lantronix",
-      "kind": "vendor",
-      "value": "Lantronix"
     },
     {
       "id": "vendor:Linux",

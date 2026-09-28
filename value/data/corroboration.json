@@ -1935,23 +1935,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2025-67038",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-67038",
-          "title": "CVE-2025-67038 \u2014 Lantronix EDS5000 Code Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-67038"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2025-68686",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2131,23 +2114,6 @@
           "source_id": "CVE-2026-20079",
           "title": "CVE-2026-20079 \u2014 Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20079"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-20230",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20230",
-          "title": "CVE-2026-20230 \u2014 Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20230"
         }
       ],
       "sources": [
@@ -3321,6 +3287,40 @@
           "source_id": "CVE-2026-87902",
           "title": "CVE-2026-87902 \u2014 WordPress Core Remote File Inclusion Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-87902"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-88771",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88771",
+          "title": "CVE-2026-88771 \u2014 Citrix NetScaler Improper Input Validation Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88771"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-88772",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88772",
+          "title": "CVE-2026-88772 \u2014 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88772"
         }
       ],
       "sources": [
