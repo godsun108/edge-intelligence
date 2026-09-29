@@ -482,36 +482,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-12569",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-12569"
-        }
-      ],
-      "right": "product:Windchill and FlexPLM",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-12569",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-12569"
-        }
-      ],
-      "right": "vendor:PTC",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-15409",
       "observation_count": 1,
       "observations": [
@@ -2732,6 +2702,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-86950",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86950"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-86950",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86950"
+        }
+      ],
+      "right": "vendor:Apple",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-87491",
       "observation_count": 1,
       "observations": [
@@ -3565,6 +3565,21 @@
     {
       "independent_source_count": 1,
       "left": "product:Multiple Products",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86950"
+        }
+      ],
+      "right": "vendor:Apple",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Multiple Products",
       "observation_count": 2,
       "observations": [
         {
@@ -4076,21 +4091,6 @@
         }
       ],
       "right": "vendor:Arista",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Windchill and FlexPLM",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-12569"
-        }
-      ],
-      "right": "vendor:PTC",
       "sources": [
         "CISA KEV"
       ]
@@ -4767,11 +4767,6 @@
       "value": "CVE-2026-0770"
     },
     {
-      "id": "cve:CVE-2026-12569",
-      "kind": "cve",
-      "value": "CVE-2026-12569"
-    },
-    {
       "id": "cve:CVE-2026-15409",
       "kind": "cve",
       "value": "CVE-2026-15409"
@@ -5142,6 +5137,11 @@
       "value": "CVE-2026-86218"
     },
     {
+      "id": "cve:CVE-2026-86950",
+      "kind": "cve",
+      "value": "CVE-2026-86950"
+    },
+    {
       "id": "cve:CVE-2026-87491",
       "kind": "cve",
       "value": "CVE-2026-87491"
@@ -5487,11 +5487,6 @@
       "value": "VeloCloud Orchestrator"
     },
     {
-      "id": "product:Windchill and FlexPLM",
-      "kind": "product",
-      "value": "Windchill and FlexPLM"
-    },
-    {
       "id": "product:Windows",
       "kind": "product",
       "value": "Windows"
@@ -5695,11 +5690,6 @@
       "id": "vendor:Oracle",
       "kind": "vendor",
       "value": "Oracle"
-    },
-    {
-      "id": "vendor:PTC",
-      "kind": "vendor",
-      "value": "PTC"
     },
     {
       "id": "vendor:PaperCut",

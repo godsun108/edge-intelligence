@@ -1969,23 +1969,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-12569",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-12569",
-          "title": "CVE-2026-12569 \u2014 PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-12569"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-15409",
       "independent_source_count": 1,
       "record_count": 1,
@@ -3236,6 +3219,23 @@
           "source_id": "CVE-2026-86218",
           "title": "CVE-2026-86218 \u2014 N-able N-central Static Code Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86218"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-86950",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-86950",
+          "title": "CVE-2026-86950 \u2014 Apple Multiple Products Out-of-Bounds Write Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86950"
         }
       ],
       "sources": [
