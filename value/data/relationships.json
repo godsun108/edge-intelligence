@@ -1082,36 +1082,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-48558",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48558"
-        }
-      ],
-      "right": "product:SimpleHelp",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-48558",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48558"
-        }
-      ],
-      "right": "vendor:SimpleHelp",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-48710",
       "observation_count": 1,
       "observations": [
@@ -2252,6 +2222,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-76504",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76504"
+        }
+      ],
+      "right": "product:Catalyst SD-WAN Manager",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76504",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76504"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-8037",
       "observation_count": 1,
       "observations": [
@@ -3134,6 +3134,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Catalyst SD-WAN Manager",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76504"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Chromium V8",
       "observation_count": 2,
       "observations": [
@@ -3967,21 +3982,6 @@
         }
       ],
       "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:SimpleHelp",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48558"
-        }
-      ],
-      "right": "vendor:SimpleHelp",
       "sources": [
         "CISA KEV"
       ]
@@ -4867,11 +4867,6 @@
       "value": "CVE-2026-48282"
     },
     {
-      "id": "cve:CVE-2026-48558",
-      "kind": "cve",
-      "value": "CVE-2026-48558"
-    },
-    {
       "id": "cve:CVE-2026-48710",
       "kind": "cve",
       "value": "CVE-2026-48710"
@@ -5062,6 +5057,11 @@
       "value": "CVE-2026-76461"
     },
     {
+      "id": "cve:CVE-2026-76504",
+      "kind": "cve",
+      "value": "CVE-2026-76504"
+    },
+    {
       "id": "cve:CVE-2026-8037",
       "kind": "cve",
       "value": "CVE-2026-8037"
@@ -5220,6 +5220,11 @@
       "id": "product:Backup",
       "kind": "product",
       "value": "Backup"
+    },
+    {
+      "id": "product:Catalyst SD-WAN Manager",
+      "kind": "product",
+      "value": "Catalyst SD-WAN Manager"
     },
     {
       "id": "product:Chromium V8",
@@ -5445,11 +5450,6 @@
       "id": "product:SharePoint Server",
       "kind": "product",
       "value": "SharePoint Server"
-    },
-    {
-      "id": "product:SimpleHelp",
-      "kind": "product",
-      "value": "SimpleHelp"
     },
     {
       "id": "product:SmartConsole",
@@ -5715,11 +5715,6 @@
       "id": "vendor:Sangoma",
       "kind": "vendor",
       "value": "Sangoma"
-    },
-    {
-      "id": "vendor:SimpleHelp",
-      "kind": "vendor",
-      "value": "SimpleHelp"
     },
     {
       "id": "vendor:SonicWall",

@@ -2309,23 +2309,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-48558",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48558",
-          "title": "CVE-2026-48558 \u2014 SimpleHelp Authentication Bypass Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48558"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-48710",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2964,6 +2947,23 @@
           "source_id": "CVE-2026-76461",
           "title": "CVE-2026-76461 \u2014 Cisco Secure Email Gateway SQL Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76461"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-76504",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76504",
+          "title": "CVE-2026-76504 \u2014 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76504"
         }
       ],
       "sources": [
