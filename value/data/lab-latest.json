@@ -43,13 +43,13 @@
     {
       "factors": {
         "actionability": 0.1,
-        "consequence": 0.03750000000000009,
+        "consequence": 0.15,
         "novelty": 1.0,
-        "relevance": 0.34,
+        "relevance": 0.84,
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "USGS:uw714111952",
+      "id": "Grants.gov:358868",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.0,
@@ -58,9 +58,9 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.935,
-      "positive_signal": 0.3928,
+      "positive_signal": 0.5253,
       "reliability_gate": 0.8875,
-      "value_score": 32.6,
+      "value_score": 43.59,
       "version": "edge.value.v0.1"
     },
     {
@@ -5684,29 +5684,6 @@
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "Grants.gov:352282",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.198,
-      "reliability_gate": 0.8875,
-      "value_score": 13.14,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
       "id": "Grants.gov:352339",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -9289,6 +9266,29 @@
     {
       "factors": {
         "actionability": 0.1,
+        "consequence": 0.03750000000000009,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "USGS:uw714111952",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.1755,
+      "reliability_gate": 0.8875,
+      "value_score": 11.64,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
         "consequence": 0.15,
         "novelty": 0.05,
         "relevance": 0.0,
@@ -11587,7 +11587,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-09-30T00:31:24.551358+00:00",
+  "generated_at": "2026-09-30T06:47:35.962540+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
