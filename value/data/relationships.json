@@ -482,6 +482,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-104286",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-104286"
+        }
+      ],
+      "right": "product:FortiMail",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-104286",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-104286"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-15409",
       "observation_count": 1,
       "observations": [
@@ -986,36 +1016,6 @@
         }
       ],
       "right": "vendor:JFrog",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-45659",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-45659"
-        }
-      ],
-      "right": "product:SharePoint Server",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-45659",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-45659"
-        }
-      ],
-      "right": "vendor:Microsoft",
       "sources": [
         "CISA KEV"
       ]
@@ -3285,6 +3285,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:FortiMail",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-104286"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:FortiOS",
       "observation_count": 1,
       "observations": [
@@ -3970,15 +3985,11 @@
     {
       "independent_source_count": 1,
       "left": "product:SharePoint Server",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-56164"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-45659"
         }
       ],
       "right": "vendor:Microsoft",
@@ -4767,6 +4778,11 @@
       "value": "CVE-2026-0770"
     },
     {
+      "id": "cve:CVE-2026-104286",
+      "kind": "cve",
+      "value": "CVE-2026-104286"
+    },
+    {
       "id": "cve:CVE-2026-15409",
       "kind": "cve",
       "value": "CVE-2026-15409"
@@ -4850,11 +4866,6 @@
       "id": "cve:CVE-2026-42018",
       "kind": "cve",
       "value": "CVE-2026-42018"
-    },
-    {
-      "id": "cve:CVE-2026-45659",
-      "kind": "cve",
-      "value": "CVE-2026-45659"
     },
     {
       "id": "cve:CVE-2026-46817",
@@ -5265,6 +5276,11 @@
       "id": "product:Forms",
       "kind": "product",
       "value": "Forms"
+    },
+    {
+      "id": "product:FortiMail",
+      "kind": "product",
+      "value": "FortiMail"
     },
     {
       "id": "product:FortiOS",

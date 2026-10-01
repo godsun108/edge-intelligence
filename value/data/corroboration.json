@@ -1969,6 +1969,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-104286",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-104286",
+          "title": "CVE-2026-104286 \u2014 Fortinet FortiMail Path Traversal Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104286"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-15409",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2250,23 +2267,6 @@
           "source_id": "CVE-2026-42018",
           "title": "CVE-2026-42018 \u2014 JFrog Artifactory Improper Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-42018"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-45659",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-45659",
-          "title": "CVE-2026-45659 \u2014 Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-45659"
         }
       ],
       "sources": [
