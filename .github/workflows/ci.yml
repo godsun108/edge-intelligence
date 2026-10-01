@@ -6,13 +6,36 @@ on:
       - "value/**"
       - "tests/**"
       - ".github/workflows/ci.yml"
+      - "app.js"
   pull_request:
     paths:
       - "value/**"
       - "tests/**"
       - ".github/workflows/ci.yml"
+      - "app.js"
 
 jobs:
+  browser-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Parse browser application
+        run: node --check app.js
+      - name: Reject duplicate core function definitions
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const s=fs.readFileSync('app.js','utf8');
+          const required=['renderRadar','renderSavant','renderCapital','showView','syncRadar','syncCandidates','syncValue','tick'];
+          for(const name of required){
+            const re=new RegExp('(?:async\\\\s+)?function\\\\s+'+name+'\\\\s*\\\\(','g');
+            const n=(s.match(re)||[]).length;
+            if(n!==1){console.error(name+' definitions: '+n);process.exitCode=1;}
+          }
+          NODE
   value:
     runs-on: ubuntu-latest
     steps:
