@@ -44,23 +44,23 @@
       "factors": {
         "actionability": 0.3,
         "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
+        "novelty": 0.05,
+        "relevance": 0.0,
         "reliability": 0.85,
         "time_advantage": 0.85
       },
       "id": "CISA KEV:CVE-2026-104286",
       "meaning": "attention_priority_only",
       "penalties": {
-        "duplication": 0.0,
+        "duplication": 0.75,
         "manipulation_risk": 0.05,
         "noise": 0.1,
         "uncertainty": 0.1
       },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.424,
       "reliability_gate": 0.8875,
-      "value_score": 49.2,
+      "value_score": 28.13,
       "version": "edge.value.v0.1"
     },
     {
@@ -11587,7 +11587,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-01T23:55:19.603607+00:00",
+  "generated_at": "2026-10-02T05:45:49.540580+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
@@ -11597,9 +11597,7 @@
   },
   "schema": "edge.value.lab.freeze.v0.1",
   "semantics": "prospective measurement artifact; not an attention queue or instruction",
-  "value_selected": [
-    "CISA KEV:CVE-2026-104286"
-  ],
+  "value_selected": [],
   "value_threshold": 45.0,
   "value_version": "edge.value.v0.1"
 }
