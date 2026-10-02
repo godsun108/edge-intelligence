@@ -1969,6 +1969,40 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-102489",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102489",
+          "title": "CVE-2026-102489 \u2014 Zammad GmbH Zammad Session Fixation Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102489"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-102490",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102490",
+          "title": "CVE-2026-102490 \u2014 Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102490"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-104286",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2292,23 +2326,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-48282",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48282",
-          "title": "CVE-2026-48282 \u2014 Adobe ColdFusion Path Traversal Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48282"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-48710",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2505,23 +2522,6 @@
           "source_id": "CVE-2026-56164",
           "title": "CVE-2026-56164 \u2014 Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56164"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-56290",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56290",
-          "title": "CVE-2026-56290 \u2014 Joomlack Page Builder Improper Access Control Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56290"
         }
       ],
       "sources": [

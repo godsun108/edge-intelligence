@@ -482,6 +482,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-102489",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102489"
+        }
+      ],
+      "right": "product:Zammad",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-102489",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102489"
+        }
+      ],
+      "right": "vendor:Zammad GmbH",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-102490",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102490"
+        }
+      ],
+      "right": "product:Zammad",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-102490",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102490"
+        }
+      ],
+      "right": "vendor:Zammad GmbH",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-104286",
       "observation_count": 1,
       "observations": [
@@ -1052,36 +1112,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-48282",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48282"
-        }
-      ],
-      "right": "product:ColdFusion",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-48282",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48282"
-        }
-      ],
-      "right": "vendor:Adobe",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-48710",
       "observation_count": 1,
       "observations": [
@@ -1436,36 +1466,6 @@
         }
       ],
       "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-56290",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56290"
-        }
-      ],
-      "right": "product:Page Builder",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-56290",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56290"
-        }
-      ],
-      "right": "vendor:Joomlack",
       "sources": [
         "CISA KEV"
       ]
@@ -3168,21 +3168,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:ColdFusion",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48282"
-        }
-      ],
-      "right": "vendor:Adobe",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Commerce and Magento",
       "observation_count": 2,
       "observations": [
@@ -3738,21 +3723,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Page Builder",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56290"
-        }
-      ],
-      "right": "vendor:Joomlack",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Pixel",
       "observation_count": 1,
       "observations": [
@@ -4136,6 +4106,25 @@
         }
       ],
       "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Zammad",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102490"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102489"
+        }
+      ],
+      "right": "vendor:Zammad GmbH",
       "sources": [
         "CISA KEV"
       ]
@@ -4778,6 +4767,16 @@
       "value": "CVE-2026-0770"
     },
     {
+      "id": "cve:CVE-2026-102489",
+      "kind": "cve",
+      "value": "CVE-2026-102489"
+    },
+    {
+      "id": "cve:CVE-2026-102490",
+      "kind": "cve",
+      "value": "CVE-2026-102490"
+    },
+    {
       "id": "cve:CVE-2026-104286",
       "kind": "cve",
       "value": "CVE-2026-104286"
@@ -4873,11 +4872,6 @@
       "value": "CVE-2026-46817"
     },
     {
-      "id": "cve:CVE-2026-48282",
-      "kind": "cve",
-      "value": "CVE-2026-48282"
-    },
-    {
       "id": "cve:CVE-2026-48710",
       "kind": "cve",
       "value": "CVE-2026-48710"
@@ -4936,11 +4930,6 @@
       "id": "cve:CVE-2026-56164",
       "kind": "cve",
       "value": "CVE-2026-56164"
-    },
-    {
-      "id": "cve:CVE-2026-56290",
-      "kind": "cve",
-      "value": "CVE-2026-56290"
     },
     {
       "id": "cve:CVE-2026-56291",
@@ -5243,11 +5232,6 @@
       "value": "Chromium V8"
     },
     {
-      "id": "product:ColdFusion",
-      "kind": "product",
-      "value": "ColdFusion"
-    },
-    {
       "id": "product:Commerce and Magento",
       "kind": "product",
       "value": "Commerce and Magento"
@@ -5393,11 +5377,6 @@
       "value": "NetScaler ADC and NetScaler Gateway"
     },
     {
-      "id": "product:Page Builder",
-      "kind": "product",
-      "value": "Page Builder"
-    },
-    {
       "id": "product:Pixel",
       "kind": "product",
       "value": "Pixel"
@@ -5511,6 +5490,11 @@
       "id": "product:Windows Ancillary Function Driver for WinSock",
       "kind": "product",
       "value": "Windows Ancillary Function Driver for WinSock"
+    },
+    {
+      "id": "product:Zammad",
+      "kind": "product",
+      "value": "Zammad"
     },
     {
       "id": "product:Zimbra Collaboration Suite (ZCS)",
@@ -5648,11 +5632,6 @@
       "value": "JoomShaper"
     },
     {
-      "id": "vendor:Joomlack",
-      "kind": "vendor",
-      "value": "Joomlack"
-    },
-    {
       "id": "vendor:KNX Association",
       "kind": "vendor",
       "value": "KNX Association"
@@ -5756,6 +5735,11 @@
       "id": "vendor:WordPress",
       "kind": "vendor",
       "value": "WordPress"
+    },
+    {
+      "id": "vendor:Zammad GmbH",
+      "kind": "vendor",
+      "value": "Zammad GmbH"
     },
     {
       "id": "vendor:Zyxel",
