@@ -1,1 +1,1 @@
-{"generated_at":"2026-10-04T12:27:25.085979+00:00","items":[]}
+{"generated_at":"2026-10-04T17:37:36.584385+00:00","items":[{"id":"EONET_24962","source":"NASA EONET","title":"Super Typhoon Choi-wan","url":"https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24962","observed_at":"2026-10-04T12:00:00Z","retrieved_at":"2026-10-04T17:37:36.584385+00:00","tags":["earth","Severe Storms"],"data":{"categories":["Severe Storms"]},"fingerprint":"646f60784c3b0e3e9ec239566f900355460433779f0c2c1082260d7b148b2b79","change":"changed","relevance":19,"reasons":["matched severe storms"]}]}
