@@ -1382,36 +1382,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-55255",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55255"
-        }
-      ],
-      "right": "product:Langflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-55255",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55255"
-        }
-      ],
-      "right": "vendor:Langflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-56155",
       "observation_count": 1,
       "observations": [
@@ -2882,6 +2852,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-88779",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88779"
+        }
+      ],
+      "right": "product:NetScaler",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-88779",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88779"
+        }
+      ],
+      "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-9198",
       "observation_count": 1,
       "observations": [
@@ -3486,15 +3486,11 @@
     {
       "independent_source_count": 1,
       "left": "product:Langflow",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-0770"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55255"
         }
       ],
       "right": "vendor:Langflow",
@@ -3686,8 +3682,12 @@
     {
       "independent_source_count": 1,
       "left": "product:NetScaler",
-      "observation_count": 3,
+      "observation_count": 4,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-88779"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-88772"
@@ -4917,11 +4917,6 @@
       "value": "CVE-2026-55040"
     },
     {
-      "id": "cve:CVE-2026-55255",
-      "kind": "cve",
-      "value": "CVE-2026-55255"
-    },
-    {
       "id": "cve:CVE-2026-56155",
       "kind": "cve",
       "value": "CVE-2026-56155"
@@ -5165,6 +5160,11 @@
       "id": "cve:CVE-2026-88772",
       "kind": "cve",
       "value": "CVE-2026-88772"
+    },
+    {
+      "id": "cve:CVE-2026-88779",
+      "kind": "cve",
+      "value": "CVE-2026-88779"
     },
     {
       "id": "cve:CVE-2026-9198",
