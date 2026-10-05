@@ -45,11 +45,34 @@
         "actionability": 0.1,
         "consequence": 0.15,
         "novelty": 1.0,
+        "relevance": 0.48,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25044",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4461,
+      "reliability_gate": 0.8875,
+      "value_score": 37.02,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 1.0,
         "relevance": 0.34,
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "NASA EONET:EONET_23219",
+      "id": "NASA EONET:EONET_25041",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.0,
@@ -65,25 +88,71 @@
     },
     {
       "factors": {
-        "actionability": 0.35,
+        "actionability": 0.1,
         "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
+        "novelty": 1.0,
+        "relevance": 0.34,
         "reliability": 0.85,
-        "time_advantage": 0.65
+        "time_advantage": 0.15
       },
-      "id": "Grants.gov:357658",
+      "id": "NASA EONET:EONET_25042",
       "meaning": "attention_priority_only",
       "penalties": {
-        "duplication": 0.75,
+        "duplication": 0.0,
         "manipulation_risk": 0.05,
         "noise": 0.1,
         "uncertainty": 0.1
       },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4514,
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4153,
       "reliability_gate": 0.8875,
-      "value_score": 29.95,
+      "value_score": 34.46,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 1.0,
+        "relevance": 0.34,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25043",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4153,
+      "reliability_gate": 0.8875,
+      "value_score": 34.46,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 1.0,
+        "relevance": 0.34,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25045",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4153,
+      "reliability_gate": 0.8875,
+      "value_score": 34.46,
       "version": "edge.value.v0.1"
     },
     {
@@ -153,742 +222,6 @@
       "positive_signal": 0.424,
       "reliability_gate": 0.8875,
       "value_score": 28.13,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:329436",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:356620",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:356690",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:356893",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:356907",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:356920",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357021",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357140",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357288",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357303",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357305",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357308",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357568",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357730",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:357941",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358176",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358179",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358181",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358373",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358375",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358552",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358823",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358828",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358829",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358830",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358831",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358832",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358833",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358848",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358875",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:358934",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.35,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.35
-      },
-      "id": "Grants.gov:359236",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.4214,
-      "reliability_gate": 0.8875,
-      "value_score": 27.96,
       "version": "edge.value.v0.1"
     },
     {
@@ -3124,14 +2457,14 @@
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.65
       },
-      "id": "Grants.gov:103313",
+      "id": "Grants.gov:357658",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3140,21 +2473,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.293,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 19.44,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:224533",
+      "id": "Grants.gov:329436",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3163,21 +2496,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:275109",
+      "id": "Grants.gov:356620",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3186,21 +2519,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:279638",
+      "id": "Grants.gov:356690",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3209,21 +2542,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:280932",
+      "id": "Grants.gov:356893",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3232,21 +2565,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:280970",
+      "id": "Grants.gov:356907",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3255,21 +2588,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:290351",
+      "id": "Grants.gov:356920",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3278,21 +2611,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:300997",
+      "id": "Grants.gov:357021",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3301,21 +2634,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:332127",
+      "id": "Grants.gov:357140",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3324,21 +2657,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:352339",
+      "id": "Grants.gov:357288",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3347,21 +2680,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:355824",
+      "id": "Grants.gov:357303",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3370,21 +2703,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:355829",
+      "id": "Grants.gov:357305",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3393,21 +2726,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:355830",
+      "id": "Grants.gov:357308",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3416,21 +2749,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:355831",
+      "id": "Grants.gov:357568",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3439,21 +2772,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:355936",
+      "id": "Grants.gov:357730",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3462,21 +2795,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:355937",
+      "id": "Grants.gov:357941",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3485,21 +2818,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:356204",
+      "id": "Grants.gov:358176",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3508,21 +2841,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358676",
+      "id": "Grants.gov:358179",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3531,21 +2864,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358687",
+      "id": "Grants.gov:358181",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3554,21 +2887,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358811",
+      "id": "Grants.gov:358373",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3577,21 +2910,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358821",
+      "id": "Grants.gov:358375",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3600,21 +2933,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358826",
+      "id": "Grants.gov:358552",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3623,21 +2956,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358827",
+      "id": "Grants.gov:358823",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3646,21 +2979,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358854",
+      "id": "Grants.gov:358828",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3669,21 +3002,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358855",
+      "id": "Grants.gov:358829",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3692,21 +3025,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358858",
+      "id": "Grants.gov:358830",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3715,21 +3048,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358868",
+      "id": "Grants.gov:358831",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3738,21 +3071,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358870",
+      "id": "Grants.gov:358832",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3761,21 +3094,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358886",
+      "id": "Grants.gov:358833",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3784,21 +3117,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358931",
+      "id": "Grants.gov:358848",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3807,21 +3140,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358940",
+      "id": "Grants.gov:358875",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3830,21 +3163,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358941",
+      "id": "Grants.gov:358934",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3853,21 +3186,21 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
-        "actionability": 0.1,
+        "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.72,
+        "relevance": 0.0,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.35
       },
-      "id": "Grants.gov:358942",
+      "id": "Grants.gov:359236",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -3876,791 +3209,9 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
+      "positive_signal": 0.263,
       "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:358954",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:358959",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:358960",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:358997",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:358998",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359019",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359090",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359120",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359136",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359137",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359138",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359140",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359142",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359153",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359156",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359158",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359168",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359169",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359170",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359203",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359266",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359277",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359663",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359665",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359676",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359724",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359726",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359820",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359864",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359865",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359866",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359867",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359868",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.72,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "Grants.gov:359894",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.3564,
-      "reliability_gate": 0.8875,
-      "value_score": 23.64,
+      "value_score": 17.45,
       "version": "edge.value.v0.1"
     },
     {
@@ -6995,7 +5546,7 @@
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "NASA EONET:EONET_23209",
+      "id": "Grants.gov:103313",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -7018,7 +5569,1525 @@
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "NASA EONET:EONET_23215",
+      "id": "Grants.gov:224533",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:275109",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:279638",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:280932",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:280970",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:290351",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:300997",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:332127",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:352339",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:355824",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:355829",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:355830",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:355831",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:355936",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:355937",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:356204",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358676",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358687",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358811",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358821",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358826",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358827",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358854",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358855",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358858",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358868",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358870",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358886",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358931",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358940",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358941",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358942",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358954",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358959",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358960",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358997",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:358998",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359019",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359090",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359120",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359136",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359137",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359138",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359140",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359142",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359153",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359156",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359158",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359168",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359169",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359170",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359203",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359266",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359277",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359663",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359665",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359676",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359724",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359726",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359820",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359864",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359865",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359866",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359867",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359868",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "Grants.gov:359894",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_23209",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -7088,29 +7157,6 @@
         "time_advantage": 0.15
       },
       "id": "NASA EONET:EONET_23453",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.198,
-      "reliability_gate": 0.8875,
-      "value_score": 13.14,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_23454",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -7732,52 +7778,6 @@
         "time_advantage": 0.15
       },
       "id": "NASA EONET:EONET_23677",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.198,
-      "reliability_gate": 0.8875,
-      "value_score": 13.14,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_23679",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.198,
-      "reliability_gate": 0.8875,
-      "value_score": 13.14,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_23680",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -11587,7 +11587,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-05T16:06:14.743315+00:00",
+  "generated_at": "2026-10-05T22:41:56.784355+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
