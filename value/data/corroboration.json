@@ -1714,23 +1714,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2008-4128",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2008-4128",
-          "title": "CVE-2008-4128 \u2014 Cisco IOS Cross-Site Request Forgery Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2008-4128"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2015-3246",
       "independent_source_count": 1,
       "record_count": 1,
@@ -1748,6 +1731,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2015-3306",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3306",
+          "title": "CVE-2015-3306 \u2014 ProFTPD Improper Access Control Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-3306"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2015-5287",
       "independent_source_count": 1,
       "record_count": 1,
@@ -1757,6 +1757,40 @@
           "source_id": "CVE-2015-5287",
           "title": "CVE-2015-5287 \u2014 Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-5287"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2015-5477",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5477",
+          "title": "CVE-2015-5477 \u2014  ISC BIND Data Processing Errors Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-5477"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2016-3081",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2016-3081",
+          "title": "CVE-2016-3081 \u2014 Apache Struts Command Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2016-3081"
         }
       ],
       "sources": [
@@ -1816,6 +1850,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2021-3199",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-3199",
+          "title": "CVE-2021-3199 \u2014 ONLYOFFICE Docs Server Path Traversal Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-3199"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2022-0995",
       "independent_source_count": 1,
       "record_count": 1,
@@ -1825,6 +1876,23 @@
           "source_id": "CVE-2022-0995",
           "title": "CVE-2022-0995 \u2014 Linux Kernel Out-of-Bounds Write Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-0995"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2023-22894",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-22894",
+          "title": "CVE-2023-22894 \u2014 Strapi Cleartext Storage of Sensitive Information Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-22894"
         }
       ],
       "sources": [
@@ -2029,23 +2097,6 @@
           "source_id": "CVE-2026-15409",
           "title": "CVE-2026-15409 \u2014 SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-15409"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-15410",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-15410",
-          "title": "CVE-2026-15410 \u2014 SonicWall SMA1000 Appliances Code Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-15410"
         }
       ],
       "sources": [
@@ -2343,40 +2394,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-48908",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48908",
-          "title": "CVE-2026-48908 \u2014 JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48908"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-48939",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48939",
-          "title": "CVE-2026-48939 \u2014 iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48939"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-49869",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2505,23 +2522,6 @@
           "source_id": "CVE-2026-56164",
           "title": "CVE-2026-56164 \u2014 Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56164"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-56291",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56291",
-          "title": "CVE-2026-56291 \u2014 Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56291"
         }
       ],
       "sources": [

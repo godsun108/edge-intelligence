@@ -32,36 +32,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2008-4128",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2008-4128"
-        }
-      ],
-      "right": "product:IOS",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2008-4128",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2008-4128"
-        }
-      ],
-      "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2015-3246",
       "observation_count": 1,
       "observations": [
@@ -92,6 +62,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2015-3306",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3306"
+        }
+      ],
+      "right": "product:ProFTPD",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-3306",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3306"
+        }
+      ],
+      "right": "vendor:ProFTPD",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2015-5287",
       "observation_count": 1,
       "observations": [
@@ -116,6 +116,66 @@
         }
       ],
       "right": "vendor:Red Hat",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-5477",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5477"
+        }
+      ],
+      "right": "product:BIND",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2015-5477",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5477"
+        }
+      ],
+      "right": "vendor:ISC",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2016-3081",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2016-3081"
+        }
+      ],
+      "right": "product:Struts",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2016-3081",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2016-3081"
+        }
+      ],
+      "right": "vendor:Apache",
       "sources": [
         "CISA KEV"
       ]
@@ -212,6 +272,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2021-3199",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-3199"
+        }
+      ],
+      "right": "product:Docs",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2021-3199",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-3199"
+        }
+      ],
+      "right": "vendor:ONLYOFFICE",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2022-0995",
       "observation_count": 1,
       "observations": [
@@ -236,6 +326,36 @@
         }
       ],
       "right": "vendor:Linux",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2023-22894",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-22894"
+        }
+      ],
+      "right": "product:Strapi",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2023-22894",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-22894"
+        }
+      ],
+      "right": "vendor:Strapi",
       "sources": [
         "CISA KEV"
       ]
@@ -593,36 +713,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-15409"
-        }
-      ],
-      "right": "vendor:SonicWall",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-15410",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-15410"
-        }
-      ],
-      "right": "product:SMA1000 Appliances",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-15410",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-15410"
         }
       ],
       "right": "vendor:SonicWall",
@@ -1142,66 +1232,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-48908",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48908"
-        }
-      ],
-      "right": "product:SP Page Builder",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-48908",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48908"
-        }
-      ],
-      "right": "vendor:JoomShaper",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-48939",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48939"
-        }
-      ],
-      "right": "product:iCagenda",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-48939",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48939"
-        }
-      ],
-      "right": "vendor:iCagenda",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-49869",
       "observation_count": 1,
       "observations": [
@@ -1436,36 +1466,6 @@
         }
       ],
       "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-56291",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56291"
-        }
-      ],
-      "right": "product:Forms",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-56291",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56291"
-        }
-      ],
-      "right": "vendor:Balbooa",
       "sources": [
         "CISA KEV"
       ]
@@ -3119,6 +3119,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:BIND",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-5477"
+        }
+      ],
+      "right": "vendor:ISC",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Backup",
       "observation_count": 1,
       "observations": [
@@ -3240,6 +3255,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Docs",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2021-3199"
+        }
+      ],
+      "right": "vendor:ONLYOFFICE",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:E-Business Suite",
       "observation_count": 1,
       "observations": [
@@ -3249,21 +3279,6 @@
         }
       ],
       "right": "vendor:Oracle",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Forms",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56291"
-        }
-      ],
-      "right": "vendor:Balbooa",
       "sources": [
         "CISA KEV"
       ]
@@ -3358,21 +3373,6 @@
         }
       ],
       "right": "vendor:Oracle",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:IOS",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2008-4128"
-        }
-      ],
-      "right": "vendor:Cisco",
       "sources": [
         "CISA KEV"
       ]
@@ -3738,6 +3738,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:ProFTPD",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2015-3306"
+        }
+      ],
+      "right": "vendor:ProFTPD",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Ray",
       "observation_count": 1,
       "observations": [
@@ -3777,7 +3792,7 @@
     {
       "independent_source_count": 1,
       "left": "product:SMA1000 Appliances",
-      "observation_count": 4,
+      "observation_count": 3,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3790,28 +3805,9 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-15409"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-15410"
         }
       ],
       "right": "vendor:SonicWall",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:SP Page Builder",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48908"
-        }
-      ],
-      "right": "vendor:JoomShaper",
       "sources": [
         "CISA KEV"
       ]
@@ -3999,6 +3995,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Strapi",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2023-22894"
+        }
+      ],
+      "right": "vendor:Strapi",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Struts",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2016-3081"
+        }
+      ],
+      "right": "vendor:Apache",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Switchvox",
       "observation_count": 1,
       "observations": [
@@ -4140,21 +4166,6 @@
         }
       ],
       "right": "vendor:Synacor",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:iCagenda",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48939"
-        }
-      ],
-      "right": "vendor:iCagenda",
       "sources": [
         "CISA KEV"
       ]
@@ -4692,19 +4703,29 @@
       "value": "CVE-2000-0508"
     },
     {
-      "id": "cve:CVE-2008-4128",
-      "kind": "cve",
-      "value": "CVE-2008-4128"
-    },
-    {
       "id": "cve:CVE-2015-3246",
       "kind": "cve",
       "value": "CVE-2015-3246"
     },
     {
+      "id": "cve:CVE-2015-3306",
+      "kind": "cve",
+      "value": "CVE-2015-3306"
+    },
+    {
       "id": "cve:CVE-2015-5287",
       "kind": "cve",
       "value": "CVE-2015-5287"
+    },
+    {
+      "id": "cve:CVE-2015-5477",
+      "kind": "cve",
+      "value": "CVE-2015-5477"
+    },
+    {
+      "id": "cve:CVE-2016-3081",
+      "kind": "cve",
+      "value": "CVE-2016-3081"
     },
     {
       "id": "cve:CVE-2019-1068",
@@ -4722,9 +4743,19 @@
       "value": "CVE-2021-27137"
     },
     {
+      "id": "cve:CVE-2021-3199",
+      "kind": "cve",
+      "value": "CVE-2021-3199"
+    },
+    {
       "id": "cve:CVE-2022-0995",
       "kind": "cve",
       "value": "CVE-2022-0995"
+    },
+    {
+      "id": "cve:CVE-2023-22894",
+      "kind": "cve",
+      "value": "CVE-2023-22894"
     },
     {
       "id": "cve:CVE-2023-4346",
@@ -4785,11 +4816,6 @@
       "id": "cve:CVE-2026-15409",
       "kind": "cve",
       "value": "CVE-2026-15409"
-    },
-    {
-      "id": "cve:CVE-2026-15410",
-      "kind": "cve",
-      "value": "CVE-2026-15410"
     },
     {
       "id": "cve:CVE-2026-16232",
@@ -4877,16 +4903,6 @@
       "value": "CVE-2026-48710"
     },
     {
-      "id": "cve:CVE-2026-48908",
-      "kind": "cve",
-      "value": "CVE-2026-48908"
-    },
-    {
-      "id": "cve:CVE-2026-48939",
-      "kind": "cve",
-      "value": "CVE-2026-48939"
-    },
-    {
       "id": "cve:CVE-2026-49869",
       "kind": "cve",
       "value": "CVE-2026-49869"
@@ -4925,11 +4941,6 @@
       "id": "cve:CVE-2026-56164",
       "kind": "cve",
       "value": "CVE-2026-56164"
-    },
-    {
-      "id": "cve:CVE-2026-56291",
-      "kind": "cve",
-      "value": "CVE-2026-56291"
     },
     {
       "id": "cve:CVE-2026-58644",
@@ -5217,6 +5228,11 @@
       "value": "BIG-IP APM"
     },
     {
+      "id": "product:BIND",
+      "kind": "product",
+      "value": "BIND"
+    },
+    {
       "id": "product:Backup",
       "kind": "product",
       "value": "Backup"
@@ -5252,14 +5268,14 @@
       "value": "DD-WRT"
     },
     {
+      "id": "product:Docs",
+      "kind": "product",
+      "value": "Docs"
+    },
+    {
       "id": "product:E-Business Suite",
       "kind": "product",
       "value": "E-Business Suite"
-    },
-    {
-      "id": "product:Forms",
-      "kind": "product",
-      "value": "Forms"
     },
     {
       "id": "product:FortiMail",
@@ -5290,11 +5306,6 @@
       "id": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
       "kind": "product",
       "value": "HTTP Server and Oracle Weblogic Server Proxy Plug-in"
-    },
-    {
-      "id": "product:IOS",
-      "kind": "product",
-      "value": "IOS"
     },
     {
       "id": "product:Identity Services Engine",
@@ -5382,6 +5393,11 @@
       "value": "Pixel"
     },
     {
+      "id": "product:ProFTPD",
+      "kind": "product",
+      "value": "ProFTPD"
+    },
+    {
       "id": "product:Ray",
       "kind": "product",
       "value": "Ray"
@@ -5395,11 +5411,6 @@
       "id": "product:SMA1000 Appliances",
       "kind": "product",
       "value": "SMA1000 Appliances"
-    },
-    {
-      "id": "product:SP Page Builder",
-      "kind": "product",
-      "value": "SP Page Builder"
     },
     {
       "id": "product:SQL Server",
@@ -5457,6 +5468,16 @@
       "value": "Starlette"
     },
     {
+      "id": "product:Strapi",
+      "kind": "product",
+      "value": "Strapi"
+    },
+    {
+      "id": "product:Struts",
+      "kind": "product",
+      "value": "Struts"
+    },
+    {
       "id": "product:Switchvox",
       "kind": "product",
       "value": "Switchvox"
@@ -5502,11 +5523,6 @@
       "value": "Zimbra Collaboration Suite (ZCS)"
     },
     {
-      "id": "product:iCagenda",
-      "kind": "product",
-      "value": "iCagenda"
-    },
-    {
       "id": "product:macOS",
       "kind": "product",
       "value": "macOS"
@@ -5545,11 +5561,6 @@
       "id": "vendor:Arista",
       "kind": "vendor",
       "value": "Arista"
-    },
-    {
-      "id": "vendor:Balbooa",
-      "kind": "vendor",
-      "value": "Balbooa"
     },
     {
       "id": "vendor:BerriAI",
@@ -5617,6 +5628,11 @@
       "value": "IBM"
     },
     {
+      "id": "vendor:ISC",
+      "kind": "vendor",
+      "value": "ISC"
+    },
+    {
       "id": "vendor:JFrog",
       "kind": "vendor",
       "value": "JFrog"
@@ -5625,11 +5641,6 @@
       "id": "vendor:JetBrains",
       "kind": "vendor",
       "value": "JetBrains"
-    },
-    {
-      "id": "vendor:JoomShaper",
-      "kind": "vendor",
-      "value": "JoomShaper"
     },
     {
       "id": "vendor:KNX Association",
@@ -5682,6 +5693,11 @@
       "value": "N-able"
     },
     {
+      "id": "vendor:ONLYOFFICE",
+      "kind": "vendor",
+      "value": "ONLYOFFICE"
+    },
+    {
       "id": "vendor:Oracle",
       "kind": "vendor",
       "value": "Oracle"
@@ -5690,6 +5706,11 @@
       "id": "vendor:PaperCut",
       "kind": "vendor",
       "value": "PaperCut"
+    },
+    {
+      "id": "vendor:ProFTPD",
+      "kind": "vendor",
+      "value": "ProFTPD"
     },
     {
       "id": "vendor:Progress",
@@ -5715,6 +5736,11 @@
       "id": "vendor:SonicWall",
       "kind": "vendor",
       "value": "SonicWall"
+    },
+    {
+      "id": "vendor:Strapi",
+      "kind": "vendor",
+      "value": "Strapi"
     },
     {
       "id": "vendor:Synacor",
@@ -5745,11 +5771,6 @@
       "id": "vendor:Zyxel",
       "kind": "vendor",
       "value": "Zyxel"
-    },
-    {
-      "id": "vendor:iCagenda",
-      "kind": "vendor",
-      "value": "iCagenda"
     },
     {
       "id": "vendor:ownCloud",
