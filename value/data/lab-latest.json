@@ -42,213 +42,6 @@
   "candidates": [
     {
       "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25232",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25233",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25234",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25235",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25236",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25237",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25238",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25239",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 1.0,
-        "relevance": 0.34,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25240",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4153,
-      "reliability_gate": 0.8875,
-      "value_score": 34.46,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
         "actionability": 0.3,
         "consequence": 0.75,
         "novelty": 0.05,
@@ -9384,6 +9177,213 @@
         "consequence": 0.15,
         "novelty": 0.05,
         "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25232",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25233",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25234",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25235",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25236",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25237",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25238",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25239",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25240",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
         "reliability": 0.35,
         "time_advantage": 0.15
       },
@@ -11679,7 +11679,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-12T15:35:31.314374+00:00",
+  "generated_at": "2026-10-12T23:01:59.588433+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
