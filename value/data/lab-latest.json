@@ -38,8 +38,31 @@
       "CISA KEV:CVE-2022-0995"
     ]
   },
-  "candidate_count": 506,
+  "candidate_count": 507,
   "candidates": [
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.5249999999999999,
+        "novelty": 1.0,
+        "relevance": 0.34,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "USGS:us6000u1wn",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4903,
+      "reliability_gate": 0.8875,
+      "value_score": 40.69,
+      "version": "edge.value.v0.1"
+    },
     {
       "factors": {
         "actionability": 0.3,
@@ -11679,7 +11702,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-12T23:01:59.588433+00:00",
+  "generated_at": "2026-10-13T03:35:58.813275+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
