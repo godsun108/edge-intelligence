@@ -2088,15 +2088,15 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-15409",
+      "identifier": "CVE-2026-104935",
       "independent_source_count": 1,
       "record_count": 1,
       "records": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-15409",
-          "title": "CVE-2026-15409 \u2014 SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-15409"
+          "source_id": "CVE-2026-104935",
+          "title": "CVE-2026-104935 \u2014 Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935"
         }
       ],
       "sources": [
@@ -2505,23 +2505,6 @@
           "source_id": "CVE-2026-56155",
           "title": "CVE-2026-56155 \u2014 Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56155"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-56164",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56164",
-          "title": "CVE-2026-56164 \u2014 Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56164"
         }
       ],
       "sources": [
@@ -3406,6 +3389,23 @@
           "source_id": "CVE-2026-9586",
           "title": "CVE-2026-9586 \u2014 Sangoma Switchvox SQL Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9586"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-96951",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96951",
+          "title": "CVE-2026-96951 \u2014 Microsoft Windows Command Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96951"
         }
       ],
       "sources": [

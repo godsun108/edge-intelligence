@@ -692,30 +692,30 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-15409",
+      "left": "cve:CVE-2026-104935",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-15409"
+          "source_id": "CVE-2026-104935"
         }
       ],
-      "right": "product:SMA1000 Appliances",
+      "right": "product:Connect Secure",
       "sources": [
         "CISA KEV"
       ]
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-15409",
+      "left": "cve:CVE-2026-104935",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-15409"
+          "source_id": "CVE-2026-104935"
         }
       ],
-      "right": "vendor:SonicWall",
+      "right": "vendor:Ivanti",
       "sources": [
         "CISA KEV"
       ]
@@ -1433,36 +1433,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-56155"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-56164",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56164"
-        }
-      ],
-      "right": "product:SharePoint Server",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-56164",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56164"
         }
       ],
       "right": "vendor:Microsoft",
@@ -3032,6 +3002,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-96951",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96951"
+        }
+      ],
+      "right": "product:Windows",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96951",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96951"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Active Directory Federation Services",
       "observation_count": 1,
       "observations": [
@@ -3211,6 +3211,21 @@
         }
       ],
       "right": "vendor:GitLab",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Connect Secure",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-104935"
+        }
+      ],
+      "right": "vendor:Ivanti",
       "sources": [
         "CISA KEV"
       ]
@@ -3792,7 +3807,7 @@
     {
       "independent_source_count": 1,
       "left": "product:SMA1000 Appliances",
-      "observation_count": 3,
+      "observation_count": 2,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3801,10 +3816,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-83549"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-15409"
         }
       ],
       "right": "vendor:SonicWall",
@@ -3941,21 +3952,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-58644"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:SharePoint Server",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56164"
         }
       ],
       "right": "vendor:Microsoft",
@@ -4105,8 +4101,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Windows",
-      "observation_count": 2,
+      "observation_count": 3,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96951"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-81963"
@@ -4813,9 +4813,9 @@
       "value": "CVE-2026-104286"
     },
     {
-      "id": "cve:CVE-2026-15409",
+      "id": "cve:CVE-2026-104935",
       "kind": "cve",
-      "value": "CVE-2026-15409"
+      "value": "CVE-2026-104935"
     },
     {
       "id": "cve:CVE-2026-16232",
@@ -4936,11 +4936,6 @@
       "id": "cve:CVE-2026-56155",
       "kind": "cve",
       "value": "CVE-2026-56155"
-    },
-    {
-      "id": "cve:CVE-2026-56164",
-      "kind": "cve",
-      "value": "CVE-2026-56164"
     },
     {
       "id": "cve:CVE-2026-58644",
@@ -5203,6 +5198,11 @@
       "value": "CVE-2026-9586"
     },
     {
+      "id": "cve:CVE-2026-96951",
+      "kind": "cve",
+      "value": "CVE-2026-96951"
+    },
+    {
       "id": "product:Active Directory Federation Services",
       "kind": "product",
       "value": "Active Directory Federation Services"
@@ -5256,6 +5256,11 @@
       "id": "product:Community Edition and Enterprise Edition",
       "kind": "product",
       "value": "Community Edition and Enterprise Edition"
+    },
+    {
+      "id": "product:Connect Secure",
+      "kind": "product",
+      "value": "Connect Secure"
     },
     {
       "id": "product:Core",
@@ -5453,11 +5458,6 @@
       "value": "SharePoint"
     },
     {
-      "id": "product:SharePoint Server",
-      "kind": "product",
-      "value": "SharePoint Server"
-    },
-    {
       "id": "product:SmartConsole",
       "kind": "product",
       "value": "SmartConsole"
@@ -5631,6 +5631,11 @@
       "id": "vendor:ISC",
       "kind": "vendor",
       "value": "ISC"
+    },
+    {
+      "id": "vendor:Ivanti",
+      "kind": "vendor",
+      "value": "Ivanti"
     },
     {
       "id": "vendor:JFrog",
