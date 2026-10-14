@@ -1901,23 +1901,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2023-4346",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2023-4346",
-          "title": "CVE-2023-4346 \u2014 KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-4346"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2023-49105",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2020,6 +2003,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-0322",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-0322",
+          "title": "CVE-2026-0322 \u2014 Palo Alto Networks PAN-OS Code Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0322"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-0770",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2097,6 +2097,40 @@
           "source_id": "CVE-2026-104935",
           "title": "CVE-2026-104935 \u2014 Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-105133",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-105133",
+          "title": "CVE-2026-105133 \u2014 Ahsay AhsayCBS Improper Authentication Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105133"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-105134",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-105134",
+          "title": "CVE-2026-105134 \u2014 Ahsay AhsayCBS Command Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105134"
         }
       ],
       "sources": [
@@ -2309,23 +2343,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-39808",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-39808",
-          "title": "CVE-2026-39808 \u2014 Fortinet FortiSandbox OS Command Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-39808"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-42016",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2352,23 +2369,6 @@
           "source_id": "CVE-2026-42018",
           "title": "CVE-2026-42018 \u2014 JFrog Artifactory Improper Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-42018"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-46817",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-46817",
-          "title": "CVE-2026-46817 \u2014 Oracle E-Business Suite Improper Privilege Management Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46817"
         }
       ],
       "sources": [
@@ -2488,23 +2488,6 @@
           "source_id": "CVE-2026-55040",
           "title": "CVE-2026-55040 \u2014 Microsoft SharePoint Weak Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-55040"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-56155",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-56155",
-          "title": "CVE-2026-56155 \u2014 Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-56155"
         }
       ],
       "sources": [
@@ -2930,6 +2913,23 @@
           "source_id": "CVE-2026-76504",
           "title": "CVE-2026-76504 \u2014 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76504"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-76519",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76519",
+          "title": "CVE-2026-76519 \u2014 Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519"
         }
       ],
       "sources": [
