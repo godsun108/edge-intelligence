@@ -2275,6 +2275,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-21589",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21589",
+          "title": "CVE-2026-21589 \u2014 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-21962",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2284,23 +2301,6 @@
           "source_id": "CVE-2026-21962",
           "title": "CVE-2026-21962 \u2014 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21962"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-25089",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-25089",
-          "title": "CVE-2026-25089 \u2014 Fortinet FortiSandbox OS Command Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-25089"
         }
       ],
       "sources": [

@@ -1022,6 +1022,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-21589",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21589"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-21589",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21589"
+        }
+      ],
+      "right": "vendor:Atlassian",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-21962",
       "observation_count": 1,
       "observations": [
@@ -1046,36 +1076,6 @@
         }
       ],
       "right": "vendor:Oracle",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-25089",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-25089"
-        }
-      ],
-      "right": "product:FortiSandbox",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-25089",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-25089"
-        }
-      ],
-      "right": "vendor:Fortinet",
       "sources": [
         "CISA KEV"
       ]
@@ -3319,21 +3319,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:FortiSandbox",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-25089"
-        }
-      ],
-      "right": "vendor:Fortinet",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:GS1900 Series Switches",
       "observation_count": 1,
       "observations": [
@@ -3569,6 +3554,21 @@
         }
       ],
       "right": "vendor:Apple",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Multiple Products",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-21589"
+        }
+      ],
+      "right": "vendor:Atlassian",
       "sources": [
         "CISA KEV"
       ]
@@ -4857,14 +4857,14 @@
       "value": "CVE-2026-20349"
     },
     {
+      "id": "cve:CVE-2026-21589",
+      "kind": "cve",
+      "value": "CVE-2026-21589"
+    },
+    {
       "id": "cve:CVE-2026-21962",
       "kind": "cve",
       "value": "CVE-2026-21962"
-    },
-    {
-      "id": "cve:CVE-2026-25089",
-      "kind": "cve",
-      "value": "CVE-2026-25089"
     },
     {
       "id": "cve:CVE-2026-33824",
@@ -5277,11 +5277,6 @@
       "value": "FortiOS"
     },
     {
-      "id": "product:FortiSandbox",
-      "kind": "product",
-      "value": "FortiSandbox"
-    },
-    {
       "id": "product:GS1900 Series Switches",
       "kind": "product",
       "value": "GS1900 Series Switches"
@@ -5550,6 +5545,11 @@
       "id": "vendor:Arista",
       "kind": "vendor",
       "value": "Arista"
+    },
+    {
+      "id": "vendor:Atlassian",
+      "kind": "vendor",
+      "value": "Atlassian"
     },
     {
       "id": "vendor:BerriAI",
