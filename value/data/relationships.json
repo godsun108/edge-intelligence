@@ -242,36 +242,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2021-27137",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-27137"
-        }
-      ],
-      "right": "product:DD-WRT",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2021-27137",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-27137"
-        }
-      ],
-      "right": "vendor:DD-WRT",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2021-3199",
       "observation_count": 1,
       "observations": [
@@ -482,6 +452,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2025-61624",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-61624"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2025-61624",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-61624"
+        }
+      ],
+      "right": "vendor:Fortinet",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2025-62593",
       "observation_count": 1,
       "observations": [
@@ -656,6 +656,36 @@
         }
       ],
       "right": "vendor:Zammad GmbH",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-102764",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102764"
+        }
+      ],
+      "right": "product:Remote Support",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-102764",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102764"
+        }
+      ],
+      "right": "vendor:BeyondTrust",
       "sources": [
         "CISA KEV"
       ]
@@ -1403,36 +1433,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-55040"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-58644",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-58644"
-        }
-      ],
-      "right": "product:SharePoint",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-58644",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-58644"
         }
       ],
       "right": "vendor:Microsoft",
@@ -3259,21 +3259,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:DD-WRT",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-27137"
-        }
-      ],
-      "right": "vendor:DD-WRT",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Docs",
       "observation_count": 1,
       "observations": [
@@ -3595,8 +3580,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Multiple Products",
-      "observation_count": 1,
+      "observation_count": 2,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-61624"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2025-25249"
@@ -3768,6 +3757,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Remote Support",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102764"
+        }
+      ],
+      "right": "vendor:BeyondTrust",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:RouterOS",
       "observation_count": 3,
       "observations": [
@@ -3924,7 +3928,7 @@
     {
       "independent_source_count": 1,
       "left": "product:SharePoint",
-      "observation_count": 4,
+      "observation_count": 3,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3937,10 +3941,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-50522"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-58644"
         }
       ],
       "right": "vendor:Microsoft",
@@ -4727,11 +4727,6 @@
       "value": "CVE-2021-23758"
     },
     {
-      "id": "cve:CVE-2021-27137",
-      "kind": "cve",
-      "value": "CVE-2021-27137"
-    },
-    {
       "id": "cve:CVE-2021-3199",
       "kind": "cve",
       "value": "CVE-2021-3199"
@@ -4767,6 +4762,11 @@
       "value": "CVE-2025-39964"
     },
     {
+      "id": "cve:CVE-2025-61624",
+      "kind": "cve",
+      "value": "CVE-2025-61624"
+    },
+    {
       "id": "cve:CVE-2025-62593",
       "kind": "cve",
       "value": "CVE-2025-62593"
@@ -4795,6 +4795,11 @@
       "id": "cve:CVE-2026-102490",
       "kind": "cve",
       "value": "CVE-2026-102490"
+    },
+    {
+      "id": "cve:CVE-2026-102764",
+      "kind": "cve",
+      "value": "CVE-2026-102764"
     },
     {
       "id": "cve:CVE-2026-104286",
@@ -4920,11 +4925,6 @@
       "id": "cve:CVE-2026-55040",
       "kind": "cve",
       "value": "CVE-2026-55040"
-    },
-    {
-      "id": "cve:CVE-2026-58644",
-      "kind": "cve",
-      "value": "CVE-2026-58644"
     },
     {
       "id": "cve:CVE-2026-58704",
@@ -5257,11 +5257,6 @@
       "value": "Core"
     },
     {
-      "id": "product:DD-WRT",
-      "kind": "product",
-      "value": "DD-WRT"
-    },
-    {
       "id": "product:Docs",
       "kind": "product",
       "value": "Docs"
@@ -5385,6 +5380,11 @@
       "id": "product:Ray",
       "kind": "product",
       "value": "Ray"
+    },
+    {
+      "id": "product:Remote Support",
+      "kind": "product",
+      "value": "Remote Support"
     },
     {
       "id": "product:RouterOS",
@@ -5557,6 +5557,11 @@
       "value": "BerriAI"
     },
     {
+      "id": "vendor:BeyondTrust",
+      "kind": "vendor",
+      "value": "BeyondTrust"
+    },
+    {
       "id": "vendor:Broadcom",
       "kind": "vendor",
       "value": "Broadcom"
@@ -5580,11 +5585,6 @@
       "id": "vendor:ConnectWise",
       "kind": "vendor",
       "value": "ConnectWise"
-    },
-    {
-      "id": "vendor:DD-WRT",
-      "kind": "vendor",
-      "value": "DD-WRT"
     },
     {
       "id": "vendor:F5",

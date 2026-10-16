@@ -1833,23 +1833,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2021-27137",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-27137",
-          "title": "CVE-2021-27137 \u2014 DD-WRT Stack-Based Buffer Overflow Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-27137"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2021-3199",
       "independent_source_count": 1,
       "record_count": 1,
@@ -1969,6 +1952,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2025-61624",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-61624",
+          "title": "CVE-2025-61624 \u2014 Fortinet Multiple Products Path Traversal Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2025-62593",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2063,6 +2063,23 @@
           "source_id": "CVE-2026-102490",
           "title": "CVE-2026-102490 \u2014 Zammad GmbH Zammad Improper Privilege Management Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102490"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-102764",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102764",
+          "title": "CVE-2026-102764 \u2014 BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764"
         }
       ],
       "sources": [
@@ -2488,23 +2505,6 @@
           "source_id": "CVE-2026-55040",
           "title": "CVE-2026-55040 \u2014 Microsoft SharePoint Weak Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-55040"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-58644",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-58644",
-          "title": "CVE-2026-58644 \u2014 Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-58644"
         }
       ],
       "sources": [
