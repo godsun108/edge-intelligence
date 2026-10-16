@@ -44,46 +44,23 @@
       "factors": {
         "actionability": 0.3,
         "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
+        "novelty": 0.05,
+        "relevance": 0.0,
         "reliability": 0.85,
         "time_advantage": 0.85
       },
       "id": "CISA KEV:CVE-2025-61624",
       "meaning": "attention_priority_only",
       "penalties": {
-        "duplication": 0.0,
+        "duplication": 0.75,
         "manipulation_risk": 0.05,
         "noise": 0.1,
         "uncertainty": 0.1
       },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.424,
       "reliability_gate": 0.8875,
-      "value_score": 49.2,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
-      "id": "CISA KEV:CVE-2026-102764",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
-      "reliability_gate": 0.8875,
-      "value_score": 49.2,
+      "value_score": 28.13,
       "version": "edge.value.v0.1"
     },
     {
@@ -96,6 +73,29 @@
         "time_advantage": 0.85
       },
       "id": "CISA KEV:CVE-2026-0322",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.424,
+      "reliability_gate": 0.8875,
+      "value_score": 28.13,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.85
+      },
+      "id": "CISA KEV:CVE-2026-102764",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -9359,29 +9359,6 @@
       "factors": {
         "actionability": 0.1,
         "consequence": 0.15,
-        "novelty": 0.75,
-        "relevance": 0.16,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21236",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.725,
-      "positive_signal": 0.2632,
-      "reliability_gate": 0.5125,
-      "value_score": 9.78,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
         "novelty": 0.05,
         "relevance": 0.0,
         "reliability": 0.35,
@@ -11595,6 +11572,29 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21236",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21239",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -11656,7 +11656,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-16T21:16:05.665282+00:00",
+  "generated_at": "2026-10-16T23:38:49.437743+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
@@ -11666,10 +11666,7 @@
   },
   "schema": "edge.value.lab.freeze.v0.1",
   "semantics": "prospective measurement artifact; not an attention queue or instruction",
-  "value_selected": [
-    "CISA KEV:CVE-2025-61624",
-    "CISA KEV:CVE-2026-102764"
-  ],
+  "value_selected": [],
   "value_threshold": 45.0,
   "value_version": "edge.value.v0.1"
 }
