@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1223"><title>Genesis ONE — iPhone Lab</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#0b1223;color:#e8efff;font:16px -apple-system,BlinkMacSystemFont,system-ui,sans-serif;padding:24px 16px;line-height:1.55}main{max-width:720px;margin:auto}h1{font-size:2rem;line-height:1.2}h2{font-size:1.25rem}small,.muted{color:#a9bbda}.card{background:#18243d;border:1px solid #405478;border-radius:18px;padding:20px;margin:18px 0}button{border:0;border-radius:12px;padding:13px 16px;margin:4px;background:#94b9ff;color:#07142c;font-weight:700;font-size:16px}button:disabled{opacity:.5}button.secondary{background:#33486b;color:white}output,pre{display:block;white-space:pre-wrap;overflow-wrap:anywhere;background:#0b1931;padding:12px;border-radius:10px;margin-top:12px}input{font-size:18px;width:120px;background:#0c1931;border:1px solid #7b91b9;border-radius:8px;color:white;padding:8px}a{color:#b7d0ff}</style></head>
+<body><main><small>EARTHCHAIN RESEARCH · GENESIS ONE</small><h1>iPhone Laboratory 🦾</h1><p>Runs on this device. No account, cloud inference, or external libraries. Experimental local symbolic search—not a language model.</p><output id="env">Starting…</output>
+<section class="card"><h2>1. Hardware benchmark</h2><p class="muted">Deterministic integer workload; elapsed wall time, not watts. Runs in chunks to keep the screen responsive.</p><label>Iterations <input id="n" type="number" min="1000" max="2000000" value="200000" step="1000"></label><p><button id="cpu">Run CPU test</button><button class="secondary" id="part">Run 2-part test</button><button class="secondary" id="stop">Stop</button></p><output id="cpuOut">Ready.</output></section>
+<section class="card"><h2>2. Local reasoning + skill memory</h2><p class="muted">Search 132 arithmetic candidate programs against unseen input/output examples. Store matching skills locally when allowed.</p><button id="reason">Run reasoning suite</button><button class="secondary" id="clearSkills">Clear skills</button><output id="reasonOut">Ready.</output></section>
+<section class="card"><h2>3. Evidence ledger</h2><p class="muted">Export results to a JSON file; browser storage is not guaranteed to persist in private mode.</p><button id="export">Export JSON</button><button class="secondary" id="clearRuns">Clear results</button><output id="ledger">Checking storage…</output></section>
+<section class="card"><h2>4. Offline status</h2><output id="offline">Checking…</output><p class="muted">After first successful HTTPS visit, service-worker caching can support later offline reopening at this address. Test in Airplane Mode before relying on it.</p></section>
+<p class="muted">Truth before theater. Evidence before confidence. Operational before victory.</p></main>
+<script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id);let running=false,halt=false;
+const key='genesis-one-lab-v3',skillsKey='genesis-one-skills-v3';
+function load(k){try{return JSON.parse(localStorage.getItem(k)||'[]')}catch{return []}}
+let runs=load(key),skills=load(skillsKey);
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
+function ledger(){ $('ledger').textContent=runs.length+' recorded runs · '+skills.length+' saved skills · storage '+(save(key,runs)?'available':'unavailable');}
+function record(v){runs.push({at:new Date().toISOString(),...v});save(key,runs);ledger()}
+function calc(a,b){let s=0;for(let i=a;i<b;i++){s=(s+Math.imul(i^0x5a5a5a5a,2654435761))>>>0}return s>>>0}
+function pause(){return new Promise(resolve=>setTimeout(resolve,0))}
+async function compute(start,end){let s=0;for(let i=start;i<end;i+=10000){if(halt)throw Error('Stopped');s=(s+calc(i,Math.min(i+10000,end)))>>>0;await pause()}return s>>>0}
+async function bench(parts){if(running)return;running=true;halt=false;$('cpuOut').textContent='Computing…';$('cpu').disabled=true;$('part').disabled=true;try{const n=Math.max(1000,Math.min(2000000,Number($('n').value)||200000));const t=performance.now();const mid=Math.floor(n/2);let checksum=parts===1?await compute(0,n):((await compute(0,mid))+(await compute(mid,n)))>>>0;const ms=performance.now()-t;const valid=checksum===calc(0,n);const out={kind:'cpu',parts,parallel:false,iterations:n,elapsed_ms:+ms.toFixed(2),checksum,verified:valid};record(out);$('cpuOut').textContent=JSON.stringify(out,null,2)}catch(e){$('cpuOut').textContent=String(e)}finally{running=false;$('cpu').disabled=false;$('part').disabled=false}}
+const ops=[];for(let a=-5;a<=5;a++)for(let b=-5;b<=5;b++)ops.push({name:a+'×x'+(b>=0?'+':'')+b,fn:x=>a*x+b});for(let k=-5;k<=5;k++)ops.push({name:'x²'+(k>=0?'+':'')+k,fn:x=>x*x+k});
+const tasks=[{n:'double+1',f:x=>2*x+1},{n:'triple-2',f:x=>3*x-2},{n:'negate+4',f:x=>-x+4},{n:'constant 3',f:x=>3},{n:'square+1',f:x=>x*x+1},{n:'square-3',f:x=>x*x-3},{n:'identity',f:x=>x},{n:'five times minus one',f:x=>5*x-1}];
+function reason(){const t=performance.now(),results=[];for(const task of tasks){const xs=[-3,-1,0,2,4],held=[-7,6,9];let tries=0,found=null;for(const op of ops){tries++;if(xs.every(x=>op.fn(x)===task.f(x))&&held.every(x=>op.fn(x)===task.f(x))){found=op;break}}results.push({task:task.n,solved:!!found,attempts:tries,program:found?.name||null});if(found&&!skills.includes(found.name))skills.push(found.name)}save(skillsKey,skills);const out={kind:'reasoning',solved:results.filter(x=>x.solved).length,total:tasks.length,candidates:ops.length,elapsed_ms:+(performance.now()-t).toFixed(2),results};record(out);$('reasonOut').textContent=JSON.stringify(out,null,2)}
+$('cpu').onclick=()=>bench(1);$('part').onclick=()=>bench(2);$('stop').onclick=()=>{halt=true};$('reason').onclick=reason;
+$('clearSkills').onclick=()=>{skills=[];save(skillsKey,skills);ledger();$('reasonOut').textContent='Skills cleared.'};
+$('clearRuns').onclick=()=>{runs=[];save(key,runs);ledger()};
+$('export').onclick=()=>{const blob=new Blob([JSON.stringify({schema:'genesis-one-v3',exported:new Date().toISOString(),runs,skills},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='genesis-one-results.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),3000)};
+$('env').textContent='JavaScript active ✓ · '+(navigator.onLine?'Browser reports online':'Browser reports offline');ledger();
+$('offline').textContent=location.protocol==='https:'?'HTTPS ✓ · offline cache initializing':'Not on HTTPS · offline Home Screen caching unavailable';
+if('serviceWorker'in navigator&&location.protocol==='https:'){navigator.serviceWorker.register('./sw.js').then(()=>{$('offline').textContent='HTTPS ✓ · service worker registered; offline reopen must be tested'}).catch(e=>{$('offline').textContent='Offline cache registration failed: '+e.message})}
+})();
+</script></body></html>
