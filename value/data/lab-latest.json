@@ -38,7 +38,7 @@
       "CISA KEV:CVE-2023-22894"
     ]
   },
-  "candidate_count": 505,
+  "candidate_count": 504,
   "candidates": [
     {
       "factors": {
@@ -2434,52 +2434,6 @@
     },
     {
       "factors": {
-        "actionability": 0.15,
-        "consequence": 0.35,
-        "novelty": 0.05,
-        "relevance": 0.2,
-        "reliability": 0.85,
-        "time_advantage": 0.2
-      },
-      "id": "NIST NVD:CVE-1999-1034",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.296,
-      "reliability_gate": 0.8875,
-      "value_score": 19.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.15,
-        "consequence": 0.35,
-        "novelty": 0.05,
-        "relevance": 0.2,
-        "reliability": 0.85,
-        "time_advantage": 0.2
-      },
-      "id": "NIST NVD:CVE-1999-1138",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.296,
-      "reliability_gate": 0.8875,
-      "value_score": 19.64,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
         "actionability": 0.35,
         "consequence": 0.15,
         "novelty": 0.05,
@@ -2591,29 +2545,6 @@
       "positive_signal": 0.293,
       "reliability_gate": 0.8875,
       "value_score": 19.44,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.5249999999999999,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:us6000u1wn",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.273,
-      "reliability_gate": 0.8875,
-      "value_score": 18.11,
       "version": "edge.value.v0.1"
     },
     {
@@ -4120,6 +4051,29 @@
         "reliability": 0.85,
         "time_advantage": 0.2
       },
+      "id": "NIST NVD:CVE-1999-1034",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.252,
+      "reliability_gate": 0.8875,
+      "value_score": 16.72,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.15,
+        "consequence": 0.35,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.2
+      },
       "id": "NIST NVD:CVE-1999-1056",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -4420,6 +4374,29 @@
         "time_advantage": 0.2
       },
       "id": "NIST NVD:CVE-1999-1137",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.252,
+      "reliability_gate": 0.8875,
+      "value_score": 16.72,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.15,
+        "consequence": 0.35,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.2
+      },
+      "id": "NIST NVD:CVE-1999-1138",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -11656,7 +11633,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-19T19:58:32.503473+00:00",
+  "generated_at": "2026-10-19T23:45:18.371169+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
