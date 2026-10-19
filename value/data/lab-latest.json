@@ -14,6 +14,8 @@
       "CISA KEV:CVE-2023-22894"
     ],
     "newest_first": [
+      "NASA EONET:EONET_25339",
+      "NASA EONET:EONET_25290",
       "Federal Register:C1-2026-12067",
       "Federal Register:2026-21432",
       "Federal Register:2026-21431",
@@ -21,9 +23,7 @@
       "Federal Register:2026-21399",
       "Federal Register:2026-21387",
       "Federal Register:2026-21384",
-      "Federal Register:2026-21383",
-      "Federal Register:2026-21381",
-      "Federal Register:2026-21380"
+      "Federal Register:2026-21383"
     ],
     "source_order": [
       "CISA KEV:CVE-2015-3246",
@@ -40,6 +40,52 @@
   },
   "candidate_count": 505,
   "candidates": [
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 1.0,
+        "relevance": 0.34,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_23663",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4153,
+      "reliability_gate": 0.8875,
+      "value_score": 34.46,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.75,
+        "relevance": 0.38,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "NASA EONET:EONET_25340",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.3866,
+      "reliability_gate": 0.8875,
+      "value_score": 32.08,
+      "version": "edge.value.v0.1"
+    },
     {
       "factors": {
         "actionability": 0.3,
@@ -8835,29 +8881,6 @@
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "NASA EONET:EONET_25046",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.198,
-      "reliability_gate": 0.8875,
-      "value_score": 13.14,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
       "id": "NASA EONET:EONET_25063",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -9319,29 +9342,6 @@
         "time_advantage": 0.15
       },
       "id": "NASA EONET:EONET_25339",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.198,
-      "reliability_gate": 0.8875,
-      "value_score": 13.14,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "NASA EONET:EONET_25340",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -11656,7 +11656,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-19T01:20:05.462802+00:00",
+  "generated_at": "2026-10-19T06:18:24.009844+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
