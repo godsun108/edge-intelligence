@@ -31,6 +31,9 @@ jobs:
           assert.equal(p.changed,r.accepted-p.accepted);
           assert.ok(p.extraObserved<=p.extraRequests);
           assert.ok(p.extraRequests<=3*p.eligible);
+          assert.equal(p.wrongEligible+p.wrongIneligible,r.wrong);
+          assert.equal(p.correctEligible+p.wrongEligible,p.eligible);
+          assert.equal(p.wrongVetoed+p.correctVetoed,p.changed);
           console.log(JSON.stringify({baseline:{correct:r.correct,wrong:r.wrong,accepted:r.accepted,requests:r.requests},probeBudget:p,correctRejected:r.correct-p.correct,wrongPrevented:r.wrong-p.wrong,totalRequests:r.requests+p.extraRequests},null,2));
           NODE
       - uses: actions/upload-artifact@v4
