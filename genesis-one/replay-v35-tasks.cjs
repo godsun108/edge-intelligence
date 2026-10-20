@@ -22,7 +22,7 @@ const byScenario=[],failures=[],wrongAcceptedExamples=[];let tasks=0,mismatches=
    for(const row of rows){const a=decide29(row,gate),b=decide30(row,gate),c=decide32(row,gate);tasks++;
     const ok=signature(a)===signature(b)&&signature(a)===signature(c);
     if(!ok){mismatches++;sm++;if(failures.length<20)failures.push({seed:runSeed,scenario:sc.name,task:row.task,target:row.target,v29:a,v30:b,v35:c})}
-    if(c.wrong&&wrongAcceptedExamples.length<100)wrongAcceptedExamples.push({seed:runSeed,scenario:sc.name,task:row.task,target:row.target,decision:c});
+    if(c.wrong&&wrongAcceptedExamples.length<100)wrongAcceptedExamples.push({seed:runSeed,scenario:sc.name,task:row.task,target:row.target,inDistribution:row.inDistribution,initial:row.initial,followups:row.followups,probes:row.probes,stages:row.stages,decision:c});
     correct+=Number(c.correct);wrong+=Number(c.wrong);accepted+=Number(c.decision==='accept');requests+=c.requested;
     sw+=Number(c.correct);sbad+=Number(c.wrong);sa+=Number(c.decision==='accept');
    }
