@@ -29,7 +29,7 @@ const byScenario=[],failures=[];let tasks=0,mismatches=0,correct=0,wrong=0,accep
   }
  }
  return {tasks,mismatches,correct,wrong,accepted,requests,byScenario,failures};
-})()`,sandbox,{timeout:120000});
+};
 `;
 vm.runInContext(match[1].replace(marker,injected+marker),sandbox,{filename:'regression-v35.browser.js',timeout:30000});
 const opts={seed:31071,count:800,seedCount:1};
