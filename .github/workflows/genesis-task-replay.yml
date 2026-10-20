@@ -19,6 +19,9 @@ jobs:
           node-version: '22'
       - name: Run deterministic task replay
         run: node genesis-one/replay-v35-tasks.cjs seed=31071 count=200 seedCount=4 > genesis-task-replay.json
+      - name: Assert original v35 audit aggregate results
+        run: |
+          node -e "const assert=require('node:assert/strict');const r=require('./genesis-task-replay.json');assert.deepEqual(r.settings,{seed:31071,count:200,seedCount:4});for(const [k,v] of Object.entries({tasks:4000,mismatches:0,correct:2141,wrong:4,accepted:2145,requests:27133}))assert.equal(r[k],v,k);assert.equal(r.byScenario.length,20);console.log('Matched original v35 audit aggregate metrics and scenario coverage')"
       - name: Summarize replay
         run: node -e "const r=require('./genesis-task-replay.json');console.log(JSON.stringify({tasks:r.tasks,mismatches:r.mismatches,correct:r.correct,wrong:r.wrong,accepted:r.accepted,requests:r.requests,sourceSha256:r.sourceSha256},null,2))"
       - uses: actions/upload-artifact@v4
