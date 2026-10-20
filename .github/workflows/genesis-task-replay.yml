@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '22'
       - name: Run deterministic task replay
-        run: node genesis-one/replay-v35-tasks.cjs seed=31071 count=800 seedCount=1 > genesis-task-replay.json
+        run: node genesis-one/replay-v35-tasks.cjs seed=31071 count=200 seedCount=4 > genesis-task-replay.json
       - name: Summarize replay
         run: node -e "const r=require('./genesis-task-replay.json');console.log(JSON.stringify({tasks:r.tasks,mismatches:r.mismatches,correct:r.correct,wrong:r.wrong,accepted:r.accepted,requests:r.requests,sourceSha256:r.sourceSha256},null,2))"
       - uses: actions/upload-artifact@v4
