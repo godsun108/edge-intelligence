@@ -15,7 +15,7 @@ vm.createContext(sandbox);
 const marker="$('run').onclick=";
 assert.ok(match[1].includes(marker),'browser run hook missing');
 const injected=`globalThis.__genesisReplay=function(opts){const seed=opts.seed,count=opts.count,seedCount=opts.seedCount;
-const byScenario=[],failures=[],wrongAcceptedExamples=[];let tasks=0,mismatches=0,correct=0,wrong=0,accepted=0,requests=0;
+const byScenario=[],failures=[],wrongAcceptedExamples=[];let tasks=0,mismatches=0,correct=0,wrong=0,accepted=0,requests=0;const shadow={baseline:{correct:0,wrong:0,accepted:0},stableStage4:{correct:0,wrong:0,accepted:0},minFourObserved:{correct:0,wrong:0,accepted:0},both:{correct:0,wrong:0,accepted:0}};
  for(let z=0;z<seedCount;z++){const runSeed=(seed+z*7919)>>>0;
   for(let i=0;i<scenarios.length;i++){const sc=scenarios[i],rows=make((runSeed+i*100003)>>>0,count,sc);
    let sm=0,sw=0,sa=0,sbad=0;
@@ -23,13 +23,14 @@ const byScenario=[],failures=[],wrongAcceptedExamples=[];let tasks=0,mismatches=
     const ok=signature(a)===signature(b)&&signature(a)===signature(c);
     if(!ok){mismatches++;sm++;if(failures.length<20)failures.push({seed:runSeed,scenario:sc.name,task:row.task,target:row.target,v29:a,v30:b,v35:c})}
     if(c.wrong&&wrongAcceptedExamples.length<100)wrongAcceptedExamples.push({seed:runSeed,scenario:sc.name,task:row.task,target:row.target,inDistribution:row.inDistribution,initial:row.initial,followups:row.followups,probes:row.probes,stages:row.stages,decision:c});
-    correct+=Number(c.correct);wrong+=Number(c.wrong);accepted+=Number(c.decision==='accept');requests+=c.requested;
+    const accept=c.decision==='accept';const stage4=row.stages[4],stable=accept&&c.answer===stage4.answer,enough=accept&&stage4.n>=4;for(const [key,keep] of Object.entries({baseline:accept,stableStage4:stable,minFourObserved:enough,both:stable&&enough})){if(keep){shadow[key].accepted++;shadow[key][c.correct?'correct':'wrong']++}};
+    correct+=Number(c.correct);wrong+=Number(c.wrong);accepted+=Number(accept);requests+=c.requested;
     sw+=Number(c.correct);sbad+=Number(c.wrong);sa+=Number(c.decision==='accept');
    }
    byScenario.push({seed:runSeed,scenario:sc.name,tasks:rows.length,mismatches:sm,correct:sw,wrong:sbad,accepted:sa});
   }
  }
- return {tasks,mismatches,correct,wrong,accepted,requests,byScenario,failures,wrongAcceptedExamples};
+ return {tasks,mismatches,correct,wrong,accepted,requests,byScenario,failures,wrongAcceptedExamples,shadow};
 };
 `;
 vm.runInContext(match[1].replace(marker,injected+marker),sandbox,{filename:'regression-v35.browser.js',timeout:30000});
