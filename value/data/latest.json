@@ -1,13 +1,66 @@
 {
   "attention_budget": 10,
-  "eligible": 0,
-  "evaluated": 504,
-  "input_generated_at": "2026-10-20T10:07:49.958572+00:00",
+  "eligible": 1,
+  "evaluated": 503,
+  "input_generated_at": "2026-10-20T15:08:27.665010+00:00",
   "input_schema": "edge.radar.snapshot.v1",
-  "items": [],
+  "items": [
+    {
+      "derivation_reasons": {
+        "actionability": [
+          "public opportunity has a future close date; eligibility not inferred"
+        ],
+        "consequence": [
+          "no domain consequence adapter; conservative default"
+        ],
+        "novelty": [
+          "RADAR change=new"
+        ],
+        "relevance": [
+          "mapped from explicit RADAR rule score"
+        ],
+        "reliability": [
+          "known primary/public source: Grants.gov"
+        ],
+        "time_advantage": [
+          "163 days until listed close date"
+        ]
+      },
+      "factors": {
+        "actionability": 0.35,
+        "consequence": 0.15,
+        "novelty": 1.0,
+        "relevance": 0.84,
+        "reliability": 0.85,
+        "time_advantage": 0.35
+      },
+      "id": "Grants.gov:359816",
+      "meaning": "attention_priority_only",
+      "observation": {
+        "observed_at": "06/25/2025",
+        "radar_change": "new",
+        "retrieved_at": "2026-10-20T15:08:27.665010+00:00",
+        "source": "Grants.gov",
+        "source_id": "359816",
+        "title": "Animal Food Regulatory Program Standards Implementation Development and Maintenance, with Mutual Reliance Initiatives Clinical Trials Not Allowed",
+        "url": "https://www.grants.gov/search-results-detail/359816"
+      },
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.5903,
+      "reliability_gate": 0.8875,
+      "value_score": 48.98,
+      "version": "edge.value.v0.1"
+    }
+  ],
   "schema": "edge.value.queue.v0.1",
   "semantics": "machine-derived attention queue; human verification required",
-  "state": "NO_SIGNAL",
+  "state": "SIGNAL",
   "suppressed_above_threshold": 0,
   "threshold": 45.0
 }
