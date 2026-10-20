@@ -23,7 +23,7 @@ jobs:
         run: node genesis-one/replay-v35-tasks.cjs seed=900001 count=200 seedCount=4 > genesis-distinct-seed.json
       - name: Assert accounting and summarize outcomes
         run: |
-          node -e "const assert=require('node:assert/strict');const r=require('./genesis-distinct-seed.json');assert.equal(r.tasks,4000);assert.equal(r.byScenario.length,20);assert.equal(r.accepted,r.correct+r.wrong);assert.equal(r.mismatches,0);console.log(JSON.stringify({sourceSha256:r.sourceSha256,settings:r.settings,tasks:r.tasks,correct:r.correct,wrong:r.wrong,accepted:r.accepted,abstained:r.tasks-r.accepted,requests:r.requests,mismatches:r.mismatches},null,2))"
+          node -e "const assert=require('node:assert/strict');const r=require('./genesis-distinct-seed.json');assert.equal(r.tasks,4000);assert.equal(r.byScenario.length,20);assert.equal(r.accepted,r.correct+r.wrong);assert.equal(r.mismatches,0);assert.equal(r.correct,2152);assert.equal(r.wrong,2);assert.equal(r.accepted,2154);assert.equal(r.requests,27293);console.log(JSON.stringify({sourceSha256:r.sourceSha256,settings:r.settings,tasks:r.tasks,correct:r.correct,wrong:r.wrong,accepted:r.accepted,abstained:r.tasks-r.accepted,requests:r.requests,mismatches:r.mismatches},null,2))"
       - uses: actions/upload-artifact@v4
         with:
           name: genesis-distinct-seed-evidence
