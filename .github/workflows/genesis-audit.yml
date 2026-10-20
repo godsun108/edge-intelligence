@@ -5,6 +5,8 @@ on:
       - 'genesis-one/validate-v35-audit.cjs'
       - 'genesis-one/selftest-v35-audit.cjs'
       - '.github/workflows/genesis-audit.yml'
+      - 'genesis-one/foundry-proof-preflight.cjs'
+      - 'genesis-one/selftest-foundry-proof-preflight.cjs'
   push:
     branches: [main]
     paths:
@@ -27,3 +29,9 @@ jobs:
         run: node --check genesis-one/validate-v35-audit.cjs
       - name: Run validator positive and negative self-tests
         run: node genesis-one/selftest-v35-audit.cjs
+      - name: Check Foundry proof preflight syntax
+        run: |
+          node --check genesis-one/foundry-proof-preflight.cjs
+          node --check genesis-one/selftest-foundry-proof-preflight.cjs
+      - name: Run Foundry proof ownership negative self-tests
+        run: node genesis-one/selftest-foundry-proof-preflight.cjs
