@@ -572,36 +572,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-0770",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-0770"
-        }
-      ],
-      "right": "product:Langflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-0770",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-0770"
-        }
-      ],
-      "right": "vendor:Langflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-102489",
       "observation_count": 1,
       "observations": [
@@ -812,60 +782,60 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-16232",
+      "left": "cve:CVE-2026-106931",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16232"
+          "source_id": "CVE-2026-106931"
         }
       ],
-      "right": "product:SmartConsole",
+      "right": "product:SiteGuard Server Edition",
       "sources": [
         "CISA KEV"
       ]
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-16232",
+      "left": "cve:CVE-2026-106931",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16232"
+          "source_id": "CVE-2026-106931"
         }
       ],
-      "right": "vendor:Check Point",
+      "right": "vendor:EG Secure Solutions",
       "sources": [
         "CISA KEV"
       ]
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-16812",
+      "left": "cve:CVE-2026-110936",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16812"
+          "source_id": "CVE-2026-110936"
         }
       ],
-      "right": "product:VeloCloud Orchestrator",
+      "right": "product:Software Center",
       "sources": [
         "CISA KEV"
       ]
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-16812",
+      "left": "cve:CVE-2026-110936",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16812"
+          "source_id": "CVE-2026-110936"
         }
       ],
-      "right": "vendor:Arista",
+      "right": "vendor:Siemens",
       "sources": [
         "CISA KEV"
       ]
@@ -1292,36 +1262,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-50522",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-50522"
-        }
-      ],
-      "right": "product:SharePoint",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-50522",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-50522"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-53266",
       "observation_count": 1,
       "observations": [
@@ -1556,66 +1496,6 @@
         }
       ],
       "right": "vendor:Gitea",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-60137",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60137"
-        }
-      ],
-      "right": "product:Core",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-60137",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60137"
-        }
-      ],
-      "right": "vendor:WordPress",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-63030",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63030"
-        }
-      ],
-      "right": "product:Core",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-63030",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63030"
-        }
-      ],
-      "right": "vendor:WordPress",
       "sources": [
         "CISA KEV"
       ]
@@ -3002,6 +2882,126 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-96652",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96652"
+        }
+      ],
+      "right": "product:Media Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96652",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96652"
+        }
+      ],
+      "right": "vendor:Plex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96654",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96654"
+        }
+      ],
+      "right": "product:Media Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96654",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96654"
+        }
+      ],
+      "right": "vendor:Plex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96655",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96655"
+        }
+      ],
+      "right": "product:Media Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96655",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96655"
+        }
+      ],
+      "right": "vendor:Plex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96656",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96656"
+        }
+      ],
+      "right": "product:Media Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-96656",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96656"
+        }
+      ],
+      "right": "vendor:Plex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-96951",
       "observation_count": 1,
       "observations": [
@@ -3237,19 +3237,11 @@
     {
       "independent_source_count": 1,
       "left": "product:Core",
-      "observation_count": 3,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-87902"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60137"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63030"
         }
       ],
       "right": "vendor:WordPress",
@@ -3440,21 +3432,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Langflow",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-0770"
-        }
-      ],
-      "right": "vendor:Langflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Libuser",
       "observation_count": 1,
       "observations": [
@@ -3509,6 +3486,33 @@
         }
       ],
       "right": "vendor:MLflow",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Media Server",
+      "observation_count": 4,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96656"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96655"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96654"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96652"
+        }
+      ],
+      "right": "vendor:Plex",
       "sources": [
         "CISA KEV"
       ]
@@ -3928,7 +3932,7 @@
     {
       "independent_source_count": 1,
       "left": "product:SharePoint",
-      "observation_count": 3,
+      "observation_count": 2,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3937,10 +3941,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-55040"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-50522"
         }
       ],
       "right": "vendor:Microsoft",
@@ -3950,15 +3950,30 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:SmartConsole",
+      "left": "product:SiteGuard Server Edition",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16232"
+          "source_id": "CVE-2026-106931"
         }
       ],
-      "right": "vendor:Check Point",
+      "right": "vendor:EG Secure Solutions",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Software Center",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-110936"
+        }
+      ],
+      "right": "vendor:Siemens",
       "sources": [
         "CISA KEV"
       ]
@@ -4071,15 +4086,11 @@
     {
       "independent_source_count": 1,
       "left": "product:VeloCloud Orchestrator",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-93952"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-16812"
         }
       ],
       "right": "vendor:Arista",
@@ -4782,11 +4793,6 @@
       "value": "CVE-2026-0322"
     },
     {
-      "id": "cve:CVE-2026-0770",
-      "kind": "cve",
-      "value": "CVE-2026-0770"
-    },
-    {
       "id": "cve:CVE-2026-102489",
       "kind": "cve",
       "value": "CVE-2026-102489"
@@ -4822,14 +4828,14 @@
       "value": "CVE-2026-105134"
     },
     {
-      "id": "cve:CVE-2026-16232",
+      "id": "cve:CVE-2026-106931",
       "kind": "cve",
-      "value": "CVE-2026-16232"
+      "value": "CVE-2026-106931"
     },
     {
-      "id": "cve:CVE-2026-16812",
+      "id": "cve:CVE-2026-110936",
       "kind": "cve",
-      "value": "CVE-2026-16812"
+      "value": "CVE-2026-110936"
     },
     {
       "id": "cve:CVE-2026-18556",
@@ -4902,11 +4908,6 @@
       "value": "CVE-2026-49869"
     },
     {
-      "id": "cve:CVE-2026-50522",
-      "kind": "cve",
-      "value": "CVE-2026-50522"
-    },
-    {
       "id": "cve:CVE-2026-53266",
       "kind": "cve",
       "value": "CVE-2026-53266"
@@ -4945,16 +4946,6 @@
       "id": "cve:CVE-2026-60004",
       "kind": "cve",
       "value": "CVE-2026-60004"
-    },
-    {
-      "id": "cve:CVE-2026-60137",
-      "kind": "cve",
-      "value": "CVE-2026-60137"
-    },
-    {
-      "id": "cve:CVE-2026-63030",
-      "kind": "cve",
-      "value": "CVE-2026-63030"
     },
     {
       "id": "cve:CVE-2026-63077",
@@ -5187,6 +5178,26 @@
       "value": "CVE-2026-9586"
     },
     {
+      "id": "cve:CVE-2026-96652",
+      "kind": "cve",
+      "value": "CVE-2026-96652"
+    },
+    {
+      "id": "cve:CVE-2026-96654",
+      "kind": "cve",
+      "value": "CVE-2026-96654"
+    },
+    {
+      "id": "cve:CVE-2026-96655",
+      "kind": "cve",
+      "value": "CVE-2026-96655"
+    },
+    {
+      "id": "cve:CVE-2026-96656",
+      "kind": "cve",
+      "value": "CVE-2026-96656"
+    },
+    {
       "id": "cve:CVE-2026-96951",
       "kind": "cve",
       "value": "CVE-2026-96951"
@@ -5332,6 +5343,11 @@
       "value": "MLflow"
     },
     {
+      "id": "product:Media Server",
+      "kind": "product",
+      "value": "Media Server"
+    },
+    {
       "id": "product:Metabase",
       "kind": "product",
       "value": "Metabase"
@@ -5437,9 +5453,14 @@
       "value": "SharePoint"
     },
     {
-      "id": "product:SmartConsole",
+      "id": "product:SiteGuard Server Edition",
       "kind": "product",
-      "value": "SmartConsole"
+      "value": "SiteGuard Server Edition"
+    },
+    {
+      "id": "product:Software Center",
+      "kind": "product",
+      "value": "Software Center"
     },
     {
       "id": "product:Starlette",
@@ -5587,6 +5608,11 @@
       "value": "ConnectWise"
     },
     {
+      "id": "vendor:EG Secure Solutions",
+      "kind": "vendor",
+      "value": "EG Secure Solutions"
+    },
+    {
       "id": "vendor:F5",
       "kind": "vendor",
       "value": "F5"
@@ -5647,11 +5673,6 @@
       "value": "Kludex"
     },
     {
-      "id": "vendor:Langflow",
-      "kind": "vendor",
-      "value": "Langflow"
-    },
-    {
       "id": "vendor:Linux",
       "kind": "vendor",
       "value": "Linux"
@@ -5702,6 +5723,11 @@
       "value": "PaperCut"
     },
     {
+      "id": "vendor:Plex",
+      "kind": "vendor",
+      "value": "Plex"
+    },
+    {
       "id": "vendor:ProFTPD",
       "kind": "vendor",
       "value": "ProFTPD"
@@ -5725,6 +5751,11 @@
       "id": "vendor:Sangoma",
       "kind": "vendor",
       "value": "Sangoma"
+    },
+    {
+      "id": "vendor:Siemens",
+      "kind": "vendor",
+      "value": "Siemens"
     },
     {
       "id": "vendor:SonicWall",

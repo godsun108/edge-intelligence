@@ -2020,23 +2020,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-0770",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-0770",
-          "title": "CVE-2026-0770 \u2014 Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0770"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-102489",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2156,15 +2139,15 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-16232",
+      "identifier": "CVE-2026-106931",
       "independent_source_count": 1,
       "record_count": 1,
       "records": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16232",
-          "title": "CVE-2026-16232 \u2014 Check Point SmartConsole Improper Authentication Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-16232"
+          "source_id": "CVE-2026-106931",
+          "title": "CVE-2026-106931 \u2014 EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-106931"
         }
       ],
       "sources": [
@@ -2173,15 +2156,15 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-16812",
+      "identifier": "CVE-2026-110936",
       "independent_source_count": 1,
       "record_count": 1,
       "records": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-16812",
-          "title": "CVE-2026-16812 \u2014 Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-16812"
+          "source_id": "CVE-2026-110936",
+          "title": "CVE-2026-110936 \u2014 Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-110936"
         }
       ],
       "sources": [
@@ -2428,23 +2411,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-50522",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-50522",
-          "title": "CVE-2026-50522 \u2014 Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-50522"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-53266",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2573,40 +2539,6 @@
           "source_id": "CVE-2026-60004",
           "title": "CVE-2026-60004 \u2014 Gitea Code Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-60004"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-60137",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60137",
-          "title": "CVE-2026-60137 \u2014 WordPress Core SQL Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-60137"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-63030",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63030",
-          "title": "CVE-2026-63030 \u2014 WordPress Core Interpretation Conflict Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-63030"
         }
       ],
       "sources": [
@@ -3389,6 +3321,74 @@
           "source_id": "CVE-2026-9586",
           "title": "CVE-2026-9586 \u2014 Sangoma Switchvox SQL Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9586"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-96652",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96652",
+          "title": "CVE-2026-96652 \u2014 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96652"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-96654",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96654",
+          "title": "CVE-2026-96654 \u2014 Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96654"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-96655",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96655",
+          "title": "CVE-2026-96655 \u2014 Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96655"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-96656",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-96656",
+          "title": "CVE-2026-96656 \u2014 Plex Media Server External Control of File Name or Path Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96656"
         }
       ],
       "sources": [
