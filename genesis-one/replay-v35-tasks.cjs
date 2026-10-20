@@ -10,13 +10,12 @@ const nodes=new Map();
 const element=id=>{if(!nodes.has(id))nodes.set(id,{value:'',textContent:'',onclick:null});return nodes.get(id)};
 const sandbox={document:{getElementById:element},localStorage:{getItem:()=>null,setItem:()=>{}},setTimeout:()=>{},console};
 vm.createContext(sandbox);
-vm.runInContext(match[1],sandbox,{filename:'regression-v35.browser.js',timeout:30000});
-const opts={seed:31071,count:800,seedCount:1};
-for(const a of process.argv.slice(2)){const [k,v]=a.split('=');if(!(k in opts)||!Number.isSafeInteger(Number(v))||Number(v)<1)throw Error('Invalid argument: '+a);opts[k]=Number(v)}
-assert.ok(opts.count<=3000&&opts.seedCount<=12,'bounded replay');
-const run=vm.runInContext(`(function(){
- const seed=${opts.seed},count=${opts.count},seedCount=${opts.seedCount};
- const byScenario=[],failures=[];let tasks=0,mismatches=0,correct=0,wrong=0,accepted=0,requests=0;
+
+// Insert a replay entry point INSIDE the browser's lexical closure.
+const marker="$('run').onclick=";
+assert.ok(match[1].includes(marker),'browser run hook missing');
+const injected=`globalThis.__genesisReplay=function(opts){const seed=opts.seed,count=opts.count,seedCount=opts.seedCount;
+const byScenario=[],failures=[];let tasks=0,mismatches=0,correct=0,wrong=0,accepted=0,requests=0;
  for(let z=0;z<seedCount;z++){const runSeed=(seed+z*7919)>>>0;
   for(let i=0;i<scenarios.length;i++){const sc=scenarios[i],rows=make((runSeed+i*100003)>>>0,count,sc);
    let sm=0,sw=0,sa=0,sbad=0;
@@ -31,6 +30,12 @@ const run=vm.runInContext(`(function(){
  }
  return {tasks,mismatches,correct,wrong,accepted,requests,byScenario,failures};
 })()`,sandbox,{timeout:120000});
+`;
+vm.runInContext(match[1].replace(marker,injected+marker),sandbox,{filename:'regression-v35.browser.js',timeout:30000});
+const opts={seed:31071,count:800,seedCount:1};
+for(const a of process.argv.slice(2)){const [k,v]=a.split('=');if(!(k in opts)||!Number.isSafeInteger(Number(v))||Number(v)<1)throw Error('Invalid argument: '+a);opts[k]=Number(v)}
+assert.ok(opts.count<=3000&&opts.seedCount<=12,'bounded replay');
+const run=sandbox.__genesisReplay(opts);
 const output={schema:'genesis.task-replay.v1',source:'genesis-one/regression-v35.html',sourceSha256:crypto.createHash('sha256').update(html).digest('hex'),settings:opts,scope:'Node VM re-execution of checked-in browser v35 algorithms; no independent implementation or browser timing',...run};
 console.log(JSON.stringify(output,null,2));
 if(run.mismatches)process.exitCode=1;
