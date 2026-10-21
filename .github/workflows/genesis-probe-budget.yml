@@ -34,6 +34,9 @@ jobs:
           assert.equal(p.wrongEligible+p.wrongIneligible,r.wrong);
           assert.equal(p.correctEligible+p.wrongEligible,p.eligible);
           assert.equal(p.wrongVetoed+p.correctVetoed,p.changed);
+          assert.equal(p.wrongDiagnostics.length,r.wrong);
+          for(const d of p.wrongDiagnostics){assert.equal(typeof d.eligible,'boolean');assert.ok(d.originalScores.length>0);if(d.eligible){assert.ok(d.extra.length>0);assert.ok(d.augmentedScores.length>0)}}
+          console.log('WRONG_DIAGNOSTICS',JSON.stringify(p.wrongDiagnostics));
           console.log(JSON.stringify({baseline:{correct:r.correct,wrong:r.wrong,accepted:r.accepted,requests:r.requests},probeBudget:p,correctRejected:r.correct-p.correct,wrongPrevented:r.wrong-p.wrong,totalRequests:r.requests+p.extraRequests},null,2));
           NODE
       - uses: actions/upload-artifact@v4
