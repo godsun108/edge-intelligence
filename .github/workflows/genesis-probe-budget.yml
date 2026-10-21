@@ -1,0 +1,45 @@
+name: Genesis budgeted probe development evaluation
+on:
+  workflow_dispatch:
+  push:
+    branches: [genesis-v36-audit-infrastructure]
+    paths:
+      - 'genesis-one/replay-v35-tasks.cjs'
+      - '.github/workflows/genesis-probe-budget.yml'
+permissions:
+  contents: read
+jobs:
+  probe-budget:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run fresh synthetic development seeds
+        run: node genesis-one/replay-v35-tasks.cjs seed=2100001 count=200 seedCount=4 > genesis-probe-budget.json
+      - name: Validate counters and print costs
+        run: |
+          node - <<'NODE'
+          const assert=require('node:assert/strict');
+          const r=require('./genesis-probe-budget.json');
+          const p=r.probeBudget;
+          assert.equal(r.tasks,4000);
+          assert.equal(r.mismatches,0);
+          assert.equal(p.accepted,p.correct+p.wrong);
+          assert.equal(p.changed,r.accepted-p.accepted);
+          assert.ok(p.extraObserved<=p.extraRequests);
+          assert.ok(p.extraRequests<=3*p.eligible);
+          assert.equal(p.wrongEligible+p.wrongIneligible,r.wrong);
+          assert.equal(p.correctEligible+p.wrongEligible,p.eligible);
+          assert.equal(p.wrongVetoed+p.correctVetoed,p.changed);
+          assert.equal(p.wrongDiagnostics.length,r.wrong);
+          for(const d of p.wrongDiagnostics){assert.equal(typeof d.eligible,'boolean');assert.ok(d.originalScores.length>0);if(d.eligible){assert.ok(d.extra.length>0);assert.ok(d.augmentedScores.length>0)}}
+          console.log('WRONG_DIAGNOSTICS',JSON.stringify(p.wrongDiagnostics));
+          console.log(JSON.stringify({baseline:{correct:r.correct,wrong:r.wrong,accepted:r.accepted,requests:r.requests},probeBudget:p,correctRejected:r.correct-p.correct,wrongPrevented:r.wrong-p.wrong,totalRequests:r.requests+p.extraRequests},null,2));
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: genesis-probe-budget-development
+          path: genesis-probe-budget.json

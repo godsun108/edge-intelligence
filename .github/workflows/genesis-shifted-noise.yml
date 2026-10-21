@@ -1,0 +1,21 @@
+name: Genesis shifted-noise stress evaluation
+on:
+  workflow_dispatch:
+  push:
+    branches: [genesis-v36-audit-infrastructure]
+    paths:
+      - '.github/workflows/genesis-shifted-noise.yml'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node genesis-one/replay-v35-tasks.cjs seed=4100001 count=200 seedCount=4 regime=1 > shifted.json
+      - run: node -e "const r=require('./shifted.json');if(r.tasks!==4000||r.mismatches||r.settings.regime!==1)process.exit(1);console.log(JSON.stringify({baseline:r.shadow.baseline,gap2:r.shadow.uncertaintyGap2,gap4:r.shadow.uncertaintyGap4,requests:r.requests}))"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: genesis-shifted-noise-development
+          path: shifted.json

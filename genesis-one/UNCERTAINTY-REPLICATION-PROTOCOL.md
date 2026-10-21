@@ -1,0 +1,5 @@
+# Genesis ONE — uncertainty margin replication protocol
+
+**Frozen v35 is unchanged; no promotion.** Evaluate existing shadow policies baseline, uncertaintyGap2 and uncertaintyGap4 with no parameter tuning on three additional synthetic development suites: seed=2900001, seed=3300001, seed=3700001, each count=200 seedCount=4 (4,000 tasks per suite; 12,000 total). Record accepted correct/wrong, number of correct acceptances rejected, wrong acceptances prevented, and measurement requests for each seed. Fail CI on task-count or behavior mismatches, accounting discrepancies, or if a shadow policy accepts more cases than baseline. The 3 seeds were chosen before inspecting their outputs.
+
+**Evaluation rule:** margin-2 remains a candidate only if it reduces wrong accepts without unacceptable correct-accept losses across replications. Do not tune thresholds after seeing results without declaring another development suite. These tests reuse the same generator and are not independent holdouts, despite different seeds. Repeated independent measurements remain untested.
