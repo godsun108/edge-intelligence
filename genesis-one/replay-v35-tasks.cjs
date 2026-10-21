@@ -17,7 +17,7 @@ assert.ok(match[1].includes(marker),'browser run hook missing');
 const injected=`globalThis.__genesisReplay=function(opts){const seed=opts.seed,count=opts.count,seedCount=opts.seedCount;
 const byScenario=[],failures=[],wrongAcceptedExamples=[];let tasks=0,mismatches=0,correct=0,wrong=0,accepted=0,requests=0;const probeBudget={eligible:0,extraRequests:0,extraObserved:0,wrongEligible:0,wrongIneligible:0,correctEligible:0,wrongVetoed:0,correctVetoed:0,wrongDiagnostics:[],correct:0,wrong:0,accepted:0,changed:0};const shadow={uncertaintyGap2:{correct:0,wrong:0,accepted:0},uncertaintyGap4:{correct:0,wrong:0,accepted:0},likelihoodMargin05:{correct:0,wrong:0,accepted:0},likelihoodMargin1:{correct:0,wrong:0,accepted:0},medianHalf:{correct:0,wrong:0,accepted:0},medianOne:{correct:0,wrong:0,accepted:0},noiseConsensus:{correct:0,wrong:0,accepted:0},baseline:{correct:0,wrong:0,accepted:0},stableStage4:{correct:0,wrong:0,accepted:0},minFourObserved:{correct:0,wrong:0,accepted:0},both:{correct:0,wrong:0,accepted:0}};
  for(let z=0;z<seedCount;z++){const runSeed=(seed+z*7919)>>>0;
-  for(let i=0;i<scenarios.length;i++){const sc=scenarios[i],rows=make((runSeed+i*100003)>>>0,count,sc);
+  for(let i=0;i<scenarios.length;i++){const sc=scenarios[i],rows=(alternate?makeShifted:make)((runSeed+i*100003)>>>0,count,sc);
    let sm=0,sw=0,sa=0,sbad=0;
    for(const row of rows){const a=decide29(row,gate),b=decide30(row,gate),c=decide32(row,gate);tasks++;
     const ok=signature(a)===signature(b)&&signature(a)===signature(c);
@@ -34,7 +34,7 @@ const byScenario=[],failures=[],wrongAcceptedExamples=[];let tasks=0,mismatches=
 };
 `;
 vm.runInContext(match[1].replace(marker,injected+marker),sandbox,{filename:'regression-v35.browser.js',timeout:30000});
-const opts={seed:31071,count:800,seedCount:1};
+const opts={seed:31071,count:800,seedCount:1,regime:0};
 for(const a of process.argv.slice(2)){const [k,v]=a.split('=');if(!(k in opts)||!Number.isSafeInteger(Number(v))||Number(v)<1)throw Error('Invalid argument: '+a);opts[k]=Number(v)}
 assert.ok(opts.count<=3000&&opts.seedCount<=12,'bounded replay');
 const run=sandbox.__genesisReplay(opts);
