@@ -14,8 +14,8 @@
       "CISA KEV:CVE-2023-22894"
     ],
     "newest_first": [
-      "NASA EONET:EONET_25339",
       "NASA EONET:EONET_25457",
+      "NASA EONET:EONET_25339",
       "Federal Register:2026-21666",
       "Federal Register:2026-21636",
       "Federal Register:2026-21630",
@@ -11633,7 +11633,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-22T22:23:08.500715+00:00",
+  "generated_at": "2026-10-23T01:34:16.308479+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
