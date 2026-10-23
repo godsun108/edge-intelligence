@@ -1986,23 +1986,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2025-68686",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-68686",
-          "title": "CVE-2025-68686 \u2014 Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-68686"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-0322",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2165,6 +2148,23 @@
           "source_id": "CVE-2026-110936",
           "title": "CVE-2026-110936 \u2014 Siemens Software Center Uncontrolled Search Path Element Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-110936"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-114625",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-114625",
+          "title": "CVE-2026-114625 \u2014 Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114625"
         }
       ],
       "sources": [

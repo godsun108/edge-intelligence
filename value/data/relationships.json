@@ -512,36 +512,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2025-68686",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-68686"
-        }
-      ],
-      "right": "product:FortiOS",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2025-68686",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-68686"
-        }
-      ],
-      "right": "vendor:Fortinet",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-0322",
       "observation_count": 1,
       "observations": [
@@ -836,6 +806,36 @@
         }
       ],
       "right": "vendor:Siemens",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-114625",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-114625"
+        }
+      ],
+      "right": "product:VeloCloud Orchestrator",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-114625",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-114625"
+        }
+      ],
+      "right": "vendor:Arista",
       "sources": [
         "CISA KEV"
       ]
@@ -3281,21 +3281,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:FortiOS",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-68686"
-        }
-      ],
-      "right": "vendor:Fortinet",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:GS1900 Series Switches",
       "observation_count": 1,
       "observations": [
@@ -4086,8 +4071,12 @@
     {
       "independent_source_count": 1,
       "left": "product:VeloCloud Orchestrator",
-      "observation_count": 1,
+      "observation_count": 2,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-114625"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-93952"
@@ -4783,11 +4772,6 @@
       "value": "CVE-2025-62593"
     },
     {
-      "id": "cve:CVE-2025-68686",
-      "kind": "cve",
-      "value": "CVE-2025-68686"
-    },
-    {
       "id": "cve:CVE-2026-0322",
       "kind": "cve",
       "value": "CVE-2026-0322"
@@ -4836,6 +4820,11 @@
       "id": "cve:CVE-2026-110936",
       "kind": "cve",
       "value": "CVE-2026-110936"
+    },
+    {
+      "id": "cve:CVE-2026-114625",
+      "kind": "cve",
+      "value": "CVE-2026-114625"
     },
     {
       "id": "cve:CVE-2026-18556",
@@ -5276,11 +5265,6 @@
       "id": "product:FortiMail",
       "kind": "product",
       "value": "FortiMail"
-    },
-    {
-      "id": "product:FortiOS",
-      "kind": "product",
-      "value": "FortiOS"
     },
     {
       "id": "product:GS1900 Series Switches",
