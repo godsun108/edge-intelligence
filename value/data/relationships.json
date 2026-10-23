@@ -782,6 +782,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-110447",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-110447"
+        }
+      ],
+      "right": "product:Collabora Online \u2013 Built-in CODE Server",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-110447",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-110447"
+        }
+      ],
+      "right": "vendor:Collabora",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-110936",
       "observation_count": 1,
       "observations": [
@@ -953,36 +983,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-20079"
-        }
-      ],
-      "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-20316",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20316"
-        }
-      ],
-      "right": "product:Secure Firewall Management Center (FMC)",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-20316",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20316"
         }
       ],
       "right": "vendor:Cisco",
@@ -3187,6 +3187,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Collabora Online \u2013 Built-in CODE Server",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-110447"
+        }
+      ],
+      "right": "vendor:Collabora",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Commerce and Magento",
       "observation_count": 2,
       "observations": [
@@ -3858,21 +3873,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-20349"
-        }
-      ],
-      "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Secure Firewall Management Center (FMC)",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20316"
         }
       ],
       "right": "vendor:Cisco",
@@ -4817,6 +4817,11 @@
       "value": "CVE-2026-106931"
     },
     {
+      "id": "cve:CVE-2026-110447",
+      "kind": "cve",
+      "value": "CVE-2026-110447"
+    },
+    {
       "id": "cve:CVE-2026-110936",
       "kind": "cve",
       "value": "CVE-2026-110936"
@@ -4845,11 +4850,6 @@
       "id": "cve:CVE-2026-20079",
       "kind": "cve",
       "value": "CVE-2026-20079"
-    },
-    {
-      "id": "cve:CVE-2026-20316",
-      "kind": "cve",
-      "value": "CVE-2026-20316"
     },
     {
       "id": "cve:CVE-2026-20349",
@@ -5237,6 +5237,11 @@
       "value": "Chromium V8"
     },
     {
+      "id": "product:Collabora Online \u2013 Built-in CODE Server",
+      "kind": "product",
+      "value": "Collabora Online \u2013 Built-in CODE Server"
+    },
+    {
       "id": "product:Commerce and Magento",
       "kind": "product",
       "value": "Commerce and Magento"
@@ -5417,11 +5422,6 @@
       "value": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)"
     },
     {
-      "id": "product:Secure Firewall Management Center (FMC)",
-      "kind": "product",
-      "value": "Secure Firewall Management Center (FMC)"
-    },
-    {
       "id": "product:Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
       "kind": "product",
       "value": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management"
@@ -5585,6 +5585,11 @@
       "id": "vendor:Citrix",
       "kind": "vendor",
       "value": "Citrix"
+    },
+    {
+      "id": "vendor:Collabora",
+      "kind": "vendor",
+      "value": "Collabora"
     },
     {
       "id": "vendor:ConnectWise",

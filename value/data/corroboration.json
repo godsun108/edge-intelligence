@@ -2139,6 +2139,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-110447",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-110447",
+          "title": "CVE-2026-110447 \u2014 Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-110447"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-110936",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2233,23 +2250,6 @@
           "source_id": "CVE-2026-20079",
           "title": "CVE-2026-20079 \u2014 Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20079"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-20316",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20316",
-          "title": "CVE-2026-20316 \u2014 Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20316"
         }
       ],
       "sources": [
