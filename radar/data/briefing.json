@@ -1,1 +1,1 @@
-{"generated_at":"2026-10-24T18:11:53.927772+00:00","items":[]}
+{"generated_at":"2026-10-24T20:54:21.634742+00:00","items":[{"id":"EONET_23453","source":"NASA EONET","title":"Wildfire Calico, Humboldt, Nevada","url":"https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23453","observed_at":"2026-08-26T17:29:00Z","retrieved_at":"2026-10-24T20:54:21.634742+00:00","tags":["earth","Wildfires"],"data":{"categories":["Wildfires"]},"fingerprint":"9ea4d0298e31ba6d5e53eb5693f11974841c4f53a2a3edb41e79bc10e888c3cb","change":"new","relevance":17,"reasons":["matched wildfire"]}]}
