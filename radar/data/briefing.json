@@ -1,1 +1,1 @@
-{"generated_at":"2026-10-25T11:39:08.449572+00:00","items":[]}
+{"generated_at":"2026-10-25T16:28:53.933168+00:00","items":[{"id":"EONET_23672","source":"NASA EONET","title":"Wildfire Dudley, Shoshone, Idaho","url":"https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23672","observed_at":"2026-08-26T16:46:00Z","retrieved_at":"2026-10-25T16:28:53.933168+00:00","tags":["earth","Wildfires"],"data":{"categories":["Wildfires"]},"fingerprint":"73adfa00bce748d51e2d4c04f18ffad9e69dcad41e1ebdf8db728eb8b1203212","change":"new","relevance":17,"reasons":["matched wildfire"]}]}
