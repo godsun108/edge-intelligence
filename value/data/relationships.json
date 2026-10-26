@@ -782,6 +782,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-109618",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109618"
+        }
+      ],
+      "right": "product:PHP",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-109618",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109618"
+        }
+      ],
+      "right": "vendor:PHP Group",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-109619",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109619"
+        }
+      ],
+      "right": "product:PHP",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-109619",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109619"
+        }
+      ],
+      "right": "vendor:PHP Group",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-110447",
       "observation_count": 1,
       "observations": [
@@ -893,36 +953,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-18556"
-        }
-      ],
-      "right": "vendor:N-able",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-18577",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18577"
-        }
-      ],
-      "right": "product:N-central",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-18577",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18577"
         }
       ],
       "right": "vendor:N-able",
@@ -2732,36 +2762,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-9198",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-9198"
-        }
-      ],
-      "right": "product:Langflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-9198",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-9198"
-        }
-      ],
-      "right": "vendor:IBM",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-93616",
       "observation_count": 1,
       "observations": [
@@ -3417,21 +3417,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Langflow",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-9198"
-        }
-      ],
-      "right": "vendor:IBM",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Libuser",
       "observation_count": 1,
       "observations": [
@@ -3618,7 +3603,7 @@
     {
       "independent_source_count": 1,
       "left": "product:N-central",
-      "observation_count": 3,
+      "observation_count": 2,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3627,10 +3612,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-18556"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18577"
         }
       ],
       "right": "vendor:N-able",
@@ -3710,6 +3691,25 @@
         }
       ],
       "right": "vendor:Palo Alto Networks",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:PHP",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109618"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109619"
+        }
+      ],
+      "right": "vendor:PHP Group",
       "sources": [
         "CISA KEV"
       ]
@@ -4817,6 +4817,16 @@
       "value": "CVE-2026-106931"
     },
     {
+      "id": "cve:CVE-2026-109618",
+      "kind": "cve",
+      "value": "CVE-2026-109618"
+    },
+    {
+      "id": "cve:CVE-2026-109619",
+      "kind": "cve",
+      "value": "CVE-2026-109619"
+    },
+    {
       "id": "cve:CVE-2026-110447",
       "kind": "cve",
       "value": "CVE-2026-110447"
@@ -4835,11 +4845,6 @@
       "id": "cve:CVE-2026-18556",
       "kind": "cve",
       "value": "CVE-2026-18556"
-    },
-    {
-      "id": "cve:CVE-2026-18577",
-      "kind": "cve",
-      "value": "CVE-2026-18577"
     },
     {
       "id": "cve:CVE-2026-19490",
@@ -5142,11 +5147,6 @@
       "value": "CVE-2026-88779"
     },
     {
-      "id": "cve:CVE-2026-9198",
-      "kind": "cve",
-      "value": "CVE-2026-9198"
-    },
-    {
       "id": "cve:CVE-2026-93616",
       "kind": "cve",
       "value": "CVE-2026-93616"
@@ -5307,11 +5307,6 @@
       "value": "Kestra OSS"
     },
     {
-      "id": "product:Langflow",
-      "kind": "product",
-      "value": "Langflow"
-    },
-    {
       "id": "product:Libuser",
       "kind": "product",
       "value": "Libuser"
@@ -5370,6 +5365,11 @@
       "id": "product:PAN-OS",
       "kind": "product",
       "value": "PAN-OS"
+    },
+    {
+      "id": "product:PHP",
+      "kind": "product",
+      "value": "PHP"
     },
     {
       "id": "product:Pixel",
@@ -5627,11 +5627,6 @@
       "value": "Google"
     },
     {
-      "id": "vendor:IBM",
-      "kind": "vendor",
-      "value": "IBM"
-    },
-    {
       "id": "vendor:ISC",
       "kind": "vendor",
       "value": "ISC"
@@ -5700,6 +5695,11 @@
       "id": "vendor:Oracle",
       "kind": "vendor",
       "value": "Oracle"
+    },
+    {
+      "id": "vendor:PHP Group",
+      "kind": "vendor",
+      "value": "PHP Group"
     },
     {
       "id": "vendor:Palo Alto Networks",

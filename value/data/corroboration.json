@@ -2139,6 +2139,40 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-109618",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109618",
+          "title": "CVE-2026-109618 \u2014 PHP Memory Corruption Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-109619",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-109619",
+          "title": "CVE-2026-109619 \u2014 PHP Stale Internal Request-State Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-110447",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2199,23 +2233,6 @@
           "source_id": "CVE-2026-18556",
           "title": "CVE-2026-18556 \u2014 N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-18556"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-18577",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18577",
-          "title": "CVE-2026-18577 \u2014 N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-18577"
         }
       ],
       "sources": [
@@ -3236,23 +3253,6 @@
           "source_id": "CVE-2026-88779",
           "title": "CVE-2026-88779 \u2014 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88779"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-9198",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-9198",
-          "title": "CVE-2026-9198 \u2014 IBM Langflow Code Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9198"
         }
       ],
       "sources": [
