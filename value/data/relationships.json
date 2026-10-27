@@ -902,6 +902,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-111497",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111497"
+        }
+      ],
+      "right": "product:Brotli",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-111497",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111497"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-114625",
       "observation_count": 1,
       "observations": [
@@ -926,36 +956,6 @@
         }
       ],
       "right": "vendor:Arista",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-18556",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18556"
-        }
-      ],
-      "right": "product:N-central",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-18556",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18556"
-        }
-      ],
-      "right": "vendor:N-able",
       "sources": [
         "CISA KEV"
       ]
@@ -1142,36 +1142,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-34486",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-34486"
-        }
-      ],
-      "right": "product:Tomcat",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-34486",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-34486"
-        }
-      ],
-      "right": "vendor:Apache",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-42016",
       "observation_count": 1,
       "observations": [
@@ -1226,6 +1196,36 @@
         }
       ],
       "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48356",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48356"
+        }
+      ],
+      "right": "product:Commerce and Magento",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-48356",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48356"
+        }
+      ],
+      "right": "vendor:Adobe",
       "sources": [
         "CISA KEV"
       ]
@@ -3153,6 +3153,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Brotli",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111497"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Catalyst SD-WAN Manager",
       "observation_count": 1,
       "observations": [
@@ -3203,8 +3218,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Commerce and Magento",
-      "observation_count": 2,
+      "observation_count": 3,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48356"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-71362"
@@ -3603,15 +3622,11 @@
     {
       "independent_source_count": 1,
       "left": "product:N-central",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-86218"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18556"
         }
       ],
       "right": "vendor:N-able",
@@ -4034,21 +4049,6 @@
         }
       ],
       "right": "vendor:JetBrains",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Tomcat",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-34486"
-        }
-      ],
-      "right": "vendor:Apache",
       "sources": [
         "CISA KEV"
       ]
@@ -4837,14 +4837,14 @@
       "value": "CVE-2026-110936"
     },
     {
+      "id": "cve:CVE-2026-111497",
+      "kind": "cve",
+      "value": "CVE-2026-111497"
+    },
+    {
       "id": "cve:CVE-2026-114625",
       "kind": "cve",
       "value": "CVE-2026-114625"
-    },
-    {
-      "id": "cve:CVE-2026-18556",
-      "kind": "cve",
-      "value": "CVE-2026-18556"
     },
     {
       "id": "cve:CVE-2026-19490",
@@ -4877,11 +4877,6 @@
       "value": "CVE-2026-33824"
     },
     {
-      "id": "cve:CVE-2026-34486",
-      "kind": "cve",
-      "value": "CVE-2026-34486"
-    },
-    {
       "id": "cve:CVE-2026-42016",
       "kind": "cve",
       "value": "CVE-2026-42016"
@@ -4890,6 +4885,11 @@
       "id": "cve:CVE-2026-42018",
       "kind": "cve",
       "value": "CVE-2026-42018"
+    },
+    {
+      "id": "cve:CVE-2026-48356",
+      "kind": "cve",
+      "value": "CVE-2026-48356"
     },
     {
       "id": "cve:CVE-2026-48710",
@@ -5227,6 +5227,11 @@
       "value": "Backup"
     },
     {
+      "id": "product:Brotli",
+      "kind": "product",
+      "value": "Brotli"
+    },
+    {
       "id": "product:Catalyst SD-WAN Manager",
       "kind": "product",
       "value": "Catalyst SD-WAN Manager"
@@ -5470,11 +5475,6 @@
       "id": "product:TeamCity",
       "kind": "product",
       "value": "TeamCity"
-    },
-    {
-      "id": "product:Tomcat",
-      "kind": "product",
-      "value": "Tomcat"
     },
     {
       "id": "product:VMware vCenter",

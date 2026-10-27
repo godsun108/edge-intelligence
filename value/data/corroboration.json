@@ -2207,6 +2207,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-111497",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111497",
+          "title": "CVE-2026-111497 \u2014 Google Brotli Unchecked Return Value Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111497"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-114625",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2216,23 +2233,6 @@
           "source_id": "CVE-2026-114625",
           "title": "CVE-2026-114625 \u2014 Arista VeloCloud Orchestrator SQL Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114625"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-18556",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-18556",
-          "title": "CVE-2026-18556 \u2014 N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-18556"
         }
       ],
       "sources": [
@@ -2343,23 +2343,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-34486",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-34486",
-          "title": "CVE-2026-34486 \u2014 Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-34486"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-42016",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2386,6 +2369,23 @@
           "source_id": "CVE-2026-42018",
           "title": "CVE-2026-42018 \u2014 JFrog Artifactory Improper Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-42018"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-48356",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-48356",
+          "title": "CVE-2026-48356 \u2014 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356"
         }
       ],
       "sources": [
