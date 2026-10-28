@@ -42,14 +42,14 @@
   "candidates": [
     {
       "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.75,
-        "relevance": 0.38,
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 1.0,
+        "relevance": 0.12,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.85
       },
-      "id": "NASA EONET:EONET_25728",
+      "id": "CISA KEV:CVE-2026-46300",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.0,
@@ -58,9 +58,32 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.935,
-      "positive_signal": 0.3866,
+      "positive_signal": 0.5929,
       "reliability_gate": 0.8875,
-      "value_score": 32.08,
+      "value_score": 49.2,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 1.0,
+        "relevance": 0.12,
+        "reliability": 0.85,
+        "time_advantage": 0.6
+      },
+      "id": "CISA KEV:CVE-2026-41709",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.5679,
+      "reliability_gate": 0.8875,
+      "value_score": 47.13,
       "version": "edge.value.v0.1"
     },
     {
@@ -1268,29 +1291,6 @@
         "reliability": 0.85,
         "time_advantage": 0.6
       },
-      "id": "CISA KEV:CVE-2026-63077",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.399,
-      "reliability_gate": 0.8875,
-      "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.6
-      },
       "id": "CISA KEV:CVE-2026-64849",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -1683,29 +1683,6 @@
         "time_advantage": 0.6
       },
       "id": "CISA KEV:CVE-2026-76519",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.399,
-      "reliability_gate": 0.8875,
-      "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.6
-      },
-      "id": "CISA KEV:CVE-2026-8037",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -9249,6 +9226,29 @@
         "reliability": 0.85,
         "time_advantage": 0.15
       },
+      "id": "NASA EONET:EONET_25728",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.198,
+      "reliability_gate": 0.8875,
+      "value_score": 13.14,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
       "id": "NASA EONET:EONET_25729",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -9337,329 +9337,7 @@
         "actionability": 0.1,
         "consequence": 0.15,
         "novelty": 0.05,
-        "relevance": 0.36,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21925",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.2022,
-      "reliability_gate": 0.5125,
-      "value_score": 5.57,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.36,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21931",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.2022,
-      "reliability_gate": 0.5125,
-      "value_score": 5.57,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.36,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21981",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.2022,
-      "reliability_gate": 0.5125,
-      "value_score": 5.57,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21941",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21945",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21947",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21949",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21951",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21969",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21972",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21992",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21993",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-21994",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.3,
-        "reliability": 0.35,
-        "time_advantage": 0.15
-      },
-      "id": "Federal Register:2026-22004",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.4,
-        "noise": 0.1,
-        "uncertainty": 0.5
-      },
-      "penalty_multiplier": 0.5375,
-      "positive_signal": 0.189,
-      "reliability_gate": 0.5125,
-      "value_score": 5.21,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.15,
-        "novelty": 0.05,
-        "relevance": 0.2,
+        "relevance": 0.0,
         "reliability": 0.35,
         "time_advantage": 0.15
       },
@@ -9672,9 +9350,9 @@
         "uncertainty": 0.5
       },
       "penalty_multiplier": 0.5375,
-      "positive_signal": 0.167,
+      "positive_signal": 0.123,
       "reliability_gate": 0.5125,
-      "value_score": 4.6,
+      "value_score": 3.39,
       "version": "edge.value.v0.1"
     },
     {
@@ -9824,6 +9502,29 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21925",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21926",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -9917,6 +9618,29 @@
         "time_advantage": 0.15
       },
       "id": "Federal Register:2026-21930",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21931",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -10123,6 +9847,29 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21941",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21942",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -10192,7 +9939,53 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21945",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21946",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21947",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -10238,7 +10031,53 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21949",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21950",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21951",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -10652,6 +10491,29 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21969",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21970",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -10676,6 +10538,29 @@
         "time_advantage": 0.15
       },
       "id": "Federal Register:2026-21971",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21972",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -10860,6 +10745,29 @@
         "time_advantage": 0.15
       },
       "id": "Federal Register:2026-21980",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21981",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -11112,6 +11020,75 @@
         "reliability": 0.35,
         "time_advantage": 0.15
       },
+      "id": "Federal Register:2026-21992",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21993",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-21994",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
       "id": "Federal Register:2026-21995",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -11297,6 +11274,29 @@
         "time_advantage": 0.15
       },
       "id": "Federal Register:2026-22003",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.4,
+        "noise": 0.1,
+        "uncertainty": 0.5
+      },
+      "penalty_multiplier": 0.5375,
+      "positive_signal": 0.123,
+      "reliability_gate": 0.5125,
+      "value_score": 3.39,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.15,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.35,
+        "time_advantage": 0.15
+      },
+      "id": "Federal Register:2026-22004",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -11633,7 +11633,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-10-28T18:52:51.739399+00:00",
+  "generated_at": "2026-10-28T23:15:28.722368+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
@@ -11643,7 +11643,10 @@
   },
   "schema": "edge.value.lab.freeze.v0.1",
   "semantics": "prospective measurement artifact; not an attention queue or instruction",
-  "value_selected": [],
+  "value_selected": [
+    "CISA KEV:CVE-2026-46300",
+    "CISA KEV:CVE-2026-41709"
+  ],
   "value_threshold": 45.0,
   "value_version": "edge.value.v0.1"
 }

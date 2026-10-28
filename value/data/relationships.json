@@ -1142,6 +1142,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-41709",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-41709"
+        }
+      ],
+      "right": "product:VMware ESX",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-41709",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-41709"
+        }
+      ],
+      "right": "vendor:Broadcom",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-42016",
       "observation_count": 1,
       "observations": [
@@ -1196,6 +1226,36 @@
         }
       ],
       "right": "vendor:JFrog",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-46300",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46300"
+        }
+      ],
+      "right": "product:Kernel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-46300",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46300"
+        }
+      ],
+      "right": "vendor:Linux",
       "sources": [
         "CISA KEV"
       ]
@@ -1526,36 +1586,6 @@
         }
       ],
       "right": "vendor:Gitea",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-63077",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63077"
-        }
-      ],
-      "right": "product:TeamCity",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-63077",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63077"
-        }
-      ],
-      "right": "vendor:JetBrains",
       "sources": [
         "CISA KEV"
       ]
@@ -2096,36 +2126,6 @@
         }
       ],
       "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-8037",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8037"
-        }
-      ],
-      "right": "product:LoadMaster",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-8037",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8037"
-        }
-      ],
-      "right": "vendor:Progress",
       "sources": [
         "CISA KEV"
       ]
@@ -3391,8 +3391,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Kernel",
-      "observation_count": 5,
+      "observation_count": 6,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46300"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2025-39964"
@@ -3460,21 +3464,6 @@
         }
       ],
       "right": "vendor:BerriAI",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:LoadMaster",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8037"
-        }
-      ],
-      "right": "vendor:Progress",
       "sources": [
         "CISA KEV"
       ]
@@ -4040,15 +4029,15 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:TeamCity",
+      "left": "product:VMware ESX",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-63077"
+          "source_id": "CVE-2026-41709"
         }
       ],
-      "right": "vendor:JetBrains",
+      "right": "vendor:Broadcom",
       "sources": [
         "CISA KEV"
       ]
@@ -4877,6 +4866,11 @@
       "value": "CVE-2026-33824"
     },
     {
+      "id": "cve:CVE-2026-41709",
+      "kind": "cve",
+      "value": "CVE-2026-41709"
+    },
+    {
       "id": "cve:CVE-2026-42016",
       "kind": "cve",
       "value": "CVE-2026-42016"
@@ -4885,6 +4879,11 @@
       "id": "cve:CVE-2026-42018",
       "kind": "cve",
       "value": "CVE-2026-42018"
+    },
+    {
+      "id": "cve:CVE-2026-46300",
+      "kind": "cve",
+      "value": "CVE-2026-46300"
     },
     {
       "id": "cve:CVE-2026-48356",
@@ -4940,11 +4939,6 @@
       "id": "cve:CVE-2026-60004",
       "kind": "cve",
       "value": "CVE-2026-60004"
-    },
-    {
-      "id": "cve:CVE-2026-63077",
-      "kind": "cve",
-      "value": "CVE-2026-63077"
     },
     {
       "id": "cve:CVE-2026-64849",
@@ -5035,11 +5029,6 @@
       "id": "cve:CVE-2026-76519",
       "kind": "cve",
       "value": "CVE-2026-76519"
-    },
-    {
-      "id": "cve:CVE-2026-8037",
-      "kind": "cve",
-      "value": "CVE-2026-8037"
     },
     {
       "id": "cve:CVE-2026-81578",
@@ -5322,11 +5311,6 @@
       "value": "LiteLLM"
     },
     {
-      "id": "product:LoadMaster",
-      "kind": "product",
-      "value": "LoadMaster"
-    },
-    {
       "id": "product:MLflow",
       "kind": "product",
       "value": "MLflow"
@@ -5472,9 +5456,9 @@
       "value": "Switchvox"
     },
     {
-      "id": "product:TeamCity",
+      "id": "product:VMware ESX",
       "kind": "product",
-      "value": "TeamCity"
+      "value": "VMware ESX"
     },
     {
       "id": "product:VMware vCenter",
@@ -5642,11 +5626,6 @@
       "value": "JFrog"
     },
     {
-      "id": "vendor:JetBrains",
-      "kind": "vendor",
-      "value": "JetBrains"
-    },
-    {
       "id": "vendor:Kestra",
       "kind": "vendor",
       "value": "Kestra"
@@ -5720,11 +5699,6 @@
       "id": "vendor:ProFTPD",
       "kind": "vendor",
       "value": "ProFTPD"
-    },
-    {
-      "id": "vendor:Progress",
-      "kind": "vendor",
-      "value": "Progress"
     },
     {
       "id": "vendor:Ray-Project",

@@ -2343,6 +2343,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-41709",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-41709",
+          "title": "CVE-2026-41709 \u2014 Broadcom VMWare ESX Insufficient Logging Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-41709"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-42016",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2369,6 +2386,23 @@
           "source_id": "CVE-2026-42018",
           "title": "CVE-2026-42018 \u2014 JFrog Artifactory Improper Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-42018"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-46300",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-46300",
+          "title": "CVE-2026-46300 \u2014 Linux Kernel Missing Initialization of a Variable Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300"
         }
       ],
       "sources": [
@@ -2556,23 +2590,6 @@
           "source_id": "CVE-2026-60004",
           "title": "CVE-2026-60004 \u2014 Gitea Code Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-60004"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-63077",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-63077",
-          "title": "CVE-2026-63077 \u2014 JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-63077"
         }
       ],
       "sources": [
@@ -2879,23 +2896,6 @@
           "source_id": "CVE-2026-76519",
           "title": "CVE-2026-76519 \u2014 Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-8037",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8037",
-          "title": "CVE-2026-8037 \u2014 Progress LoadMaster Command Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-8037"
         }
       ],
       "sources": [
