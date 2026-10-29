@@ -1772,36 +1772,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-68820",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-68820"
-        }
-      ],
-      "right": "product:Windows Ancillary Function Driver for WinSock",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-68820",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-68820"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-71362",
       "observation_count": 1,
       "observations": [
@@ -1922,36 +1892,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-72898",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72898"
-        }
-      ],
-      "right": "product:Metabase",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-72898",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72898"
-        }
-      ],
-      "right": "vendor:Metabase",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-73570",
       "observation_count": 1,
       "observations": [
@@ -2006,6 +1946,36 @@
         }
       ],
       "right": "vendor:Adobe",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76418",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76418"
+        }
+      ],
+      "right": "product:Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-76418",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76418"
+        }
+      ],
+      "right": "vendor:Cisco",
       "sources": [
         "CISA KEV"
       ]
@@ -3032,6 +3002,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-97229",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-97229"
+        }
+      ],
+      "right": "product:Community Edition and Enterprise Edition",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-97229",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-97229"
+        }
+      ],
+      "right": "vendor:GitLab",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:AhsayCBS",
       "observation_count": 2,
       "observations": [
@@ -3241,8 +3241,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Community Edition and Enterprise Edition",
-      "observation_count": 1,
+      "observation_count": 2,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-97229"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-85706"
@@ -3506,21 +3510,6 @@
         }
       ],
       "right": "vendor:Plex",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Metabase",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72898"
-        }
-      ],
-      "right": "vendor:Metabase",
       "sources": [
         "CISA KEV"
       ]
@@ -3871,6 +3860,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76418"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
       "observation_count": 1,
       "observations": [
@@ -4092,21 +4096,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-85880"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Windows Ancillary Function Driver for WinSock",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-68820"
         }
       ],
       "right": "vendor:Microsoft",
@@ -4971,11 +4960,6 @@
       "value": "CVE-2026-67279"
     },
     {
-      "id": "cve:CVE-2026-68820",
-      "kind": "cve",
-      "value": "CVE-2026-68820"
-    },
-    {
       "id": "cve:CVE-2026-71362",
       "kind": "cve",
       "value": "CVE-2026-71362"
@@ -4996,11 +4980,6 @@
       "value": "CVE-2026-7273"
     },
     {
-      "id": "cve:CVE-2026-72898",
-      "kind": "cve",
-      "value": "CVE-2026-72898"
-    },
-    {
       "id": "cve:CVE-2026-73570",
       "kind": "cve",
       "value": "CVE-2026-73570"
@@ -5009,6 +4988,11 @@
       "id": "cve:CVE-2026-75650",
       "kind": "cve",
       "value": "CVE-2026-75650"
+    },
+    {
+      "id": "cve:CVE-2026-76418",
+      "kind": "cve",
+      "value": "CVE-2026-76418"
     },
     {
       "id": "cve:CVE-2026-76460",
@@ -5181,6 +5165,11 @@
       "value": "CVE-2026-96951"
     },
     {
+      "id": "cve:CVE-2026-97229",
+      "kind": "cve",
+      "value": "CVE-2026-97229"
+    },
+    {
       "id": "product:AhsayCBS",
       "kind": "product",
       "value": "AhsayCBS"
@@ -5321,11 +5310,6 @@
       "value": "Media Server"
     },
     {
-      "id": "product:Metabase",
-      "kind": "product",
-      "value": "Metabase"
-    },
-    {
       "id": "product:Multiple Products",
       "kind": "product",
       "value": "Multiple Products"
@@ -5406,6 +5390,11 @@
       "value": "Secure Email Gateway"
     },
     {
+      "id": "product:Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "kind": "product",
+      "value": "Secure Firewall ASA Software and Cisco Secure FTD Software"
+    },
+    {
       "id": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
       "kind": "product",
       "value": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)"
@@ -5474,11 +5463,6 @@
       "id": "product:Windows",
       "kind": "product",
       "value": "Windows"
-    },
-    {
-      "id": "product:Windows Ancillary Function Driver for WinSock",
-      "kind": "product",
-      "value": "Windows Ancillary Function Driver for WinSock"
     },
     {
       "id": "product:Zammad",
@@ -5644,11 +5628,6 @@
       "id": "vendor:MLflow",
       "kind": "vendor",
       "value": "MLflow"
-    },
-    {
-      "id": "vendor:Metabase",
-      "kind": "vendor",
-      "value": "Metabase"
     },
     {
       "id": "vendor:Microsoft",
