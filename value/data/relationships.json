@@ -482,36 +482,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2025-62593",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-62593"
-        }
-      ],
-      "right": "product:Ray",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2025-62593",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-62593"
-        }
-      ],
-      "right": "vendor:Ray-Project",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-0322",
       "observation_count": 1,
       "observations": [
@@ -902,6 +872,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-111357",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111357"
+        }
+      ],
+      "right": "product:Connect Secure",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-111357",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111357"
+        }
+      ],
+      "right": "vendor:Ivanti",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-111497",
       "observation_count": 1,
       "observations": [
@@ -962,6 +962,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-118527",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-118527"
+        }
+      ],
+      "right": "product:Connect Secure",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-118527",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-118527"
+        }
+      ],
+      "right": "vendor:Ivanti",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-19490",
       "observation_count": 1,
       "observations": [
@@ -1013,36 +1043,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-20079"
-        }
-      ],
-      "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-20349",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20349"
-        }
-      ],
-      "right": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-20349",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20349"
         }
       ],
       "right": "vendor:Cisco",
@@ -3260,8 +3260,16 @@
     {
       "independent_source_count": 1,
       "left": "product:Connect Secure",
-      "observation_count": 1,
+      "observation_count": 3,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-118527"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111357"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-104935"
@@ -3739,21 +3747,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Ray",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2025-62593"
-        }
-      ],
-      "right": "vendor:Ray-Project",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Remote Support",
       "observation_count": 1,
       "observations": [
@@ -3866,21 +3859,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-76418"
-        }
-      ],
-      "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-20349"
         }
       ],
       "right": "vendor:Cisco",
@@ -4745,11 +4723,6 @@
       "value": "CVE-2025-61624"
     },
     {
-      "id": "cve:CVE-2025-62593",
-      "kind": "cve",
-      "value": "CVE-2025-62593"
-    },
-    {
       "id": "cve:CVE-2026-0322",
       "kind": "cve",
       "value": "CVE-2026-0322"
@@ -4815,6 +4788,11 @@
       "value": "CVE-2026-110936"
     },
     {
+      "id": "cve:CVE-2026-111357",
+      "kind": "cve",
+      "value": "CVE-2026-111357"
+    },
+    {
       "id": "cve:CVE-2026-111497",
       "kind": "cve",
       "value": "CVE-2026-111497"
@@ -4825,6 +4803,11 @@
       "value": "CVE-2026-114625"
     },
     {
+      "id": "cve:CVE-2026-118527",
+      "kind": "cve",
+      "value": "CVE-2026-118527"
+    },
+    {
       "id": "cve:CVE-2026-19490",
       "kind": "cve",
       "value": "CVE-2026-19490"
@@ -4833,11 +4816,6 @@
       "id": "cve:CVE-2026-20079",
       "kind": "cve",
       "value": "CVE-2026-20079"
-    },
-    {
-      "id": "cve:CVE-2026-20349",
-      "kind": "cve",
-      "value": "CVE-2026-20349"
     },
     {
       "id": "cve:CVE-2026-21589",
@@ -5355,11 +5333,6 @@
       "value": "ProFTPD"
     },
     {
-      "id": "product:Ray",
-      "kind": "product",
-      "value": "Ray"
-    },
-    {
       "id": "product:Remote Support",
       "kind": "product",
       "value": "Remote Support"
@@ -5393,11 +5366,6 @@
       "id": "product:Secure Firewall ASA Software and Cisco Secure FTD Software",
       "kind": "product",
       "value": "Secure Firewall ASA Software and Cisco Secure FTD Software"
-    },
-    {
-      "id": "product:Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
-      "kind": "product",
-      "value": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)"
     },
     {
       "id": "product:Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
@@ -5678,11 +5646,6 @@
       "id": "vendor:ProFTPD",
       "kind": "vendor",
       "value": "ProFTPD"
-    },
-    {
-      "id": "vendor:Ray-Project",
-      "kind": "vendor",
-      "value": "Ray-Project"
     },
     {
       "id": "vendor:Red Hat",
