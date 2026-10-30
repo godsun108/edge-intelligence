@@ -1,118 +1,13 @@
 {
   "attention_budget": 10,
-  "eligible": 2,
+  "eligible": 0,
   "evaluated": 504,
-  "input_generated_at": "2026-10-29T21:49:46.350720+00:00",
+  "input_generated_at": "2026-10-30T01:59:04.326784+00:00",
   "input_schema": "edge.radar.snapshot.v1",
-  "items": [
-    {
-      "derivation_reasons": {
-        "actionability": [
-          "CISA publishes required remediation action; asset applicability not inferred"
-        ],
-        "consequence": [
-          "CISA catalog states exploitation in the wild; local applicability not inferred"
-        ],
-        "novelty": [
-          "RADAR change=new"
-        ],
-        "relevance": [
-          "mapped from explicit RADAR rule score"
-        ],
-        "reliability": [
-          "known primary/public source: CISA KEV"
-        ],
-        "time_advantage": [
-          "3 days until CISA due date"
-        ]
-      },
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
-      "id": "CISA KEV:CVE-2026-76418",
-      "meaning": "attention_priority_only",
-      "observation": {
-        "observed_at": "2026-10-29",
-        "radar_change": "new",
-        "retrieved_at": "2026-10-29T21:49:46.350720+00:00",
-        "source": "CISA KEV",
-        "source_id": "CVE-2026-76418",
-        "title": "CVE-2026-76418 \u2014 Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76418"
-      },
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
-      "reliability_gate": 0.8875,
-      "value_score": 49.2,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "derivation_reasons": {
-        "actionability": [
-          "CISA publishes required remediation action; asset applicability not inferred"
-        ],
-        "consequence": [
-          "CISA catalog states exploitation in the wild; local applicability not inferred"
-        ],
-        "novelty": [
-          "RADAR change=new"
-        ],
-        "relevance": [
-          "mapped from explicit RADAR rule score"
-        ],
-        "reliability": [
-          "known primary/public source: CISA KEV"
-        ],
-        "time_advantage": [
-          "3 days until CISA due date"
-        ]
-      },
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
-      "id": "CISA KEV:CVE-2026-97229",
-      "meaning": "attention_priority_only",
-      "observation": {
-        "observed_at": "2026-10-29",
-        "radar_change": "new",
-        "retrieved_at": "2026-10-29T21:49:46.350720+00:00",
-        "source": "CISA KEV",
-        "source_id": "CVE-2026-97229",
-        "title": "CVE-2026-97229 \u2014 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-97229"
-      },
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
-      "reliability_gate": 0.8875,
-      "value_score": 49.2,
-      "version": "edge.value.v0.1"
-    }
-  ],
+  "items": [],
   "schema": "edge.value.queue.v0.1",
   "semantics": "machine-derived attention queue; human verification required",
-  "state": "SIGNAL",
+  "state": "NO_SIGNAL",
   "suppressed_above_threshold": 0,
   "threshold": 45.0
 }
