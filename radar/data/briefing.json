@@ -1,1 +1,1 @@
-{"generated_at":"2026-10-31T00:50:26.259869+00:00","items":[]}
+{"generated_at":"2026-10-31T07:01:42.691980+00:00","items":[{"id":"EONET_23674","source":"NASA EONET","title":"Wildfire WRIGHT, Hughes, Oklahoma","url":"https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23674","observed_at":"2026-08-29T18:05:00Z","retrieved_at":"2026-10-31T07:01:42.691980+00:00","tags":["earth","Wildfires"],"data":{"categories":["Wildfires"]},"fingerprint":"83986e0bb15223b33c62a1c31c91fc1389e60a2fc541ffc30d0e084c0be275a0","change":"new","relevance":17,"reasons":["matched wildfire"]}]}
