@@ -1,1 +1,1 @@
-{"generated_at":"2026-11-01T09:20:15.579236+00:00","items":[]}
+{"generated_at":"2026-11-01T16:07:19.712785+00:00","items":[{"id":"EONET_23676","source":"NASA EONET","title":"Wildfire RAILROAD SOUTH, Comanche, Oklahoma","url":"https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23676","observed_at":"2026-08-29T16:31:00Z","retrieved_at":"2026-11-01T16:07:19.712785+00:00","tags":["earth","Wildfires"],"data":{"categories":["Wildfires"]},"fingerprint":"20451d345035d6dfb7feee600e3165253231f04f3b7ec5b1f9b8c523eea096f9","change":"new","relevance":17,"reasons":["matched wildfire"]}]}
