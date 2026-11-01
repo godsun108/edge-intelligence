@@ -1,8 +1,8 @@
 {
   "attention_budget": 10,
   "eligible": 0,
-  "evaluated": 502,
-  "input_generated_at": "2026-10-31T22:31:29.710418+00:00",
+  "evaluated": 501,
+  "input_generated_at": "2026-11-01T02:16:44.922333+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "items": [],
   "schema": "edge.value.queue.v0.1",
