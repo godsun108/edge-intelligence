@@ -992,6 +992,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-119977",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-119977"
+        }
+      ],
+      "right": "product:WordPress Core",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-119977",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-119977"
+        }
+      ],
+      "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-19490",
       "observation_count": 1,
       "observations": [
@@ -1616,36 +1646,6 @@
         }
       ],
       "right": "vendor:MLflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-65400",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-65400"
-        }
-      ],
-      "right": "product:macOS",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-65400",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-65400"
-        }
-      ],
-      "right": "vendor:Apple",
       "sources": [
         "CISA KEV"
       ]
@@ -4083,6 +4083,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:WordPress Core",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-119977"
+        }
+      ],
+      "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Zammad",
       "observation_count": 2,
       "observations": [
@@ -4111,21 +4126,6 @@
         }
       ],
       "right": "vendor:Synacor",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:macOS",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-65400"
-        }
-      ],
-      "right": "vendor:Apple",
       "sources": [
         "CISA KEV"
       ]
@@ -4808,6 +4808,11 @@
       "value": "CVE-2026-118527"
     },
     {
+      "id": "cve:CVE-2026-119977",
+      "kind": "cve",
+      "value": "CVE-2026-119977"
+    },
+    {
       "id": "cve:CVE-2026-19490",
       "kind": "cve",
       "value": "CVE-2026-19490"
@@ -4911,11 +4916,6 @@
       "id": "cve:CVE-2026-64849",
       "kind": "cve",
       "value": "CVE-2026-64849"
-    },
-    {
-      "id": "cve:CVE-2026-65400",
-      "kind": "cve",
-      "value": "CVE-2026-65400"
     },
     {
       "id": "cve:CVE-2026-65660",
@@ -5433,6 +5433,11 @@
       "value": "Windows"
     },
     {
+      "id": "product:WordPress Core",
+      "kind": "product",
+      "value": "WordPress Core"
+    },
+    {
       "id": "product:Zammad",
       "kind": "product",
       "value": "Zammad"
@@ -5441,11 +5446,6 @@
       "id": "product:Zimbra Collaboration Suite (ZCS)",
       "kind": "product",
       "value": "Zimbra Collaboration Suite (ZCS)"
-    },
-    {
-      "id": "product:macOS",
-      "kind": "product",
-      "value": "macOS"
     },
     {
       "id": "product:ownCloud",

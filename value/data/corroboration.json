@@ -2258,6 +2258,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-119977",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-119977",
+          "title": "CVE-2026-119977 \u2014 WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-19490",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2607,23 +2624,6 @@
           "source_id": "CVE-2026-64849",
           "title": "CVE-2026-64849 \u2014 MLflow Server-Side Request Forgery Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-64849"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-65400",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-65400",
-          "title": "CVE-2026-65400 \u2014 Apple macOS Improper Authentication Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-65400"
         }
       ],
       "sources": [
