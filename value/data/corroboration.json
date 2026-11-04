@@ -1901,6 +1901,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2024-27834",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2024-27834",
+          "title": "CVE-2024-27834 \u2014 Apple Multiple Products Improper Authentication Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-27834"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2025-25249",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2522,23 +2539,6 @@
           "source_id": "CVE-2026-5430",
           "title": "CVE-2026-5430 \u2014 WSO2 Multiple Products Path Traversal Vulnerability ",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-5430"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-55040",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55040",
-          "title": "CVE-2026-55040 \u2014 Microsoft SharePoint Weak Authentication Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-55040"
         }
       ],
       "sources": [

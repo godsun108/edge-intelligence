@@ -362,6 +362,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2024-27834",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2024-27834"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2024-27834",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2024-27834"
+        }
+      ],
+      "right": "vendor:Apple",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2025-25249",
       "observation_count": 1,
       "observations": [
@@ -1466,36 +1496,6 @@
         }
       ],
       "right": "vendor:WSO2",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-55040",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55040"
-        }
-      ],
-      "right": "product:SharePoint",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-55040",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55040"
-        }
-      ],
-      "right": "vendor:Microsoft",
       "sources": [
         "CISA KEV"
       ]
@@ -3525,8 +3525,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Multiple Products",
-      "observation_count": 1,
+      "observation_count": 2,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2024-27834"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-86950"
@@ -3903,15 +3907,11 @@
     {
       "independent_source_count": 1,
       "left": "product:SharePoint",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-65660"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-55040"
         }
       ],
       "right": "vendor:Microsoft",
@@ -4703,6 +4703,11 @@
       "value": "CVE-2023-49105"
     },
     {
+      "id": "cve:CVE-2024-27834",
+      "kind": "cve",
+      "value": "CVE-2024-27834"
+    },
+    {
       "id": "cve:CVE-2025-25249",
       "kind": "cve",
       "value": "CVE-2025-25249"
@@ -4886,11 +4891,6 @@
       "id": "cve:CVE-2026-5430",
       "kind": "cve",
       "value": "CVE-2026-5430"
-    },
-    {
-      "id": "cve:CVE-2026-55040",
-      "kind": "cve",
-      "value": "CVE-2026-55040"
     },
     {
       "id": "cve:CVE-2026-58704",
