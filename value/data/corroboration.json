@@ -2309,6 +2309,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-19868",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19868",
+          "title": "CVE-2026-19868 \u2014 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19868"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-20079",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2556,23 +2573,6 @@
           "source_id": "CVE-2026-58704",
           "title": "CVE-2026-58704 \u2014 Google Pixel Improper Authorization Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-58704"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-59310",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59310",
-          "title": "CVE-2026-59310 \u2014 Broadcom VMware vCenter Path Traversal Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-59310"
         }
       ],
       "sources": [

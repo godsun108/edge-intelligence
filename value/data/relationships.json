@@ -1082,6 +1082,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-19868",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19868"
+        }
+      ],
+      "right": "product:SonicOS SSLVPN",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-19868",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19868"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-20079",
       "observation_count": 1,
       "observations": [
@@ -1526,36 +1556,6 @@
         }
       ],
       "right": "vendor:Google",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-59310",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59310"
-        }
-      ],
-      "right": "product:VMware vCenter",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-59310",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59310"
-        }
-      ],
-      "right": "vendor:Broadcom",
       "sources": [
         "CISA KEV"
       ]
@@ -3951,6 +3951,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:SonicOS SSLVPN",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-19868"
+        }
+      ],
+      "right": "vendor:SonicWall",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Starlette",
       "observation_count": 1,
       "observations": [
@@ -4017,21 +4032,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-41709"
-        }
-      ],
-      "right": "vendor:Broadcom",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:VMware vCenter",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59310"
         }
       ],
       "right": "vendor:Broadcom",
@@ -4823,6 +4823,11 @@
       "value": "CVE-2026-19490"
     },
     {
+      "id": "cve:CVE-2026-19868",
+      "kind": "cve",
+      "value": "CVE-2026-19868"
+    },
+    {
       "id": "cve:CVE-2026-20079",
       "kind": "cve",
       "value": "CVE-2026-20079"
@@ -4896,11 +4901,6 @@
       "id": "cve:CVE-2026-58704",
       "kind": "cve",
       "value": "CVE-2026-58704"
-    },
-    {
-      "id": "cve:CVE-2026-59310",
-      "kind": "cve",
-      "value": "CVE-2026-59310"
     },
     {
       "id": "cve:CVE-2026-59822",
@@ -5393,6 +5393,11 @@
       "value": "Software Center"
     },
     {
+      "id": "product:SonicOS SSLVPN",
+      "kind": "product",
+      "value": "SonicOS SSLVPN"
+    },
+    {
       "id": "product:Starlette",
       "kind": "product",
       "value": "Starlette"
@@ -5416,11 +5421,6 @@
       "id": "product:VMware ESX",
       "kind": "product",
       "value": "VMware ESX"
-    },
-    {
-      "id": "product:VMware vCenter",
-      "kind": "product",
-      "value": "VMware vCenter"
     },
     {
       "id": "product:VeloCloud Orchestrator",
