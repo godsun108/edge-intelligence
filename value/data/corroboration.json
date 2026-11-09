@@ -2054,6 +2054,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-102895",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102895",
+          "title": "CVE-2026-102895 \u2014 GPUStack Improper Authentication Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102895"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-104286",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2258,6 +2275,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-116779",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116779",
+          "title": "CVE-2026-116779 \u2014 SignalWire FreeSwitch Code Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116779"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-118527",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2284,6 +2318,23 @@
           "source_id": "CVE-2026-119977",
           "title": "CVE-2026-119977 \u2014 WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-123158",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123158",
+          "title": "CVE-2026-123158 \u2014 OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123158"
         }
       ],
       "sources": [
@@ -2369,23 +2420,6 @@
           "source_id": "CVE-2026-21962",
           "title": "CVE-2026-21962 \u2014 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21962"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-33824",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-33824",
-          "title": "CVE-2026-33824 \u2014 Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-33824"
         }
       ],
       "sources": [
@@ -2615,23 +2649,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-64849",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-64849",
-          "title": "CVE-2026-64849 \u2014 MLflow Server-Side Request Forgery Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-64849"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-65660",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2709,23 +2726,6 @@
           "source_id": "CVE-2026-71362",
           "title": "CVE-2026-71362 \u2014 Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-71362"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-72529",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72529",
-          "title": "CVE-2026-72529 \u2014 TrueConf Server Missing Authentication for Critical Function Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-72529"
         }
       ],
       "sources": [

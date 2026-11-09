@@ -632,6 +632,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-102895",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102895"
+        }
+      ],
+      "right": "product:GPUStack",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-102895",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102895"
+        }
+      ],
+      "right": "vendor:GPUStack",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-104286",
       "observation_count": 1,
       "observations": [
@@ -992,6 +1022,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-116779",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116779"
+        }
+      ],
+      "right": "product:FreeSwitch",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-116779",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116779"
+        }
+      ],
+      "right": "vendor:SignalWire",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-118527",
       "observation_count": 1,
       "observations": [
@@ -1046,6 +1106,36 @@
         }
       ],
       "right": "vendor:WordPress",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-123158",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123158"
+        }
+      ],
+      "right": "product:OpenSSH",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-123158",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123158"
+        }
+      ],
+      "right": "vendor:OpenBSD",
       "sources": [
         "CISA KEV"
       ]
@@ -1196,36 +1286,6 @@
         }
       ],
       "right": "vendor:Oracle",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-33824",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-33824"
-        }
-      ],
-      "right": "product:Internet Key Exchange (IKE) Service Extensions",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-33824",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-33824"
-        }
-      ],
-      "right": "vendor:Microsoft",
       "sources": [
         "CISA KEV"
       ]
@@ -1622,36 +1682,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-64849",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-64849"
-        }
-      ],
-      "right": "product:MLflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-64849",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-64849"
-        }
-      ],
-      "right": "vendor:MLflow",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-65660",
       "observation_count": 1,
       "observations": [
@@ -1796,36 +1826,6 @@
         }
       ],
       "right": "vendor:Adobe",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-72529",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72529"
-        }
-      ],
-      "right": "product:Server",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-72529",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72529"
-        }
-      ],
-      "right": "vendor:TrueConf",
       "sources": [
         "CISA KEV"
       ]
@@ -3327,6 +3327,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:FreeSwitch",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116779"
+        }
+      ],
+      "right": "vendor:SignalWire",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:GPUStack",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-102895"
+        }
+      ],
+      "right": "vendor:GPUStack",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:GS1900 Series Switches",
       "observation_count": 1,
       "observations": [
@@ -3381,21 +3411,6 @@
         }
       ],
       "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Internet Key Exchange (IKE) Service Extensions",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-33824"
-        }
-      ],
-      "right": "vendor:Microsoft",
       "sources": [
         "CISA KEV"
       ]
@@ -3476,21 +3491,6 @@
         }
       ],
       "right": "vendor:BerriAI",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:MLflow",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-64849"
-        }
-      ],
-      "right": "vendor:MLflow",
       "sources": [
         "CISA KEV"
       ]
@@ -3681,6 +3681,21 @@
         }
       ],
       "right": "vendor:Citrix",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:OpenSSH",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123158"
+        }
+      ],
+      "right": "vendor:OpenBSD",
       "sources": [
         "CISA KEV"
       ]
@@ -3888,15 +3903,11 @@
     {
       "independent_source_count": 1,
       "left": "product:Server",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-72530"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72529"
         }
       ],
       "right": "vendor:TrueConf",
@@ -4748,6 +4759,11 @@
       "value": "CVE-2026-102764"
     },
     {
+      "id": "cve:CVE-2026-102895",
+      "kind": "cve",
+      "value": "CVE-2026-102895"
+    },
+    {
       "id": "cve:CVE-2026-104286",
       "kind": "cve",
       "value": "CVE-2026-104286"
@@ -4808,6 +4824,11 @@
       "value": "CVE-2026-114625"
     },
     {
+      "id": "cve:CVE-2026-116779",
+      "kind": "cve",
+      "value": "CVE-2026-116779"
+    },
+    {
       "id": "cve:CVE-2026-118527",
       "kind": "cve",
       "value": "CVE-2026-118527"
@@ -4816,6 +4837,11 @@
       "id": "cve:CVE-2026-119977",
       "kind": "cve",
       "value": "CVE-2026-119977"
+    },
+    {
+      "id": "cve:CVE-2026-123158",
+      "kind": "cve",
+      "value": "CVE-2026-123158"
     },
     {
       "id": "cve:CVE-2026-19490",
@@ -4841,11 +4867,6 @@
       "id": "cve:CVE-2026-21962",
       "kind": "cve",
       "value": "CVE-2026-21962"
-    },
-    {
-      "id": "cve:CVE-2026-33824",
-      "kind": "cve",
-      "value": "CVE-2026-33824"
     },
     {
       "id": "cve:CVE-2026-41709",
@@ -4913,11 +4934,6 @@
       "value": "CVE-2026-60004"
     },
     {
-      "id": "cve:CVE-2026-64849",
-      "kind": "cve",
-      "value": "CVE-2026-64849"
-    },
-    {
       "id": "cve:CVE-2026-65660",
       "kind": "cve",
       "value": "CVE-2026-65660"
@@ -4941,11 +4957,6 @@
       "id": "cve:CVE-2026-71362",
       "kind": "cve",
       "value": "CVE-2026-71362"
-    },
-    {
-      "id": "cve:CVE-2026-72529",
-      "kind": "cve",
-      "value": "CVE-2026-72529"
     },
     {
       "id": "cve:CVE-2026-72530",
@@ -5233,6 +5244,16 @@
       "value": "FortiMail"
     },
     {
+      "id": "product:FreeSwitch",
+      "kind": "product",
+      "value": "FreeSwitch"
+    },
+    {
+      "id": "product:GPUStack",
+      "kind": "product",
+      "value": "GPUStack"
+    },
+    {
       "id": "product:GS1900 Series Switches",
       "kind": "product",
       "value": "GS1900 Series Switches"
@@ -5253,11 +5274,6 @@
       "value": "Identity Services Engine"
     },
     {
-      "id": "product:Internet Key Exchange (IKE) Service Extensions",
-      "kind": "product",
-      "value": "Internet Key Exchange (IKE) Service Extensions"
-    },
-    {
       "id": "product:Kernel",
       "kind": "product",
       "value": "Kernel"
@@ -5276,11 +5292,6 @@
       "id": "product:LiteLLM",
       "kind": "product",
       "value": "LiteLLM"
-    },
-    {
-      "id": "product:MLflow",
-      "kind": "product",
-      "value": "MLflow"
     },
     {
       "id": "product:Media Server",
@@ -5311,6 +5322,11 @@
       "id": "product:NetScaler ADC and NetScaler Gateway",
       "kind": "product",
       "value": "NetScaler ADC and NetScaler Gateway"
+    },
+    {
+      "id": "product:OpenSSH",
+      "kind": "product",
+      "value": "OpenSSH"
     },
     {
       "id": "product:PAN-OS",
@@ -5548,6 +5564,11 @@
       "value": "Fortinet"
     },
     {
+      "id": "vendor:GPUStack",
+      "kind": "vendor",
+      "value": "GPUStack"
+    },
+    {
       "id": "vendor:GitLab",
       "kind": "vendor",
       "value": "GitLab"
@@ -5593,11 +5614,6 @@
       "value": "Linux"
     },
     {
-      "id": "vendor:MLflow",
-      "kind": "vendor",
-      "value": "MLflow"
-    },
-    {
       "id": "vendor:Microsoft",
       "kind": "vendor",
       "value": "Microsoft"
@@ -5616,6 +5632,11 @@
       "id": "vendor:ONLYOFFICE",
       "kind": "vendor",
       "value": "ONLYOFFICE"
+    },
+    {
+      "id": "vendor:OpenBSD",
+      "kind": "vendor",
+      "value": "OpenBSD"
     },
     {
       "id": "vendor:Oracle",
@@ -5661,6 +5682,11 @@
       "id": "vendor:Siemens",
       "kind": "vendor",
       "value": "Siemens"
+    },
+    {
+      "id": "vendor:SignalWire",
+      "kind": "vendor",
+      "value": "SignalWire"
     },
     {
       "id": "vendor:SonicWall",
