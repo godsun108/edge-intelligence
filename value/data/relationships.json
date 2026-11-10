@@ -182,36 +182,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2019-1068",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2019-1068"
-        }
-      ],
-      "right": "product:SQL Server",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2019-1068",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2019-1068"
-        }
-      ],
-      "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2021-23758",
       "observation_count": 1,
       "observations": [
@@ -266,36 +236,6 @@
         }
       ],
       "right": "vendor:ONLYOFFICE",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2022-0995",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2022-0995"
-        }
-      ],
-      "right": "product:Kernel",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2022-0995",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2022-0995"
-        }
-      ],
-      "right": "vendor:Linux",
       "sources": [
         "CISA KEV"
       ]
@@ -992,6 +932,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-111560",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111560"
+        }
+      ],
+      "right": "product:Multiple Products",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-111560",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111560"
+        }
+      ],
+      "right": "vendor:Barracuda Networks",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-111793",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111793"
+        }
+      ],
+      "right": "product:Webtop Media Transcoder",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-111793",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111793"
+        }
+      ],
+      "right": "vendor:Openwave Messaging Limited",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-114625",
       "observation_count": 1,
       "observations": [
@@ -1016,6 +1016,36 @@
         }
       ],
       "right": "vendor:Arista",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-116606",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116606"
+        }
+      ],
+      "right": "product:Barracuda Email Security Gateway (ESG)",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-116606",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116606"
+        }
+      ],
+      "right": "vendor:Barracuda Networks",
       "sources": [
         "CISA KEV"
       ]
@@ -1172,6 +1202,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-124194",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-124194"
+        }
+      ],
+      "right": "product:Office",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-124194",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-124194"
+        }
+      ],
+      "right": "vendor:Microsoft",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-125350",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-125350"
+        }
+      ],
+      "right": "product:Chromium",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-125350",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-125350"
+        }
+      ],
+      "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-19490",
       "observation_count": 1,
       "observations": [
@@ -1262,6 +1352,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-20320",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20320"
+        }
+      ],
+      "right": "product:BroadWorks",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-20320",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20320"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-21589",
       "observation_count": 1,
       "observations": [
@@ -1286,36 +1406,6 @@
         }
       ],
       "right": "vendor:Atlassian",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-21962",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-21962"
-        }
-      ],
-      "right": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-21962",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-21962"
-        }
-      ],
-      "right": "vendor:Oracle",
       "sources": [
         "CISA KEV"
       ]
@@ -1682,36 +1772,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-60004",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60004"
-        }
-      ],
-      "right": "product:Gitea",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-60004",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60004"
-        }
-      ],
-      "right": "vendor:Gitea",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-65660",
       "observation_count": 1,
       "observations": [
@@ -1886,36 +1946,6 @@
         }
       ],
       "right": "vendor:Zyxel",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-73570",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-73570"
-        }
-      ],
-      "right": "product:Zimbra Collaboration Suite (ZCS)",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-73570",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-73570"
-        }
-      ],
-      "right": "vendor:Synacor",
       "sources": [
         "CISA KEV"
       ]
@@ -2276,36 +2306,6 @@
         }
       ],
       "right": "vendor:SonicWall",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-8452",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8452"
-        }
-      ],
-      "right": "product:NetScaler ADC and NetScaler Gateway",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-8452",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8452"
-        }
-      ],
-      "right": "vendor:Citrix",
       "sources": [
         "CISA KEV"
       ]
@@ -3168,6 +3168,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Barracuda Email Security Gateway (ESG)",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116606"
+        }
+      ],
+      "right": "vendor:Barracuda Networks",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:BroadWorks",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20320"
+        }
+      ],
+      "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Brotli",
       "observation_count": 1,
       "observations": [
@@ -3192,6 +3222,21 @@
         }
       ],
       "right": "vendor:Cisco",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Chromium",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-125350"
+        }
+      ],
+      "right": "vendor:Google",
       "sources": [
         "CISA KEV"
       ]
@@ -3387,36 +3432,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Gitea",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60004"
-        }
-      ],
-      "right": "vendor:Gitea",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-21962"
-        }
-      ],
-      "right": "vendor:Oracle",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Identity Services Engine",
       "observation_count": 1,
       "observations": [
@@ -3433,7 +3448,7 @@
     {
       "independent_source_count": 1,
       "left": "product:Kernel",
-      "observation_count": 6,
+      "observation_count": 5,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3454,10 +3469,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-53362"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2022-0995"
         }
       ],
       "right": "vendor:Linux",
@@ -3567,6 +3578,21 @@
         }
       ],
       "right": "vendor:Atlassian",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Multiple Products",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111560"
+        }
+      ],
+      "right": "vendor:Barracuda Networks",
       "sources": [
         "CISA KEV"
       ]
@@ -3687,15 +3713,15 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:NetScaler ADC and NetScaler Gateway",
+      "left": "product:Office",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2026-8452"
+          "source_id": "CVE-2026-124194"
         }
       ],
-      "right": "vendor:Citrix",
+      "right": "vendor:Microsoft",
       "sources": [
         "CISA KEV"
       ]
@@ -3832,21 +3858,6 @@
         }
       ],
       "right": "vendor:SonicWall",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:SQL Server",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2019-1068"
-        }
-      ],
-      "right": "vendor:Microsoft",
       "sources": [
         "CISA KEV"
       ]
@@ -4071,6 +4082,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Webtop Media Transcoder",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111793"
+        }
+      ],
+      "right": "vendor:Openwave Messaging Limited",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Windows",
       "observation_count": 3,
       "observations": [
@@ -4122,21 +4148,6 @@
         }
       ],
       "right": "vendor:Zammad GmbH",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Zimbra Collaboration Suite (ZCS)",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-73570"
-        }
-      ],
-      "right": "vendor:Synacor",
       "sources": [
         "CISA KEV"
       ]
@@ -4684,11 +4695,6 @@
       "value": "CVE-2016-3081"
     },
     {
-      "id": "cve:CVE-2019-1068",
-      "kind": "cve",
-      "value": "CVE-2019-1068"
-    },
-    {
       "id": "cve:CVE-2021-23758",
       "kind": "cve",
       "value": "CVE-2021-23758"
@@ -4697,11 +4703,6 @@
       "id": "cve:CVE-2021-3199",
       "kind": "cve",
       "value": "CVE-2021-3199"
-    },
-    {
-      "id": "cve:CVE-2022-0995",
-      "kind": "cve",
-      "value": "CVE-2022-0995"
     },
     {
       "id": "cve:CVE-2023-22894",
@@ -4819,9 +4820,24 @@
       "value": "CVE-2026-111497"
     },
     {
+      "id": "cve:CVE-2026-111560",
+      "kind": "cve",
+      "value": "CVE-2026-111560"
+    },
+    {
+      "id": "cve:CVE-2026-111793",
+      "kind": "cve",
+      "value": "CVE-2026-111793"
+    },
+    {
       "id": "cve:CVE-2026-114625",
       "kind": "cve",
       "value": "CVE-2026-114625"
+    },
+    {
+      "id": "cve:CVE-2026-116606",
+      "kind": "cve",
+      "value": "CVE-2026-116606"
     },
     {
       "id": "cve:CVE-2026-116779",
@@ -4849,6 +4865,16 @@
       "value": "CVE-2026-123218"
     },
     {
+      "id": "cve:CVE-2026-124194",
+      "kind": "cve",
+      "value": "CVE-2026-124194"
+    },
+    {
+      "id": "cve:CVE-2026-125350",
+      "kind": "cve",
+      "value": "CVE-2026-125350"
+    },
+    {
       "id": "cve:CVE-2026-19490",
       "kind": "cve",
       "value": "CVE-2026-19490"
@@ -4864,14 +4890,14 @@
       "value": "CVE-2026-20079"
     },
     {
+      "id": "cve:CVE-2026-20320",
+      "kind": "cve",
+      "value": "CVE-2026-20320"
+    },
+    {
       "id": "cve:CVE-2026-21589",
       "kind": "cve",
       "value": "CVE-2026-21589"
-    },
-    {
-      "id": "cve:CVE-2026-21962",
-      "kind": "cve",
-      "value": "CVE-2026-21962"
     },
     {
       "id": "cve:CVE-2026-41709",
@@ -4934,11 +4960,6 @@
       "value": "CVE-2026-59822"
     },
     {
-      "id": "cve:CVE-2026-60004",
-      "kind": "cve",
-      "value": "CVE-2026-60004"
-    },
-    {
       "id": "cve:CVE-2026-65660",
       "kind": "cve",
       "value": "CVE-2026-65660"
@@ -4967,11 +4988,6 @@
       "id": "cve:CVE-2026-7273",
       "kind": "cve",
       "value": "CVE-2026-7273"
-    },
-    {
-      "id": "cve:CVE-2026-73570",
-      "kind": "cve",
-      "value": "CVE-2026-73570"
     },
     {
       "id": "cve:CVE-2026-75650",
@@ -5032,11 +5048,6 @@
       "id": "cve:CVE-2026-83549",
       "kind": "cve",
       "value": "CVE-2026-83549"
-    },
-    {
-      "id": "cve:CVE-2026-8452",
-      "kind": "cve",
-      "value": "CVE-2026-8452"
     },
     {
       "id": "cve:CVE-2026-84869",
@@ -5199,6 +5210,16 @@
       "value": "Backup"
     },
     {
+      "id": "product:Barracuda Email Security Gateway (ESG)",
+      "kind": "product",
+      "value": "Barracuda Email Security Gateway (ESG)"
+    },
+    {
+      "id": "product:BroadWorks",
+      "kind": "product",
+      "value": "BroadWorks"
+    },
+    {
       "id": "product:Brotli",
       "kind": "product",
       "value": "Brotli"
@@ -5207,6 +5228,11 @@
       "id": "product:Catalyst SD-WAN Manager",
       "kind": "product",
       "value": "Catalyst SD-WAN Manager"
+    },
+    {
+      "id": "product:Chromium",
+      "kind": "product",
+      "value": "Chromium"
     },
     {
       "id": "product:Chromium V8",
@@ -5264,16 +5290,6 @@
       "value": "GS1900 Series Switches"
     },
     {
-      "id": "product:Gitea",
-      "kind": "product",
-      "value": "Gitea"
-    },
-    {
-      "id": "product:HTTP Server and Oracle Weblogic Server Proxy Plug-in",
-      "kind": "product",
-      "value": "HTTP Server and Oracle Weblogic Server Proxy Plug-in"
-    },
-    {
       "id": "product:Identity Services Engine",
       "kind": "product",
       "value": "Identity Services Engine"
@@ -5324,9 +5340,9 @@
       "value": "NetScaler"
     },
     {
-      "id": "product:NetScaler ADC and NetScaler Gateway",
+      "id": "product:Office",
       "kind": "product",
-      "value": "NetScaler ADC and NetScaler Gateway"
+      "value": "Office"
     },
     {
       "id": "product:OpenSSH",
@@ -5367,11 +5383,6 @@
       "id": "product:SMA1000 Appliances",
       "kind": "product",
       "value": "SMA1000 Appliances"
-    },
-    {
-      "id": "product:SQL Server",
-      "kind": "product",
-      "value": "SQL Server"
     },
     {
       "id": "product:ScreenConnect",
@@ -5444,6 +5455,11 @@
       "value": "VeloCloud Orchestrator"
     },
     {
+      "id": "product:Webtop Media Transcoder",
+      "kind": "product",
+      "value": "Webtop Media Transcoder"
+    },
+    {
       "id": "product:Windows",
       "kind": "product",
       "value": "Windows"
@@ -5457,11 +5473,6 @@
       "id": "product:Zammad",
       "kind": "product",
       "value": "Zammad"
-    },
-    {
-      "id": "product:Zimbra Collaboration Suite (ZCS)",
-      "kind": "product",
-      "value": "Zimbra Collaboration Suite (ZCS)"
     },
     {
       "id": "product:ownCloud",
@@ -5507,6 +5518,11 @@
       "id": "vendor:Atlassian",
       "kind": "vendor",
       "value": "Atlassian"
+    },
+    {
+      "id": "vendor:Barracuda Networks",
+      "kind": "vendor",
+      "value": "Barracuda Networks"
     },
     {
       "id": "vendor:BerriAI",
@@ -5574,11 +5590,6 @@
       "value": "GitLab"
     },
     {
-      "id": "vendor:Gitea",
-      "kind": "vendor",
-      "value": "Gitea"
-    },
-    {
       "id": "vendor:Google",
       "kind": "vendor",
       "value": "Google"
@@ -5644,9 +5655,9 @@
       "value": "OpenBSD"
     },
     {
-      "id": "vendor:Oracle",
+      "id": "vendor:Openwave Messaging Limited",
       "kind": "vendor",
-      "value": "Oracle"
+      "value": "Openwave Messaging Limited"
     },
     {
       "id": "vendor:PHP Group",
@@ -5702,11 +5713,6 @@
       "id": "vendor:Strapi",
       "kind": "vendor",
       "value": "Strapi"
-    },
-    {
-      "id": "vendor:Synacor",
-      "kind": "vendor",
-      "value": "Synacor"
     },
     {
       "id": "vendor:WSO2",

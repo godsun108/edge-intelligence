@@ -1799,23 +1799,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2019-1068",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2019-1068",
-          "title": "CVE-2019-1068 \u2014 Microsoft SQL Server Remote Code Execution Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2019-1068"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2021-23758",
       "independent_source_count": 1,
       "record_count": 1,
@@ -1842,23 +1825,6 @@
           "source_id": "CVE-2021-3199",
           "title": "CVE-2021-3199 \u2014 ONLYOFFICE Docs Server Path Traversal Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-3199"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2022-0995",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2022-0995",
-          "title": "CVE-2022-0995 \u2014 Linux Kernel Out-of-Bounds Write Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-0995"
         }
       ],
       "sources": [
@@ -2258,6 +2224,40 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-111560",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111560",
+          "title": "CVE-2026-111560 \u2014 Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111560"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-111793",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-111793",
+          "title": "CVE-2026-111793 \u2014 Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111793"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-114625",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2267,6 +2267,23 @@
           "source_id": "CVE-2026-114625",
           "title": "CVE-2026-114625 \u2014 Arista VeloCloud Orchestrator SQL Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114625"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-116606",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-116606",
+          "title": "CVE-2026-116606 \u2014 Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116606"
         }
       ],
       "sources": [
@@ -2360,6 +2377,40 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-124194",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-124194",
+          "title": "CVE-2026-124194 \u2014 Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-124194"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-125350",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-125350",
+          "title": "CVE-2026-125350 \u2014 Google Chromium Use-After-Free Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-125350"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-19490",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2411,6 +2462,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-20320",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-20320",
+          "title": "CVE-2026-20320 \u2014 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20320"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-21589",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2420,23 +2488,6 @@
           "source_id": "CVE-2026-21589",
           "title": "CVE-2026-21589 \u2014 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-21962",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-21962",
-          "title": "CVE-2026-21962 \u2014 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21962"
         }
       ],
       "sources": [
@@ -2649,23 +2700,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-60004",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-60004",
-          "title": "CVE-2026-60004 \u2014 Gitea Code Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-60004"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-65660",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2760,23 +2794,6 @@
           "source_id": "CVE-2026-7273",
           "title": "CVE-2026-7273 \u2014 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-7273"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-73570",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-73570",
-          "title": "CVE-2026-73570 \u2014 Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-73570"
         }
       ],
       "sources": [
@@ -2981,23 +2998,6 @@
           "source_id": "CVE-2026-83549",
           "title": "CVE-2026-83549 \u2014 SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83549"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-8452",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-8452",
-          "title": "CVE-2026-8452 \u2014 Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-8452"
         }
       ],
       "sources": [
