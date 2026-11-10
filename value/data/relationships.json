@@ -1142,6 +1142,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-123218",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123218"
+        }
+      ],
+      "right": "product:Aspera Faspex",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-123218",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123218"
+        }
+      ],
+      "right": "vendor:IBM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-19490",
       "observation_count": 1,
       "observations": [
@@ -1826,36 +1856,6 @@
         }
       ],
       "right": "vendor:Adobe",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-72530",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72530"
-        }
-      ],
-      "right": "product:Server",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-72530",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72530"
-        }
-      ],
-      "right": "vendor:TrueConf",
       "sources": [
         "CISA KEV"
       ]
@@ -3093,6 +3093,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:Aspera Faspex",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123218"
+        }
+      ],
+      "right": "vendor:IBM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Automatic Bug Reporting Tool",
       "observation_count": 1,
       "observations": [
@@ -3896,21 +3911,6 @@
         }
       ],
       "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:Server",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72530"
-        }
-      ],
-      "right": "vendor:TrueConf",
       "sources": [
         "CISA KEV"
       ]
@@ -4844,6 +4844,11 @@
       "value": "CVE-2026-123158"
     },
     {
+      "id": "cve:CVE-2026-123218",
+      "kind": "cve",
+      "value": "CVE-2026-123218"
+    },
+    {
       "id": "cve:CVE-2026-19490",
       "kind": "cve",
       "value": "CVE-2026-19490"
@@ -4957,11 +4962,6 @@
       "id": "cve:CVE-2026-71362",
       "kind": "cve",
       "value": "CVE-2026-71362"
-    },
-    {
-      "id": "cve:CVE-2026-72530",
-      "kind": "cve",
-      "value": "CVE-2026-72530"
     },
     {
       "id": "cve:CVE-2026-7273",
@@ -5172,6 +5172,11 @@
       "id": "product:Artifactory",
       "kind": "product",
       "value": "Artifactory"
+    },
+    {
+      "id": "product:Aspera Faspex",
+      "kind": "product",
+      "value": "Aspera Faspex"
     },
     {
       "id": "product:Automatic Bug Reporting Tool",
@@ -5389,11 +5394,6 @@
       "value": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management"
     },
     {
-      "id": "product:Server",
-      "kind": "product",
-      "value": "Server"
-    },
-    {
       "id": "product:SharePoint",
       "kind": "product",
       "value": "SharePoint"
@@ -5584,6 +5584,11 @@
       "value": "Google"
     },
     {
+      "id": "vendor:IBM",
+      "kind": "vendor",
+      "value": "IBM"
+    },
+    {
       "id": "vendor:ISC",
       "kind": "vendor",
       "value": "ISC"
@@ -5702,11 +5707,6 @@
       "id": "vendor:Synacor",
       "kind": "vendor",
       "value": "Synacor"
-    },
-    {
-      "id": "vendor:TrueConf",
-      "kind": "vendor",
-      "value": "TrueConf"
     },
     {
       "id": "vendor:WSO2",

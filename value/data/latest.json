@@ -1,8 +1,8 @@
 {
   "attention_budget": 10,
-  "eligible": 3,
+  "eligible": 1,
   "evaluated": 501,
-  "input_generated_at": "2026-11-09T18:51:56.140876+00:00",
+  "input_generated_at": "2026-11-10T09:56:44.425729+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "items": [
     {
@@ -23,7 +23,7 @@
           "known primary/public source: CISA KEV"
         ],
         "time_advantage": [
-          "3 days until CISA due date"
+          "2 days until CISA due date"
         ]
       },
       "factors": {
@@ -34,120 +34,16 @@
         "reliability": 0.85,
         "time_advantage": 0.85
       },
-      "id": "CISA KEV:CVE-2026-102895",
+      "id": "CISA KEV:CVE-2026-123218",
       "meaning": "attention_priority_only",
       "observation": {
         "observed_at": "2026-11-09",
         "radar_change": "new",
-        "retrieved_at": "2026-11-09T18:51:56.140876+00:00",
+        "retrieved_at": "2026-11-10T09:56:44.425729+00:00",
         "source": "CISA KEV",
-        "source_id": "CVE-2026-102895",
-        "title": "CVE-2026-102895 \u2014 GPUStack Improper Authentication Vulnerability",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102895"
-      },
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
-      "reliability_gate": 0.8875,
-      "value_score": 49.2,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "derivation_reasons": {
-        "actionability": [
-          "CISA publishes required remediation action; asset applicability not inferred"
-        ],
-        "consequence": [
-          "CISA catalog states exploitation in the wild; local applicability not inferred"
-        ],
-        "novelty": [
-          "RADAR change=new"
-        ],
-        "relevance": [
-          "mapped from explicit RADAR rule score"
-        ],
-        "reliability": [
-          "known primary/public source: CISA KEV"
-        ],
-        "time_advantage": [
-          "3 days until CISA due date"
-        ]
-      },
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
-      "id": "CISA KEV:CVE-2026-116779",
-      "meaning": "attention_priority_only",
-      "observation": {
-        "observed_at": "2026-11-09",
-        "radar_change": "new",
-        "retrieved_at": "2026-11-09T18:51:56.140876+00:00",
-        "source": "CISA KEV",
-        "source_id": "CVE-2026-116779",
-        "title": "CVE-2026-116779 \u2014 SignalWire FreeSwitch Code Injection Vulnerability",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116779"
-      },
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.5929,
-      "reliability_gate": 0.8875,
-      "value_score": 49.2,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "derivation_reasons": {
-        "actionability": [
-          "CISA publishes required remediation action; asset applicability not inferred"
-        ],
-        "consequence": [
-          "CISA catalog states exploitation in the wild; local applicability not inferred"
-        ],
-        "novelty": [
-          "RADAR change=new"
-        ],
-        "relevance": [
-          "mapped from explicit RADAR rule score"
-        ],
-        "reliability": [
-          "known primary/public source: CISA KEV"
-        ],
-        "time_advantage": [
-          "3 days until CISA due date"
-        ]
-      },
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 1.0,
-        "relevance": 0.12,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
-      "id": "CISA KEV:CVE-2026-123158",
-      "meaning": "attention_priority_only",
-      "observation": {
-        "observed_at": "2026-11-09",
-        "radar_change": "new",
-        "retrieved_at": "2026-11-09T18:51:56.140876+00:00",
-        "source": "CISA KEV",
-        "source_id": "CVE-2026-123158",
-        "title": "CVE-2026-123158 \u2014 OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123158"
+        "source_id": "CVE-2026-123218",
+        "title": "CVE-2026-123218 \u2014 IBM Aspera Faspex Incorrect Authorization Vulnerability",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123218"
       },
       "penalties": {
         "duplication": 0.0,

@@ -2343,6 +2343,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-123218",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123218",
+          "title": "CVE-2026-123218 \u2014 IBM Aspera Faspex Incorrect Authorization Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123218"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-19490",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2726,23 +2743,6 @@
           "source_id": "CVE-2026-71362",
           "title": "CVE-2026-71362 \u2014 Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-71362"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-72530",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-72530",
-          "title": "CVE-2026-72530 \u2014 TrueConf Server Code Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-72530"
         }
       ],
       "sources": [
