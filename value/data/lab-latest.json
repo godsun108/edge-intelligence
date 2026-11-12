@@ -14,6 +14,7 @@
       "CISA KEV:CVE-2024-27834"
     ],
     "newest_first": [
+      "NASA EONET:EONET_26158",
       "Federal Register:C1-2026-22802",
       "Federal Register:C1-2026-21030",
       "Federal Register:2026-23113",
@@ -22,8 +23,7 @@
       "Federal Register:2026-23075",
       "Federal Register:2026-23074",
       "Federal Register:2026-23073",
-      "Federal Register:2026-23072",
-      "Federal Register:2026-23068"
+      "Federal Register:2026-23072"
     ],
     "source_order": [
       "CISA KEV:CVE-2015-3246",
@@ -11564,7 +11564,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-11-12T03:05:18.489121+00:00",
+  "generated_at": "2026-11-12T11:24:11.930776+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
