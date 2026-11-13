@@ -1,0 +1,43 @@
+name: Genesis likelihood development evaluation
+on:
+  workflow_dispatch:
+  push:
+    branches: [genesis-v36-audit-infrastructure]
+    paths:
+      - 'genesis-one/LIKELIHOOD-EXPERIMENT.md'
+      - 'genesis-one/replay-v35-tasks.cjs'
+      - '.github/workflows/genesis-likelihood.yml'
+permissions:
+  contents: read
+jobs:
+  likelihood:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Evaluate noise-likelihood shadow policies on fresh development seeds
+        run: node genesis-one/replay-v35-tasks.cjs seed=1700001 count=200 seedCount=4 > genesis-likelihood.json
+      - name: Assert task accounting and print outcome comparison
+        run: |
+          node - <<'NODE'
+          const assert=require('node:assert/strict');
+          const r=require('./genesis-likelihood.json');
+          assert.equal(r.tasks,4000);
+          assert.equal(r.byScenario.length,20);
+          assert.equal(r.mismatches,0);
+          assert.equal(r.accepted,r.correct+r.wrong);
+          for(const name of ['baseline','likelihoodMargin05','likelihoodMargin1']){
+            const p=r.shadow[name];
+            assert.ok(p,`missing ${name}`);
+            assert.equal(p.accepted,p.correct+p.wrong);
+            assert.ok(p.accepted<=r.accepted);
+            console.log(name,JSON.stringify({...p,abstained:r.tasks-p.accepted,correctRejected:r.correct-p.correct,wrongPrevented:r.wrong-p.wrong}));
+          }
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: genesis-likelihood-development
+          path: genesis-likelihood.json

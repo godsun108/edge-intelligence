@@ -1,0 +1,35 @@
+name: Genesis uncertainty evaluation
+on:
+  push:
+    branches: [genesis-v36-audit-infrastructure]
+    paths:
+      - '.github/workflows/genesis-uncertainty.yml'
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          for seed in 2900001 3300001 3700001; do
+            node genesis-one/replay-v35-tasks.cjs seed=$seed count=200 seedCount=4 > uncertainty-$seed.json
+          done
+      - run: |
+          node - <<'NODE'
+          const assert=require('node:assert/strict');
+          for(const seed of [2900001,3300001,3700001]){
+            const r=require('./uncertainty-'+seed+'.json');
+            assert.equal(r.tasks,4000);assert.equal(r.mismatches,0);
+            for(const k of ['uncertaintyGap2','uncertaintyGap4']){
+              const p=r.shadow[k];assert.equal(p.accepted,p.correct+p.wrong);assert.ok(p.accepted<=r.accepted);
+            }
+            console.log(JSON.stringify({seed,baseline:r.shadow.baseline,gap2:r.shadow.uncertaintyGap2,gap4:r.shadow.uncertaintyGap4,requests:r.requests}));
+          }
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: genesis-uncertainty-replications
+          path: uncertainty-*.json

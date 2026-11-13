@@ -1,0 +1,47 @@
+name: Genesis research controller
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 11 * * 1,4'
+permissions:
+  contents: read
+jobs:
+  bounded-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run baseline and shifted-noise suites
+        run: |
+          node genesis-one/replay-v35-tasks.cjs seed=2500001 count=200 seedCount=4 > baseline.json
+          node genesis-one/replay-v35-tasks.cjs seed=4100001 count=200 seedCount=4 regime=1 > shifted.json
+      - name: Compare and enforce invariants
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs'),assert=require('node:assert/strict');
+          const summary={generatedAt:new Date().toISOString(),runs:[]};
+          for(const [label,file] of [['standard','baseline.json'],['shifted-noise','shifted.json']]){
+            const r=JSON.parse(fs.readFileSync(file,'utf8'));
+            assert.equal(r.tasks,4000);assert.equal(r.mismatches,0);
+            const policies={};
+            for(const key of ['baseline','uncertaintyGap2','uncertaintyGap4']){
+              const p=r.shadow[key];assert.equal(p.accepted,p.correct+p.wrong);
+              policies[key]={correct:p.correct,wrong:p.wrong,accepted:p.accepted};
+            }
+            summary.runs.push({label,requests:r.requests,policies});
+          }
+          fs.writeFileSync('research-summary.json',JSON.stringify(summary,null,2));
+          console.log(JSON.stringify(summary));
+          NODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: genesis-research-controller-evidence
+          path: |
+            baseline.json
+            shifted.json
+            research-summary.json
+          retention-days: 30
