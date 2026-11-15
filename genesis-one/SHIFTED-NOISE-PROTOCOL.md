@@ -1,0 +1,5 @@
+# Genesis ONE — shifted-noise stress protocol
+
+**Not an independent holdout.** The original v35 task generator still chooses candidate truths, task order and x coordinates. This experimental harness replaces only generated y observations with a distinct seeded process: original scenario missingness probability, plus an independent random stream introducing signed magnitude-2 perturbations on 25% of nonmissing observations; otherwise exact readings. All v35 stages are recomputed from the altered observations. This intentionally departs from the v35 signed-magnitude-1 noise model. The alternative generator is not validated against real-world measurements, and using the same truth family cannot establish independent generalization.
+
+Predeclared test: `seed=4100001 count=200 seedCount=4 regime=1`, 4,000 synthetic shifted-noise tasks. Evaluate frozen v35 acceptance versus shadow margin-2 and margin-4 abstention; record wrong prevented, correct rejected and requests. The replay compares v29/v30/v35 on the same altered rows; no changes to frozen HTML. Fail CI for replay mismatches. No threshold tuning or promotion based on this one test.
