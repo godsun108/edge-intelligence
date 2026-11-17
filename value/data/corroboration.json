@@ -1765,23 +1765,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2021-23758",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-23758",
-          "title": "CVE-2021-23758 \u2014 Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-23758"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2021-3199",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2250,6 +2233,23 @@
           "source_id": "CVE-2026-114713",
           "title": "CVE-2026-114713 \u2014 UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114713"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-115731",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-115731",
+          "title": "CVE-2026-115731 \u2014 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-115731"
         }
       ],
       "sources": [

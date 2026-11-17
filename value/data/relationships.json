@@ -122,36 +122,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2021-23758",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-23758"
-        }
-      ],
-      "right": "product:Ajax.NET Professional",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2021-23758",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-23758"
-        }
-      ],
-      "right": "vendor:Ajax.NET Professional",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2021-3199",
       "observation_count": 1,
       "observations": [
@@ -986,6 +956,36 @@
         }
       ],
       "right": "vendor:UnrealIRCd",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-115731",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-115731"
+        }
+      ],
+      "right": "product:Puppet Enterprise",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-115731",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-115731"
+        }
+      ],
+      "right": "vendor:Perforce",
       "sources": [
         "CISA KEV"
       ]
@@ -3051,21 +3051,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Ajax.NET Professional",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2021-23758"
-        }
-      ],
-      "right": "vendor:Ajax.NET Professional",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Artifactory",
       "observation_count": 4,
       "observations": [
@@ -3775,6 +3760,21 @@
         }
       ],
       "right": "vendor:ProFTPD",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Puppet Enterprise",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-115731"
+        }
+      ],
+      "right": "vendor:Perforce",
       "sources": [
         "CISA KEV"
       ]
@@ -4674,11 +4674,6 @@
       "value": "CVE-2016-3081"
     },
     {
-      "id": "cve:CVE-2021-23758",
-      "kind": "cve",
-      "value": "CVE-2021-23758"
-    },
-    {
       "id": "cve:CVE-2021-3199",
       "kind": "cve",
       "value": "CVE-2021-3199"
@@ -4817,6 +4812,11 @@
       "id": "cve:CVE-2026-114713",
       "kind": "cve",
       "value": "CVE-2026-114713"
+    },
+    {
+      "id": "cve:CVE-2026-115731",
+      "kind": "cve",
+      "value": "CVE-2026-115731"
     },
     {
       "id": "cve:CVE-2026-116606",
@@ -5164,11 +5164,6 @@
       "value": "AhsayCBS"
     },
     {
-      "id": "product:Ajax.NET Professional",
-      "kind": "product",
-      "value": "Ajax.NET Professional"
-    },
-    {
       "id": "product:Artifactory",
       "kind": "product",
       "value": "Artifactory"
@@ -5349,6 +5344,11 @@
       "value": "ProFTPD"
     },
     {
+      "id": "product:Puppet Enterprise",
+      "kind": "product",
+      "value": "Puppet Enterprise"
+    },
+    {
       "id": "product:Remote Support",
       "kind": "product",
       "value": "Remote Support"
@@ -5477,11 +5477,6 @@
       "id": "vendor:Ahsay",
       "kind": "vendor",
       "value": "Ahsay"
-    },
-    {
-      "id": "vendor:Ajax.NET Professional",
-      "kind": "vendor",
-      "value": "Ajax.NET Professional"
     },
     {
       "id": "vendor:Apache",
@@ -5657,6 +5652,11 @@
       "id": "vendor:PaperCut",
       "kind": "vendor",
       "value": "PaperCut"
+    },
+    {
+      "id": "vendor:Perforce",
+      "kind": "vendor",
+      "value": "Perforce"
     },
     {
       "id": "vendor:Plex",
