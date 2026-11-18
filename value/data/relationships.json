@@ -182,30 +182,30 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2023-49105",
+      "left": "cve:CVE-2024-10441",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2023-49105"
+          "source_id": "CVE-2024-10441"
         }
       ],
-      "right": "product:ownCloud",
+      "right": "product:DiskStation Manager (DSM)",
       "sources": [
         "CISA KEV"
       ]
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2023-49105",
+      "left": "cve:CVE-2024-10441",
       "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2023-49105"
+          "source_id": "CVE-2024-10441"
         }
       ],
-      "right": "vendor:ownCloud",
+      "right": "vendor:Synology",
       "sources": [
         "CISA KEV"
       ]
@@ -1412,6 +1412,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-40217",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-40217"
+        }
+      ],
+      "right": "product:LiteLLM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-40217",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-40217"
+        }
+      ],
+      "right": "vendor:BerriAI",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-41709",
       "observation_count": 1,
       "observations": [
@@ -1652,36 +1682,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-53362",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-53362"
-        }
-      ],
-      "right": "product:Kernel",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-53362",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-53362"
-        }
-      ],
-      "right": "vendor:Linux",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-5430",
       "observation_count": 1,
       "observations": [
@@ -1796,36 +1796,6 @@
         }
       ],
       "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-66384",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-66384"
-        }
-      ],
-      "right": "product:Artifactory",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-66384",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-66384"
-        }
-      ],
-      "right": "vendor:JFrog",
       "sources": [
         "CISA KEV"
       ]
@@ -2126,36 +2096,6 @@
         }
       ],
       "right": "vendor:Cisco",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-81578",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-81578"
-        }
-      ],
-      "right": "product:NG/MF",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-81578",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-81578"
-        }
-      ],
-      "right": "vendor:PaperCut",
       "sources": [
         "CISA KEV"
       ]
@@ -2732,6 +2672,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-90436",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90436"
+        }
+      ],
+      "right": "product:Axis",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-90436",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90436"
+        }
+      ],
+      "right": "vendor:Apache",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-90817",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90817"
+        }
+      ],
+      "right": "product:Research Electronic Data Capture (REDCap)",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-90817",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90817"
+        }
+      ],
+      "right": "vendor:Vanderbilt University",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-93616",
       "observation_count": 1,
       "observations": [
@@ -3052,7 +3052,7 @@
     {
       "independent_source_count": 1,
       "left": "product:Artifactory",
-      "observation_count": 4,
+      "observation_count": 3,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3065,10 +3065,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-82329"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-66384"
         }
       ],
       "right": "vendor:JFrog",
@@ -3087,6 +3083,21 @@
         }
       ],
       "right": "vendor:IBM",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Axis",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90436"
+        }
+      ],
+      "right": "vendor:Apache",
       "sources": [
         "CISA KEV"
       ]
@@ -3327,6 +3338,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:DiskStation Manager (DSM)",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2024-10441"
+        }
+      ],
+      "right": "vendor:Synology",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Docs",
       "observation_count": 1,
       "observations": [
@@ -3418,7 +3444,7 @@
     {
       "independent_source_count": 1,
       "left": "product:Kernel",
-      "observation_count": 5,
+      "observation_count": 4,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3435,10 +3461,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2025-39682"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-53362"
         }
       ],
       "right": "vendor:Linux",
@@ -3464,8 +3486,12 @@
     {
       "independent_source_count": 1,
       "left": "product:LiteLLM",
-      "observation_count": 1,
+      "observation_count": 2,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-40217"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-59822"
@@ -3627,15 +3653,11 @@
     {
       "independent_source_count": 1,
       "left": "product:NG/MF",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-82078"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-81578"
         }
       ],
       "right": "vendor:PaperCut",
@@ -3790,6 +3812,21 @@
         }
       ],
       "right": "vendor:BeyondTrust",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Research Electronic Data Capture (REDCap)",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90817"
+        }
+      ],
+      "right": "vendor:Vanderbilt University",
       "sources": [
         "CISA KEV"
       ]
@@ -4137,21 +4174,6 @@
         }
       ],
       "right": "vendor:Zammad GmbH",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "product:ownCloud",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2023-49105"
-        }
-      ],
-      "right": "vendor:ownCloud",
       "sources": [
         "CISA KEV"
       ]
@@ -4684,9 +4706,9 @@
       "value": "CVE-2023-22894"
     },
     {
-      "id": "cve:CVE-2023-49105",
+      "id": "cve:CVE-2024-10441",
       "kind": "cve",
-      "value": "CVE-2023-49105"
+      "value": "CVE-2024-10441"
     },
     {
       "id": "cve:CVE-2024-27834",
@@ -4889,6 +4911,11 @@
       "value": "CVE-2026-21589"
     },
     {
+      "id": "cve:CVE-2026-40217",
+      "kind": "cve",
+      "value": "CVE-2026-40217"
+    },
+    {
       "id": "cve:CVE-2026-41709",
       "kind": "cve",
       "value": "CVE-2026-41709"
@@ -4929,11 +4956,6 @@
       "value": "CVE-2026-53266"
     },
     {
-      "id": "cve:CVE-2026-53362",
-      "kind": "cve",
-      "value": "CVE-2026-53362"
-    },
-    {
       "id": "cve:CVE-2026-5430",
       "kind": "cve",
       "value": "CVE-2026-5430"
@@ -4952,11 +4974,6 @@
       "id": "cve:CVE-2026-65660",
       "kind": "cve",
       "value": "CVE-2026-65660"
-    },
-    {
-      "id": "cve:CVE-2026-66384",
-      "kind": "cve",
-      "value": "CVE-2026-66384"
     },
     {
       "id": "cve:CVE-2026-67277",
@@ -5007,11 +5024,6 @@
       "id": "cve:CVE-2026-76519",
       "kind": "cve",
       "value": "CVE-2026-76519"
-    },
-    {
-      "id": "cve:CVE-2026-81578",
-      "kind": "cve",
-      "value": "CVE-2026-81578"
     },
     {
       "id": "cve:CVE-2026-81963",
@@ -5109,6 +5121,16 @@
       "value": "CVE-2026-88779"
     },
     {
+      "id": "cve:CVE-2026-90436",
+      "kind": "cve",
+      "value": "CVE-2026-90436"
+    },
+    {
+      "id": "cve:CVE-2026-90817",
+      "kind": "cve",
+      "value": "CVE-2026-90817"
+    },
+    {
       "id": "cve:CVE-2026-93616",
       "kind": "cve",
       "value": "CVE-2026-93616"
@@ -5172,6 +5194,11 @@
       "id": "product:Aspera Faspex",
       "kind": "product",
       "value": "Aspera Faspex"
+    },
+    {
+      "id": "product:Axis",
+      "kind": "product",
+      "value": "Axis"
     },
     {
       "id": "product:BIG-IP APM",
@@ -5242,6 +5269,11 @@
       "id": "product:Core",
       "kind": "product",
       "value": "Core"
+    },
+    {
+      "id": "product:DiskStation Manager (DSM)",
+      "kind": "product",
+      "value": "DiskStation Manager (DSM)"
     },
     {
       "id": "product:Docs",
@@ -5354,6 +5386,11 @@
       "value": "Remote Support"
     },
     {
+      "id": "product:Research Electronic Data Capture (REDCap)",
+      "kind": "product",
+      "value": "Research Electronic Data Capture (REDCap)"
+    },
+    {
       "id": "product:RouterOS",
       "kind": "product",
       "value": "RouterOS"
@@ -5457,11 +5494,6 @@
       "id": "product:Zammad",
       "kind": "product",
       "value": "Zammad"
-    },
-    {
-      "id": "product:ownCloud",
-      "kind": "product",
-      "value": "ownCloud"
     },
     {
       "id": "vendor:Acronis",
@@ -5694,9 +5726,19 @@
       "value": "Strapi"
     },
     {
+      "id": "vendor:Synology",
+      "kind": "vendor",
+      "value": "Synology"
+    },
+    {
       "id": "vendor:UnrealIRCd",
       "kind": "vendor",
       "value": "UnrealIRCd"
+    },
+    {
+      "id": "vendor:Vanderbilt University",
+      "kind": "vendor",
+      "value": "Vanderbilt University"
     },
     {
       "id": "vendor:WSO2",
@@ -5717,11 +5759,6 @@
       "id": "vendor:Zyxel",
       "kind": "vendor",
       "value": "Zyxel"
-    },
-    {
-      "id": "vendor:ownCloud",
-      "kind": "vendor",
-      "value": "ownCloud"
     }
   ],
   "schema": "edge.value.relationships.v0.1",

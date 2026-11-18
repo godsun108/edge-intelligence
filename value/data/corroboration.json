@@ -1799,15 +1799,15 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2023-49105",
+      "identifier": "CVE-2024-10441",
       "independent_source_count": 1,
       "record_count": 1,
       "records": [
         {
           "source": "CISA KEV",
-          "source_id": "CVE-2023-49105",
-          "title": "CVE-2023-49105 \u2014 ownCloud Improper Authentication Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-49105"
+          "source_id": "CVE-2024-10441",
+          "title": "CVE-2024-10441 \u2014 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-10441"
         }
       ],
       "sources": [
@@ -2496,6 +2496,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-40217",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-40217",
+          "title": "CVE-2026-40217 \u2014 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-40217"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-41709",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2632,23 +2649,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-53362",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-53362",
-          "title": "CVE-2026-53362 \u2014 Linux Kernel Unspecified Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-53362"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-5430",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2709,23 +2709,6 @@
           "source_id": "CVE-2026-65660",
           "title": "CVE-2026-65660 \u2014 Microsoft SharePoint Code Injection Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-65660"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-66384",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-66384",
-          "title": "CVE-2026-66384 \u2014 JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-66384"
         }
       ],
       "sources": [
@@ -2896,23 +2879,6 @@
           "source_id": "CVE-2026-76519",
           "title": "CVE-2026-76519 \u2014 Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-81578",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-81578",
-          "title": "CVE-2026-81578 \u2014 PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-81578"
         }
       ],
       "sources": [
@@ -3236,6 +3202,40 @@
           "source_id": "CVE-2026-88779",
           "title": "CVE-2026-88779 \u2014 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88779"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-90436",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90436",
+          "title": "CVE-2026-90436 \u2014 Apache Axis Unsafe Reflection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90436"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-90817",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-90817",
+          "title": "CVE-2026-90817 \u2014 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90817"
         }
       ],
       "sources": [
