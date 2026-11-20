@@ -1884,6 +1884,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2025-42884",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2025-42884",
+          "title": "CVE-2025-42884 \u2014 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-42884"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2025-61624",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2377,6 +2394,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-123890",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-123890",
+          "title": "CVE-2026-123890 \u2014 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123890"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-124194",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2403,6 +2437,23 @@
           "source_id": "CVE-2026-125350",
           "title": "CVE-2026-125350 \u2014 Google Chromium Use-After-Free Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-125350"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
+      "identifier": "CVE-2026-129448",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-129448",
+          "title": "CVE-2026-129448 \u2014 Apache Roller Deserialization of Untrusted Data Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-129448"
         }
       ],
       "sources": [
@@ -2853,6 +2904,23 @@
     },
     {
       "corroborated": false,
+      "identifier": "CVE-2026-76466",
+      "independent_source_count": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-76466",
+          "title": "CVE-2026-76466 \u2014 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76466"
+        }
+      ],
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "corroborated": false,
       "identifier": "CVE-2026-76504",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2904,23 +2972,6 @@
     },
     {
       "corroborated": false,
-      "identifier": "CVE-2026-82078",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-82078",
-          "title": "CVE-2026-82078 \u2014 PaperCut NG/MF Unsafe Reflection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-82078"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
       "identifier": "CVE-2026-82329",
       "independent_source_count": 1,
       "record_count": 1,
@@ -2930,40 +2981,6 @@
           "source_id": "CVE-2026-82329",
           "title": "CVE-2026-82329 \u2014 JFrog Artifactory Improper Authentication Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-82329"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-83548",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-83548",
-          "title": "CVE-2026-83548 \u2014 SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83548"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-83549",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-83549",
-          "title": "CVE-2026-83549 \u2014 SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83549"
         }
       ],
       "sources": [
@@ -3287,23 +3304,6 @@
           "source_id": "CVE-2026-94127",
           "title": "CVE-2026-94127 \u2014 F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
           "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-94127"
-        }
-      ],
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "corroborated": false,
-      "identifier": "CVE-2026-9586",
-      "independent_source_count": 1,
-      "record_count": 1,
-      "records": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-9586",
-          "title": "CVE-2026-9586 \u2014 Sangoma Switchvox SQL Injection Vulnerability",
-          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9586"
         }
       ],
       "sources": [
