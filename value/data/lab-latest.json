@@ -42,6 +42,52 @@
   "candidates": [
     {
       "factors": {
+        "actionability": 0.1,
+        "consequence": 0.6499999999999999,
+        "novelty": 0.75,
+        "relevance": 0.38,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "USGS:us7000tymu",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4866,
+      "reliability_gate": 0.8875,
+      "value_score": 40.38,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.32499999999999996,
+        "novelty": 0.75,
+        "relevance": 0.38,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "USGS:us7000tyw8",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4216,
+      "reliability_gate": 0.8875,
+      "value_score": 34.98,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
         "actionability": 0.3,
         "consequence": 0.75,
         "novelty": 0.05,
@@ -2338,29 +2384,6 @@
       "positive_signal": 0.399,
       "reliability_gate": 0.8875,
       "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.6499999999999999,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:us7000tymu",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.298,
-      "reliability_gate": 0.8875,
-      "value_score": 19.77,
       "version": "edge.value.v0.1"
     },
     {
@@ -5374,29 +5397,6 @@
       "positive_signal": 0.252,
       "reliability_gate": 0.8875,
       "value_score": 16.72,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.32499999999999996,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:us7000tyw8",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.233,
-      "reliability_gate": 0.8875,
-      "value_score": 15.46,
       "version": "edge.value.v0.1"
     },
     {
@@ -11587,7 +11587,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-11-19T21:39:20.942628+00:00",
+  "generated_at": "2026-11-20T03:25:05.901943+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
