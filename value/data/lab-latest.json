@@ -14,6 +14,7 @@
       "CISA KEV:CVE-2025-39964"
     ],
     "newest_first": [
+      "NASA EONET:EONET_26463",
       "Federal Register:2026-23838",
       "Federal Register:2026-23836",
       "Federal Register:2026-23830",
@@ -22,8 +23,7 @@
       "Federal Register:2026-23818",
       "Federal Register:2026-23817",
       "Federal Register:2026-23816",
-      "Federal Register:2026-23815",
-      "Federal Register:2026-23814"
+      "Federal Register:2026-23815"
     ],
     "source_order": [
       "CISA KEV:CVE-2015-3306",
@@ -49,7 +49,7 @@
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "USGS:pt26327000",
+      "id": "USGS:us6000ucvm",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.0,
@@ -61,6 +61,29 @@
       "positive_signal": 0.5103,
       "reliability_gate": 0.8875,
       "value_score": 42.35,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.675,
+        "novelty": 0.75,
+        "relevance": 0.38,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "USGS:us6000ucfm",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.4916,
+      "reliability_gate": 0.8875,
+      "value_score": 40.79,
       "version": "edge.value.v0.1"
     },
     {
@@ -2384,29 +2407,6 @@
       "positive_signal": 0.308,
       "reliability_gate": 0.8875,
       "value_score": 20.43,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.675,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:us6000ucfm",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.303,
-      "reliability_gate": 0.8875,
-      "value_score": 20.1,
       "version": "edge.value.v0.1"
     },
     {
@@ -11725,7 +11725,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-11-23T02:51:31.298781+00:00",
+  "generated_at": "2026-11-23T12:58:32.702285+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
