@@ -1352,6 +1352,66 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-133968",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-133968"
+        }
+      ],
+      "right": "product:MONAI Label",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-133968",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-133968"
+        }
+      ],
+      "right": "vendor:Project MONAI",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-134624",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-134624"
+        }
+      ],
+      "right": "product:MailAssure",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-134624",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-134624"
+        }
+      ],
+      "right": "vendor:N-able",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-19490",
       "observation_count": 1,
       "observations": [
@@ -1706,36 +1766,6 @@
         }
       ],
       "right": "vendor:Kludex",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-49869",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-49869"
-        }
-      ],
-      "right": "product:Kestra OSS",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-49869",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-49869"
-        }
-      ],
-      "right": "vendor:Kestra",
       "sources": [
         "CISA KEV"
       ]
@@ -2246,36 +2276,6 @@
         }
       ],
       "right": "vendor:Microsoft",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-82329",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-82329"
-        }
-      ],
-      "right": "product:Artifactory",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-82329",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-82329"
-        }
-      ],
-      "right": "vendor:JFrog",
       "sources": [
         "CISA KEV"
       ]
@@ -3052,7 +3052,7 @@
     {
       "independent_source_count": 1,
       "left": "product:Artifactory",
-      "observation_count": 3,
+      "observation_count": 2,
       "observations": [
         {
           "source": "CISA KEV",
@@ -3061,10 +3061,6 @@
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-42018"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-82329"
         }
       ],
       "right": "vendor:JFrog",
@@ -3485,21 +3481,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Kestra OSS",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-49869"
-        }
-      ],
-      "right": "vendor:Kestra",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:LiteLLM",
       "observation_count": 2,
       "observations": [
@@ -3513,6 +3494,36 @@
         }
       ],
       "right": "vendor:BerriAI",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:MONAI Label",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-133968"
+        }
+      ],
+      "right": "vendor:Project MONAI",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:MailAssure",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-134624"
+        }
+      ],
+      "right": "vendor:N-able",
       "sources": [
         "CISA KEV"
       ]
@@ -4912,6 +4923,16 @@
       "value": "CVE-2026-129448"
     },
     {
+      "id": "cve:CVE-2026-133968",
+      "kind": "cve",
+      "value": "CVE-2026-133968"
+    },
+    {
+      "id": "cve:CVE-2026-134624",
+      "kind": "cve",
+      "value": "CVE-2026-134624"
+    },
+    {
       "id": "cve:CVE-2026-19490",
       "kind": "cve",
       "value": "CVE-2026-19490"
@@ -4970,11 +4991,6 @@
       "id": "cve:CVE-2026-48710",
       "kind": "cve",
       "value": "CVE-2026-48710"
-    },
-    {
-      "id": "cve:CVE-2026-49869",
-      "kind": "cve",
-      "value": "CVE-2026-49869"
     },
     {
       "id": "cve:CVE-2026-53266",
@@ -5060,11 +5076,6 @@
       "id": "cve:CVE-2026-81963",
       "kind": "cve",
       "value": "CVE-2026-81963"
-    },
-    {
-      "id": "cve:CVE-2026-82329",
-      "kind": "cve",
-      "value": "CVE-2026-82329"
     },
     {
       "id": "cve:CVE-2026-84869",
@@ -5327,14 +5338,19 @@
       "value": "Kernel"
     },
     {
-      "id": "product:Kestra OSS",
-      "kind": "product",
-      "value": "Kestra OSS"
-    },
-    {
       "id": "product:LiteLLM",
       "kind": "product",
       "value": "LiteLLM"
+    },
+    {
+      "id": "product:MONAI Label",
+      "kind": "product",
+      "value": "MONAI Label"
+    },
+    {
+      "id": "product:MailAssure",
+      "kind": "product",
+      "value": "MailAssure"
     },
     {
       "id": "product:Media Server",
@@ -5642,11 +5658,6 @@
       "value": "JFrog"
     },
     {
-      "id": "vendor:Kestra",
-      "kind": "vendor",
-      "value": "Kestra"
-    },
-    {
       "id": "vendor:Kludex",
       "kind": "vendor",
       "value": "Kludex"
@@ -5710,6 +5721,11 @@
       "id": "vendor:ProFTPD",
       "kind": "vendor",
       "value": "ProFTPD"
+    },
+    {
+      "id": "vendor:Project MONAI",
+      "kind": "vendor",
+      "value": "Project MONAI"
     },
     {
       "id": "vendor:SAP",

@@ -38,18 +38,18 @@
       "CISA KEV:CVE-2025-39964"
     ]
   },
-  "candidate_count": 508,
+  "candidate_count": 507,
   "candidates": [
     {
       "factors": {
-        "actionability": 0.1,
-        "consequence": 0.625,
+        "actionability": 0.3,
+        "consequence": 0.75,
         "novelty": 1.0,
-        "relevance": 0.34,
+        "relevance": 0.12,
         "reliability": 0.85,
-        "time_advantage": 0.15
+        "time_advantage": 0.85
       },
-      "id": "USGS:us6000ucvm",
+      "id": "CISA KEV:CVE-2026-133968",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.0,
@@ -58,55 +58,55 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.935,
-      "positive_signal": 0.5103,
+      "positive_signal": 0.5929,
       "reliability_gate": 0.8875,
-      "value_score": 42.35,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.675,
-        "novelty": 0.75,
-        "relevance": 0.38,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:us6000ucfm",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.0,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.935,
-      "positive_signal": 0.4916,
-      "reliability_gate": 0.8875,
-      "value_score": 40.79,
+      "value_score": 49.2,
       "version": "edge.value.v0.1"
     },
     {
       "factors": {
         "actionability": 0.3,
         "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
+        "novelty": 1.0,
+        "relevance": 0.12,
         "reliability": 0.85,
         "time_advantage": 0.85
       },
-      "id": "CISA KEV:CVE-2025-42884",
+      "id": "CISA KEV:CVE-2026-134624",
       "meaning": "attention_priority_only",
       "penalties": {
-        "duplication": 0.75,
+        "duplication": 0.0,
         "manipulation_risk": 0.05,
         "noise": 0.1,
         "uncertainty": 0.1
       },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.424,
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.5929,
       "reliability_gate": 0.8875,
-      "value_score": 28.13,
+      "value_score": 49.2,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 0.75,
+        "relevance": 0.34,
+        "reliability": 0.85,
+        "time_advantage": 0.6
+      },
+      "id": "CISA KEV:CVE-2024-10441",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.0,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.935,
+      "positive_signal": 0.5788,
+      "reliability_gate": 0.8875,
+      "value_score": 48.03,
       "version": "edge.value.v0.1"
     },
     {
@@ -141,7 +141,7 @@
         "reliability": 0.85,
         "time_advantage": 0.85
       },
-      "id": "CISA KEV:CVE-2026-123890",
+      "id": "CISA KEV:CVE-2026-115731",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -210,53 +210,7 @@
         "reliability": 0.85,
         "time_advantage": 0.85
       },
-      "id": "CISA KEV:CVE-2026-129448",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.424,
-      "reliability_gate": 0.8875,
-      "value_score": 28.13,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
       "id": "CISA KEV:CVE-2026-20320",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.424,
-      "reliability_gate": 0.8875,
-      "value_score": 28.13,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.85
-      },
-      "id": "CISA KEV:CVE-2026-76466",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -394,29 +348,6 @@
         "reliability": 0.85,
         "time_advantage": 0.6
       },
-      "id": "CISA KEV:CVE-2024-10441",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.399,
-      "reliability_gate": 0.8875,
-      "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.6
-      },
       "id": "CISA KEV:CVE-2024-27834",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -487,6 +418,29 @@
         "time_advantage": 0.6
       },
       "id": "CISA KEV:CVE-2025-39964",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.399,
+      "reliability_gate": 0.8875,
+      "value_score": 26.47,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.6
+      },
+      "id": "CISA KEV:CVE-2025-42884",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -969,29 +923,6 @@
         "reliability": 0.85,
         "time_advantage": 0.6
       },
-      "id": "CISA KEV:CVE-2026-115731",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.399,
-      "reliability_gate": 0.8875,
-      "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.6
-      },
       "id": "CISA KEV:CVE-2026-116606",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -1131,6 +1062,52 @@
         "time_advantage": 0.6
       },
       "id": "CISA KEV:CVE-2026-123218",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.399,
+      "reliability_gate": 0.8875,
+      "value_score": 26.47,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.6
+      },
+      "id": "CISA KEV:CVE-2026-123890",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.399,
+      "reliability_gate": 0.8875,
+      "value_score": 26.47,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.6
+      },
+      "id": "CISA KEV:CVE-2026-129448",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -1384,29 +1361,6 @@
         "time_advantage": 0.6
       },
       "id": "CISA KEV:CVE-2026-48710",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.399,
-      "reliability_gate": 0.8875,
-      "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.6
-      },
-      "id": "CISA KEV:CVE-2026-49869",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -1728,6 +1682,29 @@
         "reliability": 0.85,
         "time_advantage": 0.6
       },
+      "id": "CISA KEV:CVE-2026-76466",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.399,
+      "reliability_gate": 0.8875,
+      "value_score": 26.47,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.3,
+        "consequence": 0.75,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.6
+      },
       "id": "CISA KEV:CVE-2026-76504",
       "meaning": "attention_priority_only",
       "penalties": {
@@ -1775,29 +1752,6 @@
         "time_advantage": 0.6
       },
       "id": "CISA KEV:CVE-2026-81963",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.399,
-      "reliability_gate": 0.8875,
-      "value_score": 26.47,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.3,
-        "consequence": 0.75,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.6
-      },
-      "id": "CISA KEV:CVE-2026-82329",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -2412,13 +2366,13 @@
     {
       "factors": {
         "actionability": 0.1,
-        "consequence": 0.6499999999999999,
+        "consequence": 0.675,
         "novelty": 0.05,
         "relevance": 0.0,
         "reliability": 0.85,
         "time_advantage": 0.15
       },
-      "id": "USGS:us7000tymu",
+      "id": "USGS:us6000ucfm",
       "meaning": "attention_priority_only",
       "penalties": {
         "duplication": 0.75,
@@ -2427,9 +2381,32 @@
         "uncertainty": 0.1
       },
       "penalty_multiplier": 0.7475,
-      "positive_signal": 0.298,
+      "positive_signal": 0.303,
       "reliability_gate": 0.8875,
-      "value_score": 19.77,
+      "value_score": 20.1,
+      "version": "edge.value.v0.1"
+    },
+    {
+      "factors": {
+        "actionability": 0.1,
+        "consequence": 0.625,
+        "novelty": 0.05,
+        "relevance": 0.0,
+        "reliability": 0.85,
+        "time_advantage": 0.15
+      },
+      "id": "USGS:us6000ucvm",
+      "meaning": "attention_priority_only",
+      "penalties": {
+        "duplication": 0.75,
+        "manipulation_risk": 0.05,
+        "noise": 0.1,
+        "uncertainty": 0.1
+      },
+      "penalty_multiplier": 0.7475,
+      "positive_signal": 0.293,
+      "reliability_gate": 0.8875,
+      "value_score": 19.44,
       "version": "edge.value.v0.1"
     },
     {
@@ -11725,7 +11702,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-11-23T12:58:32.702285+00:00",
+  "generated_at": "2026-11-24T00:57:35.276212+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
@@ -11735,7 +11712,11 @@
   },
   "schema": "edge.value.lab.freeze.v0.1",
   "semantics": "prospective measurement artifact; not an attention queue or instruction",
-  "value_selected": [],
+  "value_selected": [
+    "CISA KEV:CVE-2026-133968",
+    "CISA KEV:CVE-2026-134624",
+    "CISA KEV:CVE-2024-10441"
+  ],
   "value_threshold": 45.0,
   "value_version": "edge.value.v0.1"
 }
