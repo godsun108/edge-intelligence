@@ -1352,6 +1352,96 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-131914",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-131914"
+        }
+      ],
+      "right": "product:AntiCsrf",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-131914",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-131914"
+        }
+      ],
+      "right": "vendor:Idunno",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-132165",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-132165"
+        }
+      ],
+      "right": "product:Core",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-132165",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-132165"
+        }
+      ],
+      "right": "vendor:Drupal",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-132224",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-132224"
+        }
+      ],
+      "right": "product:Web Experimentation",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-132224",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-132224"
+        }
+      ],
+      "right": "vendor:Optimizely",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-133968",
       "observation_count": 1,
       "observations": [
@@ -1742,36 +1832,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "cve:CVE-2026-48710",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48710"
-        }
-      ],
-      "right": "product:Starlette",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-48710",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48710"
-        }
-      ],
-      "right": "vendor:Kludex",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "cve:CVE-2026-53266",
       "observation_count": 1,
       "observations": [
@@ -1856,36 +1916,6 @@
         }
       ],
       "right": "vendor:Google",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-59822",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59822"
-        }
-      ],
-      "right": "product:LiteLLM",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-59822",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59822"
-        }
-      ],
-      "right": "vendor:BerriAI",
       "sources": [
         "CISA KEV"
       ]
@@ -2306,36 +2336,6 @@
         }
       ],
       "right": "vendor:ConnectWise",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-85046",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-85046"
-        }
-      ],
-      "right": "product:Chromium V8",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-85046",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-85046"
-        }
-      ],
-      "right": "vendor:Google",
       "sources": [
         "CISA KEV"
       ]
@@ -3051,6 +3051,21 @@
     },
     {
       "independent_source_count": 1,
+      "left": "product:AntiCsrf",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-131914"
+        }
+      ],
+      "right": "vendor:Idunno",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "product:Artifactory",
       "observation_count": 2,
       "observations": [
@@ -3221,15 +3236,11 @@
     {
       "independent_source_count": 1,
       "left": "product:Chromium V8",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-87491"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-85046"
         }
       ],
       "right": "vendor:Google",
@@ -3313,6 +3324,21 @@
         }
       ],
       "right": "vendor:Ivanti",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Core",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-132165"
+        }
+      ],
+      "right": "vendor:Drupal",
       "sources": [
         "CISA KEV"
       ]
@@ -3482,15 +3508,11 @@
     {
       "independent_source_count": 1,
       "left": "product:LiteLLM",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-40217"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-59822"
         }
       ],
       "right": "vendor:BerriAI",
@@ -4021,21 +4043,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Starlette",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-48710"
-        }
-      ],
-      "right": "vendor:Kludex",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Strapi",
       "observation_count": 1,
       "observations": [
@@ -4124,6 +4131,21 @@
         }
       ],
       "right": "vendor:Arista",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:Web Experimentation",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-132224"
+        }
+      ],
+      "right": "vendor:Optimizely",
       "sources": [
         "CISA KEV"
       ]
@@ -4923,6 +4945,21 @@
       "value": "CVE-2026-129448"
     },
     {
+      "id": "cve:CVE-2026-131914",
+      "kind": "cve",
+      "value": "CVE-2026-131914"
+    },
+    {
+      "id": "cve:CVE-2026-132165",
+      "kind": "cve",
+      "value": "CVE-2026-132165"
+    },
+    {
+      "id": "cve:CVE-2026-132224",
+      "kind": "cve",
+      "value": "CVE-2026-132224"
+    },
+    {
       "id": "cve:CVE-2026-133968",
       "kind": "cve",
       "value": "CVE-2026-133968"
@@ -4988,11 +5025,6 @@
       "value": "CVE-2026-48356"
     },
     {
-      "id": "cve:CVE-2026-48710",
-      "kind": "cve",
-      "value": "CVE-2026-48710"
-    },
-    {
       "id": "cve:CVE-2026-53266",
       "kind": "cve",
       "value": "CVE-2026-53266"
@@ -5006,11 +5038,6 @@
       "id": "cve:CVE-2026-58704",
       "kind": "cve",
       "value": "CVE-2026-58704"
-    },
-    {
-      "id": "cve:CVE-2026-59822",
-      "kind": "cve",
-      "value": "CVE-2026-59822"
     },
     {
       "id": "cve:CVE-2026-65660",
@@ -5081,11 +5108,6 @@
       "id": "cve:CVE-2026-84869",
       "kind": "cve",
       "value": "CVE-2026-84869"
-    },
-    {
-      "id": "cve:CVE-2026-85046",
-      "kind": "cve",
-      "value": "CVE-2026-85046"
     },
     {
       "id": "cve:CVE-2026-85102",
@@ -5206,6 +5228,11 @@
       "id": "product:AhsayCBS",
       "kind": "product",
       "value": "AhsayCBS"
+    },
+    {
+      "id": "product:AntiCsrf",
+      "kind": "product",
+      "value": "AntiCsrf"
     },
     {
       "id": "product:Artifactory",
@@ -5473,11 +5500,6 @@
       "value": "SonicOS SSLVPN"
     },
     {
-      "id": "product:Starlette",
-      "kind": "product",
-      "value": "Starlette"
-    },
-    {
       "id": "product:Strapi",
       "kind": "product",
       "value": "Strapi"
@@ -5506,6 +5528,11 @@
       "id": "product:VeloCloud Orchestrator",
       "kind": "product",
       "value": "VeloCloud Orchestrator"
+    },
+    {
+      "id": "product:Web Experimentation",
+      "kind": "product",
+      "value": "Web Experimentation"
     },
     {
       "id": "product:Webtop Media Transcoder",
@@ -5608,6 +5635,11 @@
       "value": "ConnectWise"
     },
     {
+      "id": "vendor:Drupal",
+      "kind": "vendor",
+      "value": "Drupal"
+    },
+    {
       "id": "vendor:EG Secure Solutions",
       "kind": "vendor",
       "value": "EG Secure Solutions"
@@ -5648,6 +5680,11 @@
       "value": "ISC"
     },
     {
+      "id": "vendor:Idunno",
+      "kind": "vendor",
+      "value": "Idunno"
+    },
+    {
       "id": "vendor:Ivanti",
       "kind": "vendor",
       "value": "Ivanti"
@@ -5656,11 +5693,6 @@
       "id": "vendor:JFrog",
       "kind": "vendor",
       "value": "JFrog"
-    },
-    {
-      "id": "vendor:Kludex",
-      "kind": "vendor",
-      "value": "Kludex"
     },
     {
       "id": "vendor:Linux",
@@ -5696,6 +5728,11 @@
       "id": "vendor:Openwave Messaging Limited",
       "kind": "vendor",
       "value": "Openwave Messaging Limited"
+    },
+    {
+      "id": "vendor:Optimizely",
+      "kind": "vendor",
+      "value": "Optimizely"
     },
     {
       "id": "vendor:PHP Group",
