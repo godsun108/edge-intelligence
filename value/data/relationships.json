@@ -1232,6 +1232,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-120705",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-120705"
+        }
+      ],
+      "right": "product:GeoServer",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-120705",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-120705"
+        }
+      ],
+      "right": "vendor:OSGeo",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-123039",
       "observation_count": 1,
       "observations": [
@@ -1406,6 +1436,36 @@
         }
       ],
       "right": "vendor:Google",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-129243",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-129243"
+        }
+      ],
+      "right": "product:GeoServer",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-129243",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-129243"
+        }
+      ],
+      "right": "vendor:OSGeo",
       "sources": [
         "CISA KEV"
       ]
@@ -1772,6 +1832,36 @@
     },
     {
       "independent_source_count": 1,
+      "left": "cve:CVE-2026-136716",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-136716"
+        }
+      ],
+      "right": "product:Core",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "cve:CVE-2026-136716",
+      "observation_count": 1,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-136716"
+        }
+      ],
+      "right": "vendor:Drupal",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
       "left": "cve:CVE-2026-19868",
       "observation_count": 1,
       "observations": [
@@ -1916,66 +2006,6 @@
         }
       ],
       "right": "vendor:Broadcom",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-42016",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-42016"
-        }
-      ],
-      "right": "product:Artifactory",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-42016",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-42016"
-        }
-      ],
-      "right": "vendor:JFrog",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-42018",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-42018"
-        }
-      ],
-      "right": "product:Artifactory",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-42018",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-42018"
-        }
-      ],
-      "right": "vendor:JFrog",
       "sources": [
         "CISA KEV"
       ]
@@ -2486,36 +2516,6 @@
         }
       ],
       "right": "vendor:Check Point",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-85706",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-85706"
-        }
-      ],
-      "right": "product:Community Edition and Enterprise Edition",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
-      "left": "cve:CVE-2026-85706",
-      "observation_count": 1,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-85706"
-        }
-      ],
-      "right": "vendor:GitLab",
       "sources": [
         "CISA KEV"
       ]
@@ -3089,25 +3089,6 @@
     },
     {
       "independent_source_count": 1,
-      "left": "product:Artifactory",
-      "observation_count": 2,
-      "observations": [
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-42016"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-42018"
-        }
-      ],
-      "right": "vendor:JFrog",
-      "sources": [
-        "CISA KEV"
-      ]
-    },
-    {
-      "independent_source_count": 1,
       "left": "product:Aspera Faspex",
       "observation_count": 1,
       "observations": [
@@ -3293,15 +3274,11 @@
     {
       "independent_source_count": 1,
       "left": "product:Community Edition and Enterprise Edition",
-      "observation_count": 2,
+      "observation_count": 1,
       "observations": [
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-97229"
-        },
-        {
-          "source": "CISA KEV",
-          "source_id": "CVE-2026-85706"
         }
       ],
       "right": "vendor:GitLab",
@@ -3335,8 +3312,12 @@
     {
       "independent_source_count": 1,
       "left": "product:Core",
-      "observation_count": 1,
+      "observation_count": 2,
       "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-136716"
+        },
         {
           "source": "CISA KEV",
           "source_id": "CVE-2026-132165"
@@ -3463,6 +3444,25 @@
         }
       ],
       "right": "vendor:Zyxel",
+      "sources": [
+        "CISA KEV"
+      ]
+    },
+    {
+      "independent_source_count": 1,
+      "left": "product:GeoServer",
+      "observation_count": 2,
+      "observations": [
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-120705"
+        },
+        {
+          "source": "CISA KEV",
+          "source_id": "CVE-2026-129243"
+        }
+      ],
+      "right": "vendor:OSGeo",
       "sources": [
         "CISA KEV"
       ]
@@ -4936,6 +4936,11 @@
       "value": "CVE-2026-119977"
     },
     {
+      "id": "cve:CVE-2026-120705",
+      "kind": "cve",
+      "value": "CVE-2026-120705"
+    },
+    {
       "id": "cve:CVE-2026-123039",
       "kind": "cve",
       "value": "CVE-2026-123039"
@@ -4964,6 +4969,11 @@
       "id": "cve:CVE-2026-125350",
       "kind": "cve",
       "value": "CVE-2026-125350"
+    },
+    {
+      "id": "cve:CVE-2026-129243",
+      "kind": "cve",
+      "value": "CVE-2026-129243"
     },
     {
       "id": "cve:CVE-2026-129448",
@@ -5026,6 +5036,11 @@
       "value": "CVE-2026-134624"
     },
     {
+      "id": "cve:CVE-2026-136716",
+      "kind": "cve",
+      "value": "CVE-2026-136716"
+    },
+    {
       "id": "cve:CVE-2026-19868",
       "kind": "cve",
       "value": "CVE-2026-19868"
@@ -5049,16 +5064,6 @@
       "id": "cve:CVE-2026-41709",
       "kind": "cve",
       "value": "CVE-2026-41709"
-    },
-    {
-      "id": "cve:CVE-2026-42016",
-      "kind": "cve",
-      "value": "CVE-2026-42016"
-    },
-    {
-      "id": "cve:CVE-2026-42018",
-      "kind": "cve",
-      "value": "CVE-2026-42018"
     },
     {
       "id": "cve:CVE-2026-46300",
@@ -5144,11 +5149,6 @@
       "id": "cve:CVE-2026-85102",
       "kind": "cve",
       "value": "CVE-2026-85102"
-    },
-    {
-      "id": "cve:CVE-2026-85706",
-      "kind": "cve",
-      "value": "CVE-2026-85706"
     },
     {
       "id": "cve:CVE-2026-86950",
@@ -5249,11 +5249,6 @@
       "id": "product:AntiCsrf",
       "kind": "product",
       "value": "AntiCsrf"
-    },
-    {
-      "id": "product:Artifactory",
-      "kind": "product",
-      "value": "Artifactory"
     },
     {
       "id": "product:Aspera Faspex",
@@ -5364,6 +5359,11 @@
       "id": "product:GS1900 Series Switches",
       "kind": "product",
       "value": "GS1900 Series Switches"
+    },
+    {
+      "id": "product:GeoServer",
+      "kind": "product",
+      "value": "GeoServer"
     },
     {
       "id": "product:Identity Services Engine",
@@ -5716,11 +5716,6 @@
       "value": "Ivanti"
     },
     {
-      "id": "vendor:JFrog",
-      "kind": "vendor",
-      "value": "JFrog"
-    },
-    {
       "id": "vendor:Linux",
       "kind": "vendor",
       "value": "Linux"
@@ -5749,6 +5744,11 @@
       "id": "vendor:ONLYOFFICE",
       "kind": "vendor",
       "value": "ONLYOFFICE"
+    },
+    {
+      "id": "vendor:OSGeo",
+      "kind": "vendor",
+      "value": "OSGeo"
     },
     {
       "id": "vendor:OpenBSD",
