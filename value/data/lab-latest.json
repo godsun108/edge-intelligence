@@ -38,7 +38,7 @@
       "CISA KEV:CVE-2025-39682"
     ]
   },
-  "candidate_count": 508,
+  "candidate_count": 507,
   "candidates": [
     {
       "factors": {
@@ -5466,29 +5466,6 @@
       "positive_signal": 0.252,
       "reliability_gate": 0.8875,
       "value_score": 16.72,
-      "version": "edge.value.v0.1"
-    },
-    {
-      "factors": {
-        "actionability": 0.1,
-        "consequence": 0.2450000000000001,
-        "novelty": 0.05,
-        "relevance": 0.0,
-        "reliability": 0.85,
-        "time_advantage": 0.15
-      },
-      "id": "USGS:nc75468702",
-      "meaning": "attention_priority_only",
-      "penalties": {
-        "duplication": 0.75,
-        "manipulation_risk": 0.05,
-        "noise": 0.1,
-        "uncertainty": 0.1
-      },
-      "penalty_multiplier": 0.7475,
-      "positive_signal": 0.217,
-      "reliability_gate": 0.8875,
-      "value_score": 14.4,
       "version": "edge.value.v0.1"
     },
     {
@@ -11725,7 +11702,7 @@
       "version": "edge.value.v0.1"
     }
   ],
-  "generated_at": "2026-11-27T02:14:13.007764+00:00",
+  "generated_at": "2026-11-27T10:56:50.059488+00:00",
   "input_schema": "edge.radar.snapshot.v1",
   "rules": {
     "no_final_test_tuning": true,
